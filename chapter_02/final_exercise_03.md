@@ -24,7 +24,7 @@
 ### Tasks
 
 1. **Create a New Repository on GitLab:**
-   - Initialize a new GitLab repository named "The_Last_Airbender" at [GitLab](https://gitlab.com/).
+   - Initialize a new GitLab repository named "The Last Airbender" at [GitLab](https://gitlab.com/).
    - Clone the repository to your local machine to start working on the project.
 
 2. **SSH Key Setup and Authorization:**
@@ -32,9 +32,9 @@
    - Add the public SSH key to your GitLab account for secure and password-less communication with the repository.
    - After establishing SSH authorization, connect to your repo via SSH.
 
-3. **Adding 'The_Last_Airbender' Files to the Project:**
+3. **Adding 'The Last Airbender' Files to the Project:**
    - Ensure that the project's repository is correctly cloned to your local machine.
-   - Add the files related to ["the_last_air_bender"](./the_last_air_bender/README.md) into the cloned project directory.
+   - Add the files related to ["The Last AirBender"](https://github.com/883G/The-Last-AirBender) into the cloned project directory.
    - Commit and push the changes to the GitLab repository.
    - Use .
 
