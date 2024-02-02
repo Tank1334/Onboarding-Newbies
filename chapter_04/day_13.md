@@ -11,7 +11,10 @@
 
 **Total Time:** 4 hours
 
-## Chapter 9: Spark SQL
+## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
+
+
+### Chapter 9: Spark SQL
 **Est. Time:** 4 hours
 
 - **Topics Covered:**
@@ -26,29 +29,29 @@
   - Performance Tuning Options
   - Conclusion
 
-### Core Concepts
+#### Core Concepts
 
-#### 1. **Linking with Spark SQL:**
+##### 1. **Linking with Spark SQL:**
    - Understand how to link Spark SQL with your Spark application.
    - Explore the SparkSession API for creating a SQLContext.
 
-#### 2. **Using Spark SQL in Applications:**
+##### 2. **Using Spark SQL in Applications:**
    - Learn how to incorporate Spark SQL into your Spark applications.
    - Discover the benefits of using DataFrames and Datasets for structured data processing.
 
-#### 3. **Basic Query Example:**
+##### 3. **Basic Query Example:**
    - Walk through a basic Spark SQL query example.
    - Understand the SQL syntax for querying structured data.
 
-#### 4. **Caching and Optimization:**
+##### 4. **Caching and Optimization:**
    - Explore caching strategies in Spark SQL for improving query performance.
    - Learn how to optimize queries using techniques like predicate pushdown.
 
-#### 5. **User-Defined Functions (UDFs):**
+##### 5. **User-Defined Functions (UDFs):**
    - Delve into the use of User-Defined Functions (UDFs) in Spark SQL.
    - Create and apply UDFs to transform and manipulate data.
 
-#### 6. **Spark SQL Performance Tuning:**
+##### 6. **Spark SQL Performance Tuning:**
    - Pay attention to performance tuning options specific to Spark SQL.
    - Optimize query execution and resource utilization.
 

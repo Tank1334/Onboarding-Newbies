@@ -1,4 +1,4 @@
-# Day 11 - Advanced Spark Topics :sparkles:
+# Day 11 - Basic Spark Topics :sparkles:
 
 ## Overview
 **Goals:**
@@ -11,52 +11,53 @@
 
 **Total Time:** 4 hours
 
-## Chapter 3: Programming with RDDs (Continued)
+## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
+### Chapter 3: Programming with RDDs
 **Est. Time:** 2 hours
 
 - **Topics Covered:**
-  - RDD Basics page (Review)
-  - Creating RDDs (Advanced Techniques)
-  - RDD Operations (Advanced)
-  - Transformations (Advanced)
-  - Actions (Advanced)
-  - Lazy Evaluation (In-Depth)
-  - Passing Functions to Spark (Advanced)
-  - Python, Scala, Java (Comparative Analysis)
+  - RDD Basics page
+  - Creating RDDs 
+  - RDD Operations 
+  - Transformations 
+  - Actions 
+  - Lazy Evaluation 
+  - Passing Functions to Spark
+  - Python, Scala, Java 
 
-### Core Concepts
+#### Core Concepts
 
-#### 1. **Advanced RDD Operations:**
+##### 1. **Advanced RDD Operations:**
    - Dive deeper into RDD operations and explore advanced techniques for manipulating data with RDDs.
    - Pay attention to performance optimizations, including the use of `mapPartitions()` and `aggregate()` for efficiency.
 
-#### 2. **Lazy Evaluation in Depth:**
+##### 2. **Lazy Evaluation in Depth:**
    - Gain an in-depth understanding of Spark's lazy evaluation mechanism and how it impacts application performance and resource management.
    - Learn to utilize lazy evaluation effectively for improved computation.
 
-#### 3. **Passing Functions to Spark:**
+##### 3. **Passing Functions to Spark:**
    - Explore advanced techniques for passing functions to Spark, including custom functions and lambdas.
    - Pay attention to function serialization and best practices to avoid serialization issues.
 
-## Chapter 6: Advanced Spark Programming
+### Chapter 6: Advanced Spark Programming
 **Est. Time:** 2 hours
 
 - **Topics Covered:**
-  - Accumulators (Advanced Usage)
-  - Broadcast Variables (Optimization)
-  - Working on a Per-Partition Basis (Performance)
+  - Accumulators 
+  - Broadcast Variables 
+  - Working on a Per-Partition Basis 
 
-### Core Concepts
+#### Core Concepts
 
-#### 1. **Accumulators:**
+##### 1. **Accumulators:**
    - Learn advanced uses of accumulators in Spark for distributed counters and aggregations.
    - Pay attention to thread safety when using accumulators in multi-stage Spark applications.
 
-#### 2. **Broadcast Variables:**
+##### 2. **Broadcast Variables:**
    - Explore advanced optimizations using broadcast variables to efficiently share read-only data across Spark nodes.
    - Understand scenarios where broadcast variables can significantly improve performance, especially in joins and lookups.
 
-## Wrapping Up the Day
+### Wrapping Up the Day
 
 - **Discussion and Q&A (1 hour):**
   - Engage in a discussion with mentors and peers to share insights and experiences related to advanced Spark topics.

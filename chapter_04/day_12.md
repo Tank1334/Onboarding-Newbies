@@ -1,4 +1,4 @@
-# Day 12 - Advanced Spark Topics (Continued) :fire:
+# Day 12 - Advanced Spark Topics :fire:
 
 ## Overview
 **Goals:**
@@ -11,7 +11,9 @@
 
 **Total Time:** 4 hours
 
-## Chapter 7: Running on a Cluster
+## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
+
+### Chapter 7: Running on a Cluster
 **Est. Time:** 2 hours
 
 - **Topics Covered:**
@@ -27,21 +29,21 @@
   - Hadoop YARN
   - Conclusion
 
-### Core Concepts
+#### Core Concepts
 
-#### 1. **Spark Runtime Architecture:**
+##### 1. **Spark Runtime Architecture:**
    - Understand the architecture of a Spark cluster, including the roles of the Driver and Executors.
    - Explore how data and tasks are distributed across nodes.
 
-#### 2. **Cluster Manager and Deployment:**
+##### 2. **Cluster Manager and Deployment:**
    - Learn how Spark interacts with different cluster managers like Standalone and Hadoop YARN.
    - Gain proficiency in deploying Spark applications using `spark-submit`.
 
-#### 3. **Packaging and Dependencies:**
+##### 3. **Packaging and Dependencies:**
    - Pay attention to best practices for packaging your Spark application and managing dependencies.
    - Understand the importance of self-contained JAR files.
 
-## Chapter 8: Tuning and Debugging Spark
+### Chapter 8: Tuning and Debugging Spark
 **Est. Time:** 2 hours
 
 - **Topics Covered:**
@@ -57,21 +59,21 @@
   - Hardware Provisioning
   - Conclusion
 
-### Core Concepts
+#### Core Concepts
 
-#### 1. **Spark Configuration and Tuning:**
+##### 1. **Spark Configuration and Tuning:**
    - Explore the various configuration options available in Spark.
    - Understand how to use `SparkConf` to fine-tune your Spark application.
 
-#### 2. **Execution Components and Monitoring:**
+##### 2. **Execution Components and Monitoring:**
    - Learn about Spark's execution components, including Jobs, Tasks, and Stages.
    - Utilize Spark's Web UI for monitoring and debugging.
 
-#### 3. **Performance Optimization:**
+##### 3. **Performance Optimization:**
    - Pay attention to key performance considerations, such as data locality, shuffling, and caching.
    - Discover strategies for optimizing memory management and parallelism.
 
-## Wrapping Up the Day
+### Wrapping Up the Day
 
 - **Discussion and Q&A (1 hour):**
   - Engage in a discussion with mentors and peers to share experiences related to running Spark on a cluster.

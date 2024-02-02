@@ -32,20 +32,11 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 
 
 ## Chapter 04: Proficiency in Spark
-
-- **[Day 11](./chapter_04/day_11.md)** Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
-
-### **Exercise:** Develop a Sample Spark Job
-Hands-on experience is crucial for mastering Spark. We will guide you through the process of developing a sample Spark job using: [Spark's official documentation](https://spark.apache.org/docs/latest/)
-    - Python programming languages for Spark job development.
-    - Executing and validating the Spark job locally.
-
-- **Showcase:** Present Best Practices for Optimizing Spark Jobs
-Optimizing Spark jobs is essential for efficient data processing. During the showcase, we will discuss and demonstrate:
-
-    - [Spark Performance Tuning](https://spark.apache.org/docs/latest/tuning.html)
-    - Best practices for configuring Spark applications.
-    - Strategies for handling large datasets and improving job performance.
+- **[Day 11](./chapter_04/day_11.md)** Basic Spark Topics
+- **[Day 12](./chapter_04/day_12.md)** Advanced Spark Topics
+- **[Exercise 04](./chapter_04/final_exercise_04.md):** Spark Q&A and Discussion
+- **[Exercise 05](./chapter_04/final_exercise_05.md):** Spark RDD Exercises with Joker and Batman
+- **[Showcase](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
 
 
 ## chapter 3: Mastering Apache Airflow for Workflow Orchestration
