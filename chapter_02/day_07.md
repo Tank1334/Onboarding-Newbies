@@ -10,11 +10,7 @@
 - Emphasize the practical applications of Docker in development, testing, and deployment workflows.
 - Encourage exploration and experimentation to foster a deep understanding of Docker concepts.
 
-**Total Time:** 7 hours
-
 ## Chapter 1: Introduction to Docker
-
-**Est. Time: 3 hours**
 
 ### Core Concepts
 
@@ -48,7 +44,7 @@
 - [Docker Labs](https://kodekloud.com/courses/labs-docker-for-the-absolute-beginner-hands-on/?utm_source=youtube&utm_medium=labs&utm_campaign=docker)
 ## Wrapping Up the Day
 
-**Reflection and Discussion (1 hour):**
+**Reflection and Discussion :**
 
 - Discuss the experiences, challenges, and any difficulties faced during the hands-on sessions.
 - Encourage team members to share their thoughts on how Docker can be integrated into their current or future projects.

@@ -14,11 +14,7 @@
 - Be aware of the importance of time management. Plan your time 
 and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
 
-**Total Time:** 8.5 hours
-
-
 ## Chapter 7: Apache HBase
-**Est. Time:** 1.5 hours
 - [Apache HBase](https://hbase.apache.org/)
 ### Core Concepts
 
@@ -97,7 +93,6 @@ Certainly! Here are the three key reasons in Markdown format:
 
 
 ## Chapter 8: Apache Kafka
-**Est. Time:** 0.5 hour
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
 
 ### Core Concepts:
@@ -139,7 +134,6 @@ Certainly! Here are the three key reasons in Markdown format:
    - *Use Case:* Journey into the realm of digital streaming with **Netflix**. Kafka acts as the communication backbone between microservices, allowing seamless interaction. Each microservice contributes to the collective storyline, enabling scalable and fault-tolerant storytelling in the digital entertainment saga.
 
 ## Chapter 9: Apache Impala
-**Est. Time: 1 hours**
 
 ### Core Concepts
 1. **Impala Daemon:**
@@ -205,7 +199,6 @@ Certainly! Here are the three key reasons in Markdown format:
 In summary, Apache Impala is a powerful tool for SQL-based data processing, offering real-time query performance and versatility for a wide range of use cases in the big data ecosystem.
 
 ## Chapter 10: Partitioning
-**Est. Time:** 0.5 hour
 
 In the realm of databases and data storage, a **partition** is a logical division of a dataset into smaller, more manageable segments. The partitioning strategy is applied to enhance data organization, retrieval efficiency, and overall system performance. Each partition forms a distinct subset of the dataset, and the division is typically based on specific criteria.
 
@@ -248,7 +241,6 @@ These examples illustrate how datetime-based partitioning enhances the managemen
 
 
 ## Chapter 11: Kerberos Authentication
-**Est. Time: Time: 1.5 hours**
 
 ### Core Concepts
 #### 1. **Kerberos Protocol:**
@@ -321,7 +313,6 @@ In summary, Kerberos authentication is a robust and widely-used protocol for sec
 
 
 ## Chapter 12: Oozie Workflow Scheduler
-**Est. Time: 1.5 hours**
 
 ### Core Concepts
 #### 1. **Oozie Overview:**

@@ -2,8 +2,6 @@
 
 Read [HDFS Architecture](https://hadoop.apache.org/docs/r3.3.0/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html) and answer the following questions:
 
-**Est. Time:** 4 hour
-
 ### 1. **What are the differences between regular FileSystem and HDFS?**
 
 ***Regular FileSystem:*** In regular FileSystem, data is maintained in a single system. If the machine crashes, data recovery is challenging due to low fault tolerance. Seek time is more and hence it takes more time to process the data.

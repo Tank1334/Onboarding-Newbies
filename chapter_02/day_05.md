@@ -15,8 +15,6 @@
 
 ## Chapter 1: Introduction to Design and OOP
 
-**Est. Time: 4 hours**
-
 ### Core Concepts
 
 1. **Design Principles:**
@@ -45,7 +43,7 @@
 
 ## Application and Discussion
 
-**Mentor Discussion (1 hour):**
+**Mentor Discussion:**
 
 - Participate in a discussion session with your mentor to delve deeper into the insights and key takeaways from the concepts learned.
 - Discuss real-world scenarios where implementing these design principles and patterns has significantly improved software quality and architecture.
@@ -54,7 +52,7 @@
 
 ## Wrapping Up the Day
 
-**Self-Assessment and Forward Planning (30 minutes):**
+**Self-Assessment and Forward Planning:**
 
 - Spend time introspecting on the day's learning experiences, focusing on understanding the strengths and areas of improvement in your approach to design and OOP.
 - Evaluate what went well and identify aspects that you found challenging or areas where your understanding may still be lacking.

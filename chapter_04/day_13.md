@@ -9,13 +9,9 @@
 - Spark SQL provides a powerful way to work with structured data, making it essential for data analysis and reporting in Spark applications.
 - Understanding Spark SQL will open up new possibilities for your big data projects.
 
-**Total Time:** 4 hours
-
 ## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
 
-
 ### Chapter 9: Spark SQL
-**Est. Time:** 4 hours
 
 - **Topics Covered:**
   - Linking with Spark SQL

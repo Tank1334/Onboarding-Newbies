@@ -15,11 +15,7 @@
 - Familiarize yourself with GitLab's interface and features as it will be an integral part of your development process.
 - Ensure Docker is correctly set up on your machine and you have access to Docker.io to push and pull images.
 
-**Total Time:** 8 hours
-
 ## Chapter 1: GitLab and SSH Authorization
-
-**Est. Time: 1.5 hours**
 
 ### Tasks
 
@@ -40,8 +36,6 @@
 
 ## Chapter 2: Docker Introduction and Image Creation
 
-**Est. Time: 1.5 hours**
-
 ### Core Concepts
 
 1. **Docker Overview:**
@@ -59,8 +53,6 @@
    - Push the Docker image to your Docker.io registry to make it available for deployment.
 
 ## Chapter 3: Implementing CI/CD with GitLab
-
-**Est. Time: 4 hours**
 
 ### Core Concepts and Tasks
 

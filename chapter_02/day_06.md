@@ -10,10 +10,7 @@
 - Writing clean code is not just about making your code work, but about making it understandable, maintainable, and elegant.
 - Pay close attention to the practices and try to internalize the mindset of writing clean code, as it will be a valuable asset throughout your career.
 
-**Total Time:** 4 hours
-
 ## Chapter 2: Writing Clean Code - Insights from "Clean Code"
-**Est. Time:** 4 hours
 
 - **Readings from "Clean Code" by Robert C. Martin:**
   - Chapter 1 - **Clean Code**: Pages 0-7
@@ -39,17 +36,17 @@
 
 ### Application and Discussion
 
-- **Mentor Discussion (1 hour):**
+- **Mentor Discussion :**
   - Engage in a mentor discussion to share insights and key takeaways from the readings.
   - Discuss real-world scenarios where applying these principles has significantly improved the quality of the software.
 
-- **Hands-on Refactoring Session (1 hour):**
+- **Hands-on Refactoring Session :**
   - Review a piece of code and identify opportunities for applying the principles of clean code.
   - Practice refactoring the code to improve its quality, readability, and maintainability.
 
 ## Wrapping Up the Day
 
-- **Reflection and Planning (30 minutes):**
+- **Reflection and Planning :**
   - Reflect on the learnings of the day and how you can apply the principles of writing clean code in your daily work.
   - Plan your approach for integrating these best practices into your coding routine.
 

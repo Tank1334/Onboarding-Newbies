@@ -11,8 +11,6 @@ Day 2 is dedicated to deepening your understanding of the essential components o
 - This day is crucial for understanding how your role integrates into the broader context of the group's objectives.
 - Embrace the learning process, and don't hesitate to ask questions and seek clarity from your mentor or peers.
 
-**Total Time:** 8.5 hours
-
 ### Overview
 
 **Chapter 1: Introduction to Data Pipelines**

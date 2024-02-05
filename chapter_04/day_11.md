@@ -9,11 +9,8 @@
 - Advanced topics in Spark will help you optimize your Spark applications and gain a deeper insight into its inner workings.
 - These topics are essential for building high-performance Spark applications.
 
-**Total Time:** 4 hours
-
 ## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
 ### Chapter 3: Programming with RDDs
-**Est. Time:** 2 hours
 
 - **Topics Covered:**
   - RDD Basics page
@@ -40,7 +37,6 @@
    - Pay attention to function serialization and best practices to avoid serialization issues.
 
 ### Chapter 6: Advanced Spark Programming
-**Est. Time:** 2 hours
 
 - **Topics Covered:**
   - Accumulators 

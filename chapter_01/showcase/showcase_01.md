@@ -1,8 +1,6 @@
 
 # ShowCase: In-Depth Exploration of Hadoop Ecosystem Component(s) :book:
 
-**Est. Time:** 8 hours
-
 :hand: __**ASK YOUR MENTOR**__ - *This assignment may be different for you depending on your onboarding process.*
 
 ## Goals:

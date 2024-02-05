@@ -15,7 +15,6 @@
 - Try to differ between the important and less important information.
 
 ## Chapter 12: Q&A and Discussion
-**Est. Time:** 3 hour
 - Open forum for questions, clarifications, and discussions with the mentor.
 - Reflection on the day's learnings and exploration of potential project applications.
 

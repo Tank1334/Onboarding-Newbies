@@ -14,10 +14,7 @@
 - Be aware of the importance of time management. Plan your time 
 and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
 
-**Total Time:** 8.5 hours
-
 ## Chapter 1: Introduction to Big Data and Hadoop
-**Est. Time:** 1 hour
 - [Apache Hadoop](https://hadoop.apache.org/)
 
 Apache Hadoop is a powerful framework for distributed storage and processing of large datasets, commonly associated with big data analytics and processing tasks. In this chapter, we introduce some of the fundamental concepts of Big Data and Hadoop.
@@ -46,7 +43,6 @@ Hadoop configuration files provide the flexibility to tailor the behavior of Had
 Remember that Hadoop's flexibility extends beyond these core configuration files, as it allows you to create custom configurations and adapt the framework to the unique needs of your big data projects.
 
 ## Chapter 2: Hadoop Distributed File System (HDFS) :star:
-**Est. Time:** 4 hours
 - [Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
 
 Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop ecosystem, designed to store and manage large volumes of data across a distributed cluster.
@@ -132,7 +128,6 @@ These real-world examples illustrate the versatility and applicability of Hadoop
 
 
 ## Chapter 3: MapReduce Programming Model
-**Est. Time:** 0.5 hours
 - [MapReduce Tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
 
 MapReduce is a Java-based, distributed execution framework within the Apache Hadoop Ecosystem.  It takes away the complexity of distributed programming by exposing two processing steps that developers implement: **1) Map** and **2) Reduce**. In the Mapping step, data is split between parallel processing tasks. Transformation logic can be applied to each chunk of data. Once completed, the Reduce phase takes over to handle aggregating data from the Map set.. In general, MapReduce uses Hadoop Distributed File System (HDFS) for both input and output. However, some technologies built on top of it, such as Sqoop, allow access to relational systems.
@@ -151,7 +146,6 @@ A MapReduce system is usually composed of three steps (even though it's generali
 - A reducer cannot start while a mapper is still in progress. Worker nodes process each group of <key,value> pairs output data, in parallel to produce <key,value> pairs as output. All the map output values that have the same key are assigned to a single reducer, which then aggregates the values for that key. Unlike the map function which is mandatory to filter and sort the initial data, the reduce function is optional.
 
 ## Chapter 4: Hadoop YARN
-**Est. Time:** 1.5 hours
 - [Apache Hadoop YARN](https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html)
 
 YARN (Yet Another Resource Negotiator) is a fundamental component in the Hadoop ecosystem, serving as a resource management layer to efficiently share resources among multiple applications in a Hadoop cluster.
@@ -207,7 +201,6 @@ YARN (Yet Another Resource Negotiator) is a fundamental component in the Hadoop 
 - YARN queues play a crucial role in the resource management layer, allowing organizations to control how resources are shared among different applications or user groups.
 - Queues facilitate multi-tenancy by providing distinct containers for different teams or applications, preventing resource contention and ensuring efficient workload isolation.
 
-
 ### Real-World Examples:
 In real-world scenarios, Apache Hadoop YARN serves as a crucial resource management layer, enabling dynamic resource allocation and workload diversity. Here are detailed examples showcasing the practical applications of Apache Hadoop YARN:
 
@@ -230,7 +223,6 @@ These examples demonstrate how Apache Hadoop YARN plays a pivotal role in divers
 
 
 ## Chapter 5: Apache Hive
-**Est. Time:** 1.5 hours
 - [Apache Hive Documentation](https://hive.apache.org/documentation.html)
 
 ### Core Concepts
@@ -289,7 +281,6 @@ To process and analyze text data in Hive, follow these steps:
    - Store Results: Save results in Hive or export as required.
 
 ## Chapter 6: Apache ZooKeeper
-**Est. Time:** 2 hours
 - [Apache ZooKeeper](https://zookeeper.apache.org/)
 
 Apache ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. It's an essential component in distributed systems, often used in Hadoop ecosystems to coordinate and manage servers effectively.

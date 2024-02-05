@@ -4,8 +4,6 @@
 
 **Objective:** Practice refactoring code to adhere to clean code principles and improve code quality.
 
-**Total Time:** 3 hours
-
 ## Exercise Instructions
 
 In this exercise, you will be given a code snippet that do not follow clean code principles. Your task is to refactor the code to make it more readable and maintainable.

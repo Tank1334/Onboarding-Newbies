@@ -9,12 +9,9 @@
 - Today's focus remains on advanced Spark topics, which are essential for becoming proficient in Spark application development.
 - Consistent practice and application of these concepts will enhance your expertise.
 
-**Total Time:** 4 hours
-
 ## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
 
 ### Chapter 7: Running on a Cluster
-**Est. Time:** 2 hours
 
 - **Topics Covered:**
   - Introduction
@@ -44,7 +41,6 @@
    - Understand the importance of self-contained JAR files.
 
 ### Chapter 8: Tuning and Debugging Spark
-**Est. Time:** 2 hours
 
 - **Topics Covered:**
   - Configuring Spark with SparkConf
