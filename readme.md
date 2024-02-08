@@ -58,7 +58,7 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
     - This is a Powerpoint presentation with a quiz at the end, ask your mentor for the link.(For better experience, install heebo font before)
     
 ## Chapter 09: Real-world Project Simulation
-- [**BIG Final Exercise**](./chapter_09/final_exercise.md): Senior Data Infra Engineer Onboarding Final Exercise :rocket:
+- [**BIG Final Exercise**](./chapter_09/big_final_exercise.md): Senior Data Infra Engineer Onboarding Final Exercise :rocket:
 - [**Showcase:**](https://883g.github.io/GO-TO-INTERNAL) Prepare a presentation to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
 ## chapter 10: Documentation and Knowledge Sharing
