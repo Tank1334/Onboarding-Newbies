@@ -43,7 +43,7 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 ## chapter 05: Mastering Apache Airflow for Workflow Orchestration
 
 - **[Day 14](./chapter_05/day_14.md)** Introduction to Apache Airflow concepts, terminology and architecture
-- **[Day 15](./chapter_05/day_15.md)** exploring the Airflow web UI and CLI for workflow management
+- **[Day 15](./chapter_05/day_15.md)** exploring the Airflow web UI for workflow management
 
 ## Chapter 06: Trino core concepts
 - **[Day 16](./chapter_06/day_16.md)** Introduction to Trino concepts, terminology and architecture
@@ -51,10 +51,14 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 ## Chapter 07: Iceberg core concepts
 - **[Day 17](./chapter_07/day_17.md)** Introduction to Iceberg concepts, terminology and architecture
 
-## Chapter 08: Real-world Project Simulation
+## Chapter 08: Calture - Jira & Confluence - Agile and more
+- **[Day 18](./chapter_08/day_18.md)** Introduction to Calture concepts, 
+    - Jira Terminology - Epic, Story, Task, Bugs, Retro, Planning and more.
+    - Project Management Terminology - Status updates and Syncs. 
+    
+## Chapter 09: Real-world Project Simulation
 - [**Final Exercise**](FinalExercise.md): and present the solution.
-- **Showcase:** Share insights gained from the simulation and discuss troubleshooting strategies.
-
+- [**Showcase:**]() Share insights gained from the simulation and discuss troubleshooting strategies.
 
 ## chapter 10: Documentation and Knowledge Sharing
 - **Chapter 17:** Importance of Documentation in Data Ops
