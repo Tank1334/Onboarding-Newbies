@@ -54,17 +54,17 @@ For this assignment, you are tasked with exploring one or more components of the
    
 ### Examples of Hadoop Ecosystem Components
 
-1. **NameNode Architecture:** Explore the structure and functionality of the NameNode in HDFS.
-2. **FairScheduler:** Understand the workings and advantages of the FairScheduler in YARN for resource allocation.
-3. **CapacityScheduler:** Delve into the CapacityScheduler, focusing on its resource allocation strategies and queue management.
-4. **Catalyst Optimizer:** Investigate the role and benefits of the Catalyst Optimizer in Apache Spark's execution engine.
-5. **FsImage and EditLog:** Examine how HDFS uses FsImage and EditLog for namespace and metadata storage.
-6. **Impala Query Execution:** Delve into the architecture and performance characteristics of Apache Impala, a massively parallel processing (MPP) SQL query engine for Hadoop.
-7. **Hive Metastore:** Understand the structure and purpose of the Hive Metastore in managing metadata for Hive tables.
-8. **HBase Compaction:** Discuss the process and significance of compaction in HBase for optimizing storage and performance.
-9. **Spark Streaming:** Explore the architecture and use cases of real-time data processing with Apache Spark Streaming.
-10. **Kafka Producer and Consumer APIs:** Delve into the mechanisms of producing and consuming messages in Apache Kafka using its Producer and Consumer APIs.
-11. **Invalidate Metadata:** Understand the process of invalidating metadata in Impala for ensuring data consistency and accuracy.
-12. **Your Choice:** Fill free to propose your own topic if you have a specific interest.
+1. **NameNode Architecture:** Explore the structure and functionality of the NameNode in HDFS, Examine how HDFS uses FsImage and EditLog for namespace and metadata storage.
+2. **Yarn Schedulers:**  
+- *FairScheduler:* Understand the workings and advantages of the FairScheduler in YARN for resource allocation.
+- *CapacityScheduler:* Delve into the CapacityScheduler, focusing on its resource allocation strategies and queue management.
+3. **Catalyst Optimizer:** Investigate the role and benefits of the Catalyst Optimizer in Apache Spark's execution engine.
+4. **Impala Query Execution:** Delve into the architecture and performance characteristics of Apache Impala, a massively parallel processing (MPP) SQL query engine for Hadoop.
+5. **Hive Metastore:** Understand the structure and purpose of the Hive Metastore in managing metadata for Hive tables.
+6. **HBase Compaction:** Discuss the process and significance of compaction in HBase for optimizing storage and performance.
+7. **Spark Streaming:** Explore the architecture and use cases of real-time data processing with Apache Spark Streaming.
+8. **JournalNode** in HDFS: Investigate the role and significance of the JournalNode in HDFS for maintaining the NameNode's metadata.
+9. KDC (Key Distribution Center) in Hadoop Security: Understand the role and importance of the Key Distribution Center in Hadoop's security infrastructure.
+10. **Your Choice:** Fill free to propose your own topic if you have a specific interest.(**Ask your mentor for approval**)
 
 Remember to thoroughly research, document, and present your findings to ensure a meaningful exploration of your chosen Hadoop ecosystem component(s).

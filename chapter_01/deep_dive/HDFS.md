@@ -12,12 +12,12 @@ Read [HDFS Architecture](https://hadoop.apache.org/docs/r3.3.0/hadoop-project-di
 
 HDFS is fault-tolerant because it replicates data on different DataNodes. By default, a block of data is replicated on three DataNodes. The data blocks are stored in different DataNodes. If one node crashes, the data can still be retrieved from other DataNodes. 
 
-![Alt text](/on_boarding/assets/fault_tolerant.png)
+![Alt text](/assets/fault_tolerant.png)
 
 ### 3. **Explain the architecture of HDFS?**
 
 the HDFS architecture consists of the following components:
-![Alt text](/on_boarding/assets/hdfs_architecture.png)
+![Alt text](/assets/hdfs_architecture.png)
 
 For an HDFS service, we have a NameNode that has the masterprocess running on one of the machines and DataNodes, whichare the slave nodes.
 ***NameNode***
@@ -48,7 +48,7 @@ The two types of metadata that a NameNode server holds are:
 
 By default, each block in HDFS is divided into 128 MB. The size of all the blocks, except the last block, will be 128 MB. For an input file of 350 MB, there are three input splits in total. The size of each split is 128 MB, 128MB, and 94 MB.
 
-![Alt text](/on_boarding/assets/split_data.png)
+![Alt text](/assets/split_data.png)
 
 ### **7. What is the default replication factor in HDFS?**
 the default replication factor in HDFS is 3.
@@ -57,7 +57,7 @@ the default replication factor in HDFS is 3.
 
 HDFS Rack Awareness refers to the knowledge of different DataNodes and how it is distributed across the racks of a Hadoop Cluster.
 
-![Alt text](/on_boarding/assets/block_distributing.png)
+![Alt text](/assets/block_distributing.png)
 
 By default, each block of data is replicated three times on various DataNodes present on different racks. Two identical blocks cannot be placed on the same DataNode. When a cluster is “rack-aware,” all the replicas of a block cannot be placed on the same rack. If a DataNode crashes, you can retrieve the data block from different DataNodes.   
 

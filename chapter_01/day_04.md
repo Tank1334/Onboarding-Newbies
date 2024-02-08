@@ -371,4 +371,5 @@ oozie job -oozie <oozie_URL> -config <job.properties> -run
 
 Oozie's integration with the Hadoop stack, its ability to manage complex workflows, and its support for SLA monitoring make it an essential tool for efficient and reliable data processing and job scheduling in Hadoop ecosystems.
 
-
+## Wrapping Up :trophy:
+Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study.

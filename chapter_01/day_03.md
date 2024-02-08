@@ -21,7 +21,7 @@ Apache Hadoop is a powerful framework for distributed storage and processing of 
 
 ### 1. **What are the different vendor-specific distributions of Hadoop?**
    - Hadoop has gained popularity in various industries, leading to the development of different vendor-specific distributions. Some notable distributions include:
-     - **Cloudera**: Cloudera offers Cloudera Distribution for Hadoop (CDH), a comprehensive distribution that includes various Hadoop ecosystem components along with management and monitoring tools.
+     - **Cloudera**: Cloudera offers Cloudera Distribution Platform (CDP), a comprehensive distribution that includes various Hadoop ecosystem components along with management and monitoring tools.
      - **Amazon EMR**: Amazon Elastic MapReduce (EMR) is a cloud-native Hadoop distribution provided by Amazon Web Services (AWS), offering easy scalability and integration with other AWS services.
      - **Microsoft Azure**: Microsoft provides Azure HDInsight, a Hadoop distribution on the Azure cloud platform, with support for various big data and machine learning frameworks.
 
@@ -336,3 +336,6 @@ Apache ZooKeeper is a centralized service for maintaining configuration informat
    - *Use Case:* ZooKeeper is often used in distributed systems for cluster management. It can monitor the nodes joining and leaving the cluster dynamically and trigger necessary actions based on the cluster state changes.
 
 ZooKeeper's ability to coordinate between nodes in a distributed system makes it an indispensable tool in complex, large-scale applications. It provides a simple interface to a powerful coordination mechanism, simplifying the development of distributed applications.
+
+## Wrapping Up :trophy:
+Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study. Tomorrow, you will have a Q&A session with your mentor to further solidify your understanding of the Hadoop ecosystem and its components.

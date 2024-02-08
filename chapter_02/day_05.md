@@ -60,3 +60,6 @@
 
 
 Congratulations on completing Day 05! You're now equipped with the principles that will guide you in designing and structuring your code effectively.
+
+## Wrapping Up: :hourglass_flowing_sand:
+Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of OOP and design principles in software development and how you can apply these concepts in your coding endeavors.

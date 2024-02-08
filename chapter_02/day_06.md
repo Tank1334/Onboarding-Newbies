@@ -51,3 +51,6 @@
   - Plan your approach for integrating these best practices into your coding routine.
 
 **Congratulations on completing Day 06! You're now more aware of the importance of clean code and the practices that can help you achieve it. Remember, every line of code you write is your signature. Make it count!**
+
+## Wrapping Up: :hourglass_flowing_sand:
+Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of clean code and how you can apply these concepts in your coding endeavors.

@@ -77,3 +77,5 @@
 
 **Great job on Day 12! You've explored advanced topics related to cluster management and performance optimization in Spark. Continue practicing and fine-tuning your Spark applications for maximum efficiency and scalability. Tomorrow, we'll dive into Spark SQL.**
 
+## **Wrapping Up:** :hourglass_flowing_sand:
+Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of advanced Spark topics and how you can apply these concepts in your big data projects.

@@ -23,6 +23,7 @@ Day 2 is dedicated to deepening your understanding of the essential components o
    - Understand the implications of concepts like 'Store first, process later' and real-time data streaming.
 
 **Chapter 3: Customer-Centric Data Operations**
+   - Engage with one of our client teams to gain an understanding of their business operations and learn how they effectively utilize our technology to address their challenges. **(ask your mentor to arrange this)**
    - Learn how our data operations align with customer needs and business objectives.
    - Delve into case studies demonstrating how our data-driven insights drive actionable decisions, customer satisfaction, and business growth.
    - Emphasize the importance of data integrity, privacy, and compliance in customer-facing operations.

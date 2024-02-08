@@ -113,3 +113,9 @@
 58. **Q:** Describe the lifecycle of an Oozie job. What are the typical states an Oozie job can be in, and what are the implications of each state?
 59. **Q:** How does Oozie support SLA (Service Level Agreement) monitoring, and why is it important in managing data processing jobs?
 60. **Q:** What are the main components of an Oozie Workflow job, and what is the role of each component?
+
+## SKILA :pinched_fingers: :boxing_glove:
+- The mentors will ask you qustions from their experience, prepare yourself to answer them.
+
+## Wrapping Up :hourglass_flowing_sand:
+Discuss your answers with your mentor and seek feedback on your understanding of the Hadoop ecosystem. Reflect on the areas where you need to improve and make a plan to strengthen your knowledge in those areas. Tomorrow, you will have the opportunity to present your research findings to the team, so make sure to prepare your presentation and be ready to share your insights.

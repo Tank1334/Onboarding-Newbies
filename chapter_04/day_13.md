@@ -54,3 +54,5 @@
 
 **Fantastic work on Day 13! You've explored Spark SQL and its capabilities for structured data processing. Continue practicing and applying Spark SQL in your projects to harness the power of structured data. Tomorrow, we'll disscuss and answer questions about what we've learned so far.**
 
+## **Wrapping Up:** :hourglass_flowing_sand:
+Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of Spark SQL and how you can apply these concepts in your big data projects.

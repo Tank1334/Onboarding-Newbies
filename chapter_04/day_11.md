@@ -60,3 +60,6 @@
   - Ask questions and seek clarification on any challenging concepts.
 
 **Congratulations on completing Day 11! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
+
+## **Wrapping Up:** :hourglass_flowing_sand:
+Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of advanced Spark topics and how you can apply these concepts in your big data processing endeavors.
