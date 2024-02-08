@@ -32,39 +32,29 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 ## Chapter 04: Proficiency in Spark
 - **[Day 11](./chapter_04/day_11.md)** Basic Spark Topics
 - **[Day 12](./chapter_04/day_12.md)** Advanced Spark Topics
-- **[Exercise 04](./chapter_04/final_exercise_04.md):** Spark Q&A and Discussion
-- **[Exercise 05](./chapter_04/final_exercise_05.md):** Spark RDD Exercises with Joker and Batman
+- **[Day 13](./chapter_04/day_13.md)** Exploring Spark SQL
+- **[Final Exercise 04](./chapter_04/final_exercise_04.md):** Spark Q&A and Discussion
+- **[Final Exercise 05](./chapter_04/final_exercise_05.md):** Spark RDD Exercises with Joker and Batman
 - **[SKILA](https://www.youtube.com/watch?v=dQw4w9WgXcQ)** :dancer:
 - **[Showcase](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
-- [**Final Exercise 06**](./chapter_04/final_exercise_06.md): Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
+- **[Final Exercise 06](./chapter_04/final_exercise_06.md):** Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
 
 
 ## chapter 05: Mastering Apache Airflow for Workflow Orchestration
 
-- **[Day 13](./chapter_05/day_13.md)** Introduction to Apache Airflow concepts, terminology and architecture
-- **[Day 14](./chapter_05/day_14.md)** exploring the Airflow web UI and CLI for workflow management
+- **[Day 14](./chapter_05/day_14.md)** Introduction to Apache Airflow concepts, terminology and architecture
+- **[Day 15](./chapter_05/day_15.md)** exploring the Airflow web UI and CLI for workflow management
 
 ## Chapter 06: Trino core concepts
-- **[Day 15](./chapter_06/day_15.md)** Introduction to Trino concepts, terminology and architecture
+- **[Day 16](./chapter_06/day_16.md)** Introduction to Trino concepts, terminology and architecture
 
-## chapter 07: Iceberg core concepts
-- **[Day 16](./chapter_07/day_16.md)** Introduction to Iceberg concepts, terminology and architecture
+## Chapter 07: Iceberg core concepts
+- **[Day 17](./chapter_07/day_17.md)** Introduction to Iceberg concepts, terminology and architecture
 
-## chapter 7: Real-world Project Simulation
+## Chapter 08: Real-world Project Simulation
 - [**Final Exercise**](FinalExercise.md): and present the solution.
 - **Showcase:** Share insights gained from the simulation and discuss troubleshooting strategies.
 
-## chapter 8: Best Practices and Spark Optimization
-- **Chapter 13:** Best Practices and Spark Optimization in Spark metrics and Spark ui analysis
-- **Chapter 14:** Performance Spark Optimization Strategies
-- **Exercise:** Optimize a Spark job for better performance and efficiency.
-- **Showcase:** Present the optimized Spark job and discuss the strategies employed for performance improvement.
-
-## chapter 9: Advanced Airflow Concepts and Practical Implementation
-- **Chapter 15:** Airflow Cluster Setup and Configuration
-- **Chapter 16:** Writing Custom Airflow Operators
-- **Exercise:** Set up an Airflow cluster and write a custom operator to interact with an external system.
-- **Showcase:** Demonstrate the configured Airflow cluster and showcase the custom operator in action.
 
 ## chapter 10: Documentation and Knowledge Sharing
 - **Chapter 17:** Importance of Documentation in Data Ops
