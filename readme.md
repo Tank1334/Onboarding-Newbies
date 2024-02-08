@@ -51,8 +51,8 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 ## Chapter 07: Iceberg core concepts
 - **[Day 17](./chapter_07/day_17.md)** Introduction to Iceberg concepts, terminology and architecture
 
-## Chapter 08: Calture - Jira & Confluence - Agile and more
-- **[Day 18](./chapter_08/null.md)** Introduction to Calture concepts, 
+## Chapter 08: Culture - Jira & Confluence - Agile and more
+- **[Day 18](./chapter_08/null.md)** Introduction to Culture concepts, 
     - Jira Terminology - Epic, Story, Task, Bugs, Retro, Planning and more.
     - Project Management Terminology - Status updates and Syncs. 
     - This is a Powerpoint presentation with a quiz at the end, ask your mentor for the link.(For better experience, install heebo font before)
