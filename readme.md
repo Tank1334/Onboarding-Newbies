@@ -1,6 +1,6 @@
 # 883 Group Onboarding - Newbies :baby_bottle:
 
-Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway to a structured 10-chapter program, designed to seamlessly integrate you into our dynamic Data Ops team. Dive into topics ranging from Hadoop Ecosystem to Spark, Kubernetes, and more.
+Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway to a structured 10-chapter program, designed to seamlessly integrate you into our dynamic Data Ops team. Dive into topics ranging from Hadoop Ecosystem to Spark, Airflow, Kubernetes, and more.
 
 ## Chapter 00: Foundations of Data Operations and Customer Engagement in the 883 Group
 - **[Day 00](./chapter_00/day_00.md):** Welcome & Introduction - Understand the onboarding process and the 883 Group's vision and mission :dart:
