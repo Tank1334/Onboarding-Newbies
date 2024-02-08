@@ -52,20 +52,17 @@ Welcome to the 883 Group Onboarding for Newbies! This repository is your gateway
 - **[Day 17](./chapter_07/day_17.md)** Introduction to Iceberg concepts, terminology and architecture
 
 ## Chapter 08: Calture - Jira & Confluence - Agile and more
-- **[Day 18](./chapter_08/day_18.md)** Introduction to Calture concepts, 
+- **[Day 18](./chapter_08/null.md)** Introduction to Calture concepts, 
     - Jira Terminology - Epic, Story, Task, Bugs, Retro, Planning and more.
     - Project Management Terminology - Status updates and Syncs. 
+    - This is a Powerpoint presentation with a quiz at the end, ask your mentor for the link.(For better experience, install heebo font before)
     
 ## Chapter 09: Real-world Project Simulation
-- [**Final Exercise**](FinalExercise.md): and present the solution.
-- [**Showcase:**]() Share insights gained from the simulation and discuss troubleshooting strategies.
+- [**BIG Final Exercise**](./chapter_09/final_exercise.md): Senior Data Infra Engineer Onboarding Final Exercise :rocket:
+- [**Showcase:**](https://883g.github.io/GO-TO-INTERNAL) Prepare a presentation to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
 ## chapter 10: Documentation and Knowledge Sharing
-- **Chapter 17:** Importance of Documentation in Data Ops
-- **Chapter 18:** Effective Knowledge Sharing within the Team
-- **Exercise:** Create documentation for a sample project and present it to the team.
-- **Showcase:** Lead a discussion on the significance of documentation and effective knowledge sharing practices.
-
+- [**Exercise:**](https://883g.github.io/GO-TO-INTERNAL) Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
 
 ## Contribution :raised_hands:
 If you have any suggestions or ideas to enhance the onboarding for future members, feel free to contribute. Fork, create a feature branch, commit changes, and create a pull request.
