@@ -1,4 +1,4 @@
-# Day Y - Exploring the Airflow Web UI for Workflow Management :computer:
+# Day 15 - Exploring the Airflow Web UI for Workflow Management :computer:
 
 ## Overview
 **Goals:**
@@ -27,7 +27,7 @@
   - Engage in hands-on exercises to apply the knowledge gained from exploring the Airflow web UI.
   - Practice tasks such as monitoring task progress, triggering DAG runs, and troubleshooting workflow issues.
 
-**Congratulations on completing Day Y! You've explored the Airflow web UI, gaining essential skills for managing and monitoring workflows effectively. Keep practicing and experimenting with Airflow to become proficient in workflow management.**
+**Congratulations on completing Day 15! You've explored the Airflow web UI, gaining essential skills for managing and monitoring workflows effectively. Keep practicing and experimenting with Airflow to become proficient in workflow management.**
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings and experiences with your mentor and peers. Discuss how you can leverage the Airflow web UI in your workflow management processes. Consider incorporating these tools into your workflow management practices to enhance efficiency and productivity.

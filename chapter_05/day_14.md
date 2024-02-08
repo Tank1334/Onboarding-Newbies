@@ -1,4 +1,4 @@
-# Day X - Introduction to and Advanced Concepts in Apache Airflow :airflow:
+# Day 14 - Introduction to and Advanced Concepts in Apache Airflow :airflow:
 
 ## Overview
 **Goals:**
@@ -75,7 +75,7 @@
   - Engage in a collective discussion with mentors and peers to share insights and experiences related to both introduction and advanced Apache Airflow concepts.
   - Address questions and clarify doubts for both junior and senior participants.
 
-**Congratulations to all participants on completing Day X! You've embarked on a journey to explore Apache Airflow from its foundational concepts to advanced techniques. Keep building on this knowledge to excel in managing and optimizing data workflows with Airflow.**
+**Congratulations to all participants on completing Day 14! You've embarked on a journey to explore Apache Airflow from its foundational concepts to advanced techniques. Keep building on this knowledge to excel in managing and optimizing data workflows with Airflow.**
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings with your mentor and peers, discussing how you can apply both introductory and advanced Airflow concepts in your projects. Consider potential use cases and scenarios where Airflow can streamline your workflow processes and enhance productivity in data pipeline management.
