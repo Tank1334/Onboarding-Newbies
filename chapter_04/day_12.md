@@ -1,7 +1,9 @@
 # Day 12 - Advanced Spark Topics :fire:
 
-## Overview
-**Goals:**
+## Overview:
+Today's focus is on advancing your expertise in Apache Spark with an emphasis on understanding cluster operations and optimizing Spark applications for better performance. You'll delve into Spark's runtime architecture, including the roles of the driver and executors, and explore deploying applications with various cluster managers like Standalone and Hadoop YARN. Additionally, you'll learn about configuring Spark applications, monitoring execution components, and key strategies for performance tuning. This day is crucial for mastering the deployment, tuning, and debugging of Spark applications, enhancing their efficiency and scalability in big data processing environments.
+
+## **Goals:**
 - Continue exploring advanced topics in Apache Spark to deepen your knowledge and skills in big data processing.
 - Build on the concepts and techniques covered in the previous days.
 
@@ -9,9 +11,7 @@
 - Today's focus remains on advanced Spark topics, which are essential for becoming proficient in Spark application development.
 - Consistent practice and application of these concepts will enhance your expertise.
 
-## Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
-
-### Chapter 7: Running on a Cluster
+## 7. Running on a Cluster
 
 - **Topics Covered:**
   - Introduction
@@ -79,3 +79,7 @@
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of advanced Spark topics and how you can apply these concepts in your big data projects.
+
+## **Action Items:**
+- Identify areas for deeper exploration.  
+- Get recommendations on resources for further learning.

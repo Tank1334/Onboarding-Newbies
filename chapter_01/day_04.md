@@ -1,5 +1,8 @@
 # Day 04 - Introduction to Data concept & Hadoop Ecosystem :elephant::elephant:
 
+## Overview:
+Today's session is dedicated to deepening your understanding of the Hadoop ecosystem, a powerful framework for distributed storage and processing of large datasets. You'll explore key components such as Hadoop Distributed File System (HDFS), MapReduce, YARN, Hive, ZooKeeper, HBase, and Kafka, gaining insights into their roles and applications in big data processing. The focus is on developing a high-level understanding of the Hadoop ecosystem and its role in big data processing.
+
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
 - Explore key components and their roles in big data processing.
@@ -14,7 +17,7 @@
 - Be aware of the importance of time management. Plan your time 
 and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
 
-## Chapter 7: Apache HBase
+## 7. Apache HBase
 - [Apache HBase](https://hbase.apache.org/)
 ### Core Concepts
 
@@ -92,7 +95,7 @@ Certainly! Here are the three key reasons in Markdown format:
   - Netflix utilizes Apache Spark MLlib for machine learning tasks, including customer churn prediction. By analyzing viewing habits, engagement metrics, and other relevant data, Netflix can identify users at risk of churning and take personalized actions to retain subscribers.
 
 
-## Chapter 8: Apache Kafka
+## 8. Apache Kafka
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
 
 ### Core Concepts:
@@ -133,7 +136,7 @@ Certainly! Here are the three key reasons in Markdown format:
    - *Core Concept Applied:* Producers, Consumers, and Topics
    - *Use Case:* Journey into the realm of digital streaming with **Netflix**. Kafka acts as the communication backbone between microservices, allowing seamless interaction. Each microservice contributes to the collective storyline, enabling scalable and fault-tolerant storytelling in the digital entertainment saga.
 
-## Chapter 9: Apache Impala
+## 9. Apache Impala
 
 ### Core Concepts
 1. **Impala Daemon:**
@@ -198,7 +201,7 @@ Certainly! Here are the three key reasons in Markdown format:
 
 In summary, Apache Impala is a powerful tool for SQL-based data processing, offering real-time query performance and versatility for a wide range of use cases in the big data ecosystem.
 
-## Chapter 10: Partitioning
+## 10. Partitioning
 
 In the realm of databases and data storage, a **partition** is a logical division of a dataset into smaller, more manageable segments. The partitioning strategy is applied to enhance data organization, retrieval efficiency, and overall system performance. Each partition forms a distinct subset of the dataset, and the division is typically based on specific criteria.
 
@@ -240,7 +243,7 @@ In practical scenarios, datetime-based partitioning is instrumental for efficien
 These examples illustrate how datetime-based partitioning enhances the management and analysis of time-sensitive data in various domains. The choice of partitioning strategy, whether daily, hourly, or at a different granularity, depends on the specific requirements of each use case.
 
 
-## Chapter 11: Kerberos Authentication
+## 11. Kerberos Authentication
 
 ### Core Concepts
 #### 1. **Kerberos Protocol:**
@@ -312,7 +315,7 @@ klist
 In summary, Kerberos authentication is a robust and widely-used protocol for securing network communication, ensuring strong authentication, encryption, and Single Sign-On capabilities in various real-world applications. The `kinit` and `klist` commands are essential tools for managing Kerberos tickets and authenticating users.
 
 
-## Chapter 12: Oozie Workflow Scheduler
+## 12. Oozie Workflow Scheduler
 
 ### Core Concepts
 #### 1. **Oozie Overview:**
@@ -373,3 +376,6 @@ Oozie's integration with the Hadoop stack, its ability to manage complex workflo
 
 ## Wrapping Up :trophy:
 Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study.
+
+## Action Items:
+- Explore additional resources to deepen your understanding of the Hadoop ecosystem, partitioning strategies, Kerberos authentication, and Oozie workflow scheduling.

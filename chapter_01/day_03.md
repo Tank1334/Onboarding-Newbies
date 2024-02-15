@@ -1,5 +1,8 @@
 # Day 03 - Introduction to Data concept & Hadoop Ecosystem :elephant:
 
+## Overview:
+Today's session is all about diving into the Hadoop ecosystem and understanding its core components. You'll explore the foundational concepts of Hadoop, including the Hadoop Distributed File System (HDFS), MapReduce, YARN, and Apache Hive. The focus is on gaining a high-level understanding of the Hadoop ecosystem and its role in big data processing.
+
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
 - Explore key components and their roles in big data processing.
@@ -14,7 +17,7 @@
 - Be aware of the importance of time management. Plan your time 
 and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
 
-## Chapter 1: Introduction to Big Data and Hadoop
+## 1 .Introduction to Big Data and Hadoop
 - [Apache Hadoop](https://hadoop.apache.org/)
 
 Apache Hadoop is a powerful framework for distributed storage and processing of large datasets, commonly associated with big data analytics and processing tasks. In this chapter, we introduce some of the fundamental concepts of Big Data and Hadoop.
@@ -42,7 +45,7 @@ Hadoop configuration files provide the flexibility to tailor the behavior of Had
 
 Remember that Hadoop's flexibility extends beyond these core configuration files, as it allows you to create custom configurations and adapt the framework to the unique needs of your big data projects.
 
-## Chapter 2: Hadoop Distributed File System (HDFS) :star:
+## 2. Hadoop Distributed File System (HDFS) :star:
 - [Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
 
 Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop ecosystem, designed to store and manage large volumes of data across a distributed cluster.
@@ -127,7 +130,7 @@ Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop 
 These real-world examples illustrate the versatility and applicability of Hadoop Distributed File System (HDFS) across diverse industries and use cases.
 
 
-## Chapter 3: MapReduce Programming Model
+## 3. MapReduce Programming Model
 - [MapReduce Tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
 
 MapReduce is a Java-based, distributed execution framework within the Apache Hadoop Ecosystem.  It takes away the complexity of distributed programming by exposing two processing steps that developers implement: **1) Map** and **2) Reduce**. In the Mapping step, data is split between parallel processing tasks. Transformation logic can be applied to each chunk of data. Once completed, the Reduce phase takes over to handle aggregating data from the Map set.. In general, MapReduce uses Hadoop Distributed File System (HDFS) for both input and output. However, some technologies built on top of it, such as Sqoop, allow access to relational systems.
@@ -145,7 +148,7 @@ A MapReduce system is usually composed of three steps (even though it's generali
 #### 3. **Reduce:**
 - A reducer cannot start while a mapper is still in progress. Worker nodes process each group of <key,value> pairs output data, in parallel to produce <key,value> pairs as output. All the map output values that have the same key are assigned to a single reducer, which then aggregates the values for that key. Unlike the map function which is mandatory to filter and sort the initial data, the reduce function is optional.
 
-## Chapter 4: Hadoop YARN
+## 4. Hadoop YARN
 - [Apache Hadoop YARN](https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html)
 
 YARN (Yet Another Resource Negotiator) is a fundamental component in the Hadoop ecosystem, serving as a resource management layer to efficiently share resources among multiple applications in a Hadoop cluster.
@@ -222,7 +225,7 @@ In real-world scenarios, Apache Hadoop YARN serves as a crucial resource managem
 These examples demonstrate how Apache Hadoop YARN plays a pivotal role in diverse industries, providing scalable and efficient resource management for a wide range of data processing tasks.
 
 
-## Chapter 5: Apache Hive
+## 5. Apache Hive
 - [Apache Hive Documentation](https://hive.apache.org/documentation.html)
 
 ### Core Concepts
@@ -280,7 +283,7 @@ To process and analyze text data in Hive, follow these steps:
    - Query: Run HiveQL queries for text analysis, utilizing built-in functions.
    - Store Results: Save results in Hive or export as required.
 
-## Chapter 6: Apache ZooKeeper
+## 6. Apache ZooKeeper
 - [Apache ZooKeeper](https://zookeeper.apache.org/)
 
 Apache ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. It's an essential component in distributed systems, often used in Hadoop ecosystems to coordinate and manage servers effectively.
@@ -339,3 +342,8 @@ ZooKeeper's ability to coordinate between nodes in a distributed system makes it
 
 ## Wrapping Up :trophy:
 Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study. Tomorrow, you will have a Q&A session with your mentor to further solidify your understanding of the Hadoop ecosystem and its components.
+
+## Action Items
+- Review the core concepts of Hadoop, MapReduce, YARN, Hive, and ZooKeeper.
+- Explore real-world use cases for these technologies and understand their practical applications.
+- Prepare questions and topics for discussion in the upcoming Q&A session with your mentor.

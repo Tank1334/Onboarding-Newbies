@@ -14,7 +14,7 @@
 - Take time to think about the answers, don't just copy-paste from the internet.
 - Try to differ between the important and less important information.
 
-## Chapter 12: Q&A and Discussion
+## Q&A and Discussion
 - Open forum for questions, clarifications, and discussions with the mentor.
 - Reflection on the day's learnings and exploration of potential project applications.
 
@@ -119,3 +119,10 @@
 
 ## Wrapping Up :hourglass_flowing_sand:
 Discuss your answers with your mentor and seek feedback on your understanding of the Hadoop ecosystem. Reflect on the areas where you need to improve and make a plan to strengthen your knowledge in those areas. Tomorrow, you will have the opportunity to present your research findings to the team, so make sure to prepare your presentation and be ready to share your insights.
+
+## Action Items :pencil:
+- Review your answers and seek clarification on any concepts you're unsure about.
+- Identify areas for deeper exploration and make a plan to enhance your understanding of the Hadoop ecosystem.
+- Prepare your presentation for tomorrow's showcase and be ready to share your insights with the team.
+- Start to work with time estimation and planning.
+- Learn to ask questions and how to find the answers with deep understanding of the whole concept.

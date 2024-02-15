@@ -1,8 +1,9 @@
 # Day 05 - Mastering OOP and Design Principles with Test-Driven Development (TDD) 🎨
 
-## Overview
+## Overview:
+Today's session is all about mastering the fundamental principles of Object-Oriented Programming (OOP) and design. You'll explore the core concepts that shape robust, maintainable, and scalable software designs. The focus is on understanding how OOP principles promote code reuse, modularity, and clarity, and how design patterns provide proven solutions to common software design problems. You'll also delve into the world of test-driven development (TDD) to write clean, testable, and efficient code.
 
-**Goals:**
+## **Goals:**
 
 - Grasp fundamental design principles and the concept of Object-Oriented Programming (OOP).
 - Explore how these concepts shape robust, maintainable, and scalable software designs.
@@ -13,7 +14,7 @@
 - Understanding OOP and design principles is crucial for creating sophisticated and adaptable code architectures.
 - Aim to not just understand these concepts theoretically but also consider how you can apply them practically in your coding endeavors.
 
-## Chapter 1: Introduction to Design and OOP
+## 1. Introduction to Design and OOP
 
 ### Core Concepts
 
@@ -41,25 +42,21 @@
 4. **Test-Driven Development (TDD)**
    - **PyTest (for Python)**: [PyTest Official Website](https://docs.pytest.org/en/latest/)
 
-## Application and Discussion
-
-**Mentor Discussion:**
-
+## Wrapping Up:
 - Participate in a discussion session with your mentor to delve deeper into the insights and key takeaways from the concepts learned.
 - Discuss real-world scenarios where implementing these design principles and patterns has significantly improved software quality and architecture.
 - Seek feedback and clarification on any aspects of design and OOP that you find challenging or wish to understand better.
+- Discuss with your mentor about the day's learnings and explore potential project applications. 
+- Reflect on the significance of OOP and design principles in software development and how you can apply these concepts in your coding endeavors.
 
+## **Q&A Session:** :raising_hand:
+- Engage in an open Q&A session with your mentor to address any queries or discussions about specific design patterns, OOP concepts, or TDD practices with your mentor.
 
-## Wrapping Up the Day
+## Action Items:
+- Identify areas for deeper exploration.
+- Get recommendations on resources for further learning.
 
-**Self-Assessment and Forward Planning:**
-
-- Spend time introspecting on the day's learning experiences, focusing on understanding the strengths and areas of improvement in your approach to design and OOP.
-- Evaluate what went well and identify aspects that you found challenging or areas where your understanding may still be lacking.
-- Strategize on how to incorporate the day's learnings into your daily coding practices and plan specific steps to enhance your understanding and application of design principles and OOP in your future work.
-
-
-Congratulations on completing Day 05! You're now equipped with the principles that will guide you in designing and structuring your code effectively.
-
-## Wrapping Up: :hourglass_flowing_sand:
-Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of OOP and design principles in software development and how you can apply these concepts in your coding endeavors.
+## Recommended Articles:
+- [SOLID Principles: The Definitive Guide](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) - A comprehensive guide to understanding the SOLID principles and their application in software design.
+- [Design Patterns: Elements of Reusable Object-Oriented Software](https://refactoring.guru/design-patterns/book) - A classic book on design patterns that provides in-depth insights into the principles and practical applications of design patterns.
+- [Test-Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) - A book by Kent Beck that offers a comprehensive understanding of TDD and its significance in software development.
