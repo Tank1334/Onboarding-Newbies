@@ -57,5 +57,5 @@ Engage in an open Q&A session with your mentor to address any queries or discuss
 
 ## Challenge?
 - We at 883 like challenges, understaing all this new buzz words is not easy, so you're encouraged to write down every concept [Understanding the Data Landscape](#1-understanding-the-data-landscape)
- and evaluate at the end of every chapter for 5 minutes which concept it relates to.
+ and evaluate at the end of every chapter for 5 minutes which concept it relates to
 ![Challege Accepted](challenge_accepted.gif)
