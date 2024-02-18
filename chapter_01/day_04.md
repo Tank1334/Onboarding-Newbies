@@ -257,13 +257,13 @@ These examples illustrate how datetime-based partitioning enhances the managemen
      - Authentication Server (AS): Responsible for initial authentication and issuing tickets.
      - Ticket Granting Server (TGS): Grants service tickets to users for accessing specific services.
 
-#### #### 4. **Tickets:**
+#### 4. **Tickets:**
    - Kerberos relies on the use of tickets for authentication. There are two primary types of tickets:
      - Ticket Granting Ticket (TGT): Obtained after initial authentication with the AS and used to request service tickets.
      - Service Ticket: Grants access to a specific service, proving the user's identity to that service.
 
 #### 5. **Authentication Process:**
-   - Kerberos authentication involves a series of steps, #### including authentication, ticket issuance, and ticket validation. The process ensures that users or services can securely access resources.
+   - Kerberos authentication involves a series of steps, including authentication, ticket issuance, and ticket validation. The process ensures that users or services can securely access resources.
 
 #### 6. **Single Sign-On (SSO):**
    - Kerberos enables Single Sign-On, allowing users to access multiple services without re-entering their credentials after the initial authentication.
