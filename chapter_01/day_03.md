@@ -22,28 +22,11 @@ and tasks, and try to stick to your plan. If you are not able to finish the task
 
 Apache Hadoop is a powerful framework for distributed storage and processing of large datasets, commonly associated with big data analytics and processing tasks. In this chapter, we introduce some of the fundamental concepts of Big Data and Hadoop.
 
-### 1. **What are the different vendor-specific distributions of Hadoop?**
+### **What are the different vendor-specific distributions of Hadoop?**
    - Hadoop has gained popularity in various industries, leading to the development of different vendor-specific distributions. Some notable distributions include:
      - **Cloudera**: Cloudera offers Cloudera Distribution Platform (CDP), a comprehensive distribution that includes various Hadoop ecosystem components along with management and monitoring tools.
      - **Amazon EMR**: Amazon Elastic MapReduce (EMR) is a cloud-native Hadoop distribution provided by Amazon Web Services (AWS), offering easy scalability and integration with other AWS services.
      - **Microsoft Azure**: Microsoft provides Azure HDInsight, a Hadoop distribution on the Azure cloud platform, with support for various big data and machine learning frameworks.
-
-### 2. **What are the different Hadoop configuration files, explain each?**
-   - Hadoop configuration files play a crucial role in defining the behavior and settings of various Hadoop components. Here's an overview of some essential Hadoop configuration files:
-
-     - `core-site.xml`: This file contains core configuration settings, such as the file system, I/O settings, and network addresses. It is used to specify properties like the Hadoop cluster's default file system and various I/O-related configurations.
-
-     - `hdfs-site.xml`: For the Hadoop Distributed File System (HDFS), this file defines configuration parameters like replication factors, block sizes, and data node settings. It is vital for tuning HDFS to suit specific requirements.
-
-     - `mapred-site.xml`: When working with the MapReduce framework, this file is used to configure settings related to job tracking, task scheduling, and resource management. It defines properties like the job tracker address and task tracker settings.
-
-     - `yarn-site.xml`: In the context of Yet Another Resource Negotiator (YARN), this file specifies configurations for resource management, node manager settings, and resource allocation policies. It plays a significant role in optimizing resource utilization in Hadoop clusters.
-
-     - `hadoop-env.sh`: This script allows you to set environment variables and customize options for Hadoop processes. It is particularly useful for configuring memory settings and Java-related parameters for Hadoop components.
-
-Hadoop configuration files provide the flexibility to tailor the behavior of Hadoop components to meet specific performance, scalability, and resource management requirements. Proper configuration is essential for optimizing Hadoop clusters and achieving desired outcomes in big data processing tasks.
-
-Remember that Hadoop's flexibility extends beyond these core configuration files, as it allows you to create custom configurations and adapt the framework to the unique needs of your big data projects.
 
 ## 2. Hadoop Distributed File System (HDFS) :star:
 - [Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
@@ -339,6 +322,23 @@ Apache ZooKeeper is a centralized service for maintaining configuration informat
    - *Use Case:* ZooKeeper is often used in distributed systems for cluster management. It can monitor the nodes joining and leaving the cluster dynamically and trigger necessary actions based on the cluster state changes.
 
 ZooKeeper's ability to coordinate between nodes in a distributed system makes it an indispensable tool in complex, large-scale applications. It provides a simple interface to a powerful coordination mechanism, simplifying the development of distributed applications.
+
+### **What are the different Hadoop configuration files** ❗
+   - Hadoop configuration files play a crucial role in defining the behavior and settings of various Hadoop components. Here's an overview of some essential Hadoop configuration files:
+
+     - `core-site.xml`: This file contains core configuration settings, such as the file system, I/O settings, and network addresses. It is used to specify properties like the Hadoop cluster's default file system and various I/O-related configurations.
+
+     - `hdfs-site.xml`: For the Hadoop Distributed File System (HDFS), this file defines configuration parameters like replication factors, block sizes, and data node settings. It is vital for tuning HDFS to suit specific requirements.
+
+     - `mapred-site.xml`: When working with the MapReduce framework, this file is used to configure settings related to job tracking, task scheduling, and resource management. It defines properties like the job tracker address and task tracker settings.
+
+     - `yarn-site.xml`: In the context of Yet Another Resource Negotiator (YARN), this file specifies configurations for resource management, node manager settings, and resource allocation policies. It plays a significant role in optimizing resource utilization in Hadoop clusters.
+
+     - `hadoop-env.sh`: This script allows you to set environment variables and customize options for Hadoop processes. It is particularly useful for configuring memory settings and Java-related parameters for Hadoop components.
+
+Hadoop configuration files provide the flexibility to tailor the behavior of Hadoop components to meet specific performance, scalability, and resource management requirements. Proper configuration is essential for optimizing Hadoop clusters and achieving desired outcomes in big data processing tasks.
+
+Remember that Hadoop's flexibility extends beyond these core configuration files, as it allows you to create custom configurations and adapt the framework to the unique needs of your big data projects.
 
 ## Wrapping Up :trophy:
 Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study. Tomorrow, you will have a Q&A session with your mentor to further solidify your understanding of the Hadoop ecosystem and its components.
