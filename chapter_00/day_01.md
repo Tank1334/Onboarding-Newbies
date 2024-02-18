@@ -54,3 +54,6 @@ Engage in an open Q&A session with your mentor to address any queries or discuss
 ## Action Items
 - Identify areas for deeper exploration.
 - Get recommendations on resources for further learning.
+
+## Challenge?
+- We at 883 like challenges, understaing all this new buzz words is not easy, so you're encouraged to write down every concept [] and evaluate at the end of every chapter for 5 minutes which concept it relates to.
