@@ -68,6 +68,16 @@
    - Understand how Trino plans and optimizes queries for efficient execution across distributed data sources.
    - Explore query optimization techniques such as predicate pushdown, join reordering, and cost-based optimization.
 
+### Questions: ❓
+* What is Apache Trino and what problem does it solve?
+* Can you explain how Trino executes queries across different data sources without moving data? (Hint: read about the concept of "Query pushdown")
+* What are the key features of Trino? what it does better than Spark, Hive and Impala?
+* How does Trino achieve high performance and efficiency in query processing?
+* Can you describe a use case where Trino would be particularly beneficial?
+* What is the role of a catalog in Trino?
+* How does Trino handle data types from different data sources?
+* What is the difference between Trino and DB?
+
 ### Wrapping Up the Day
 
 - **Discussion and Q&A (1 hour):**
