@@ -77,5 +77,15 @@
 
 **Congratulations to all participants on completing Day 14! You've embarked on a journey to explore Apache Airflow from its foundational concepts to advanced techniques. Keep building on this knowledge to excel in managing and optimizing data workflows with Airflow.**
 
+## **Questions:** ❓
+* Can you explain what a DAG is in Airflow?
+* What are Operators in Airflow, and can you name a few types?
+* What is the role of the Scheduler in Airflow?
+* Can you describe what a Task Instance is in Airflow? Give an example in context of dummy usage
+* What are Hooks and how are they used in Airflow?
+* Can you explain what the Executor is in Airflow and name a few types? What executor is the most common, and what's executor we generally use?
+* What is the purpose of the Webserver in Airflow?
+* How do you define or create a workflow in Airflow?
+
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings with your mentor and peers, discussing how you can apply both introductory and advanced Airflow concepts in your projects. Consider potential use cases and scenarios where Airflow can streamline your workflow processes and enhance productivity in data pipeline management.
