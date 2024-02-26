@@ -18,7 +18,7 @@ Today's focus is on mastering the art of writing clean, maintainable, and effici
   - Chapter 1 - **Clean Code**: Pages 0-7
   - Chapter 2 -  **Meaningful Names**: Full Chapter
   - Chapter 3 - **Functions** : Full Chapter
-  - Chapter 7 - **Error Hundling** : Full Chapter
+  - Chapter 7 - **Error Handling** : Full Chapter
   - Chapter 9 - **Unit tests** : Full Chapter
   - Chapter 10 - **Classes** : Full Chapter
 - **Clean Code:** [Python Clean Code Examples](https://github.com/zedr/clean-code-python) - A collection of Python examples for the concepts in the book "Clean Code" by Robert C. Martin.
