@@ -52,8 +52,15 @@ Congratulations on completing Day 07! You've taken a significant step in masteri
 - Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of Docker and how you can apply these concepts in your coding endeavors.
 
 ## **Q&A Session:** :raising_hand:
-- Engage in an open Q&A session with your mentor to address any queries or discussions about specific Docker concepts, hands-on exercises, or practical applications.
-- Seek recommendations for further exploration and resources to deepen your understanding of Docker.
+- Answer the following basic questions with your mentor:
+  * What is Docker and why is it used?
+  * What is a Docker container? How does it differ from a virtual machine?
+  * What's the diffrence between Docker image to a Docker container?
+  * What is the purpose of a Dockerfile?
+  * Can you describe the process of creating and using a custom Docker image?
+  * What are docker layers? how they are created?
+  * What's most common base image operation system that every docker built-on? what's the pro's and con's of it? (Alternative phrase: "Why would you want to switch the base image to a diffrent operation system?)
+  * What is Docker Compose and what are its use cases?
 
 ## Action Items:
 - Identify areas for deeper exploration.
