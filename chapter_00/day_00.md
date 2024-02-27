@@ -41,7 +41,7 @@ Today is all about getting comfortable and understanding the big picture. You'll
 
 ## Action Items:
 - Review the onboarding schedule and prepare for the exciting journey ahead.
-- Share your thoughts and reflections with your mentors and colleagues.
+- Share your thoughts and concerns with your mentors.
 
 ## Recommended Articles and Videos:
 
