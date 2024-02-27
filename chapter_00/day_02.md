@@ -28,7 +28,6 @@ Day 2 is dedicated to deepening your understanding of the essential components o
    - Emphasize the importance of data integrity, privacy, and compliance in customer-facing operations.
 
 ## Wrapping Up:
-### Reflection
 - Take a moment to reflect on what you've learned:
 - Note down key takeaways and any questions or uncertainties you have.
 - Reflect on how your role contributes to the customer-centric data operations within the Unit.
@@ -41,3 +40,8 @@ Day 2 is dedicated to deepening your understanding of the essential components o
 ## Action Items  
 - Identify areas for deeper exploration, write conecpts you don't understand and ask your mentor to explain them, Get recommendations on resources for further learning.
 - Reflect on how you can contribute to the customer-centric data operations within the Unit.
+
+## Recommended Articles and Videos:
+ - [Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://www.youtube.com/watch?v=bpTNcbnZjvY) - This video provides a behind-the-scenes look at a state-of-the-art data center, offering insights into the infrastructure and operations that power modern data management.
+ - [A technical explainer of how your computer runs programs, from start to finish](https://github.com/hackclub/putting-the-you-in-cpu) - This article provides a comprehensive overview of the data lifecycle within a computer, from the execution of a program to the storage and retrieval of data.
+- [What is data pipeline architecture?](https://www.montecarlodata.com/blog-data-pipeline-architecture-explained/) - This article provides a detailed explanation of data pipeline architecture, highlighting the stages of data processing and the role of data pipelines in modern data operations.
