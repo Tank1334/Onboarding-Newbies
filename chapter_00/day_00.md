@@ -43,11 +43,22 @@ Today is all about getting comfortable and understanding the big picture. You'll
 - Review the onboarding schedule and prepare for the exciting journey ahead.
 - Share your thoughts and reflections with your mentors and colleagues.
 
-## Recommended Articles
+## Recommended Articles and Videos:
 
 - [15 Effective Ways You Can Learn How to Learn](https://www.scienceofpeople.com/learn/) - Science of People article by Vanessa Van Edwards, offering strategies to enhance learning capabilities, including lifelong learning and the Memory Palace technique.
 
 - [What's the best way to learn anything? 16 Tips from science](https://cognitiontoday.com/whats-the-best-way-to-learn-anything-16-tips-from-science/) - Cognition Today article discussing comprehensive strategies for learning, from general well-being to the use of metaphors and teaching as methods to enhance the learning process.
+
+-  [How to Study Way More Effectively | The Feynman Technique](https://www.youtube.com/watch?v=MlJdMr3O5J4).
+: This video explores the Feynman Technique, a method to understand concepts deeply and retain information.
+
+ - [How I Ranked 1st at Cambridge University - 20 Study Tips](https://www.youtube.com/watch?v=76yqErAib5g): Provides 20 study tips from a top-ranking Cambridge University student.
+
+- [Marty Lobdell - Study Less Study Smart](https://www.youtube.com/watch?v=IlU-zDU6aQ0) - After watching students cram for eight hours or more for a test without any improvement, Lobdell has developed a studying technique that helps the brain retain the information that you are studying in this video "Study Less, Study Smart". 
+
+-  [How to manage your time more effectively (according to machines) - Brian Christian](https://www.youtube.com/watch?v=iDbdXTMnOmE): This video discusses time management strategies inspired by algorithms and machine efficiency.
+
+These videos and articles cover a variety of techniques and strategies, from specific study methods to broader concepts on learning and time management. Watching and read these could provide valuable insights and practical tips to enhance your learning efficiency.
 
 
 **Welcome to the 883 Group! Let's embark on this exciting journey together.**
