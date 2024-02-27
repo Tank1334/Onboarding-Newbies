@@ -60,3 +60,9 @@ Engage in an open Q&A session with your mentor to address any queries or discuss
  and evaluate at the end of every chapter for 5 minutes which concept it relates to
         <img src="challenge_accepted.gif" alt="Challege Accepted" width="300"/>
 - This will help you to understand the concepts better and relate them to real-world scenarios.
+
+## Recommended Articles and Videos:
+- [The 5 V's of Big Data by IBM](https://www.ibmbigdatahub.com/blog/understanding-big-data-5-vs)
+- [Database vs Data Warehouse vs Data Lake | What is the Difference?](https://www.youtube.com/watch?v=-bSkREem8dM)
+- [NoSQL vs SQL Databases](https://www.youtube.com/watch?v=Pf-9pjJK1e0)
+- [OLAP vs OLTP](https://www.youtube.com/watch?v=iw-5kFzIdgY)
