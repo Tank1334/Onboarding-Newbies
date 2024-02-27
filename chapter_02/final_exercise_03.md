@@ -11,7 +11,8 @@
 
 **⚠️ Note:**
 
-- CI/CD is a crucial aspect of the modern development workflow. It brings automation, consistency, and quality control to your projects.
+- In this exercise, you will need to work with Offical [GitLab](https://gitlab.com/) and [Docker.io](https://Docker.io/) artifactory in the public web, If you do the exercise in our internal network, you need to do the adjustment (Or Ask your mentor for help).
+- Please Create 14 days free trial account on [GitLab](https://gitlab.com/) to push and pull your code and work with the full features of GitLab.
 - Familiarize yourself with GitLab's interface and features as it will be an integral part of your development process.
 - Ensure Docker is correctly set up on your machine and you have access to Docker.io to push and pull images.
 
@@ -32,7 +33,13 @@
    - Ensure that the project's repository is correctly cloned to your local machine.
    - Add the files related to ["The Last AirBender"](https://github.com/883G/The-Last-AirBender) into the cloned project directory.
    - Commit and push the changes to the GitLab repository.
-   - Use .
+   - Use GitLab's web interface to verify that the files are successfully pushed to the repository.
+4. **Setting Up the Project Structure:**
+   - Create a directory structure for the project, including the necessary files and directories for the Python application.
+   - Organize the project files and directories to ensure a clean and structured layout.
+5. **Do The AIRBENDER Exercise:**
+   - Do the ["The Last AirBender"](https://github.com/883G/The-Last-AirBender) exercise and push the code to the GitLab repository.
+   - Good Luck!
 
 ## Chapter 2: Docker Introduction and Image Creation
 
@@ -77,9 +84,14 @@
 
 ## Wrapping Up the Day
 
-**Reflection and Planning (30 minutes):**
+**Reflection and Planning:**
 
 - Review the CI/CD pipeline's execution and ensure every stage completes successfully.
 - Plan any further enhancements or optimizations you might want to introduce to the pipeline.
 
 Congratulations on completing Day 08! You've successfully set up a complete CI/CD pipeline, paving the way for efficient, automated, and reliable development workflows.
+
+## **Action Items:**
+- **CI/CD Pipeline Review:** Discuss the CI/CD pipeline with your mentor and seek feedback on the implementation.
+- **Pipeline Enhancements:** Identify areas for pipeline optimization and discuss potential enhancements with your mentor.
+- **Project Planning:** This is your first project in 883 group, discuss with your mentor about the project planning and how to manage the project in the future, based on your mistakes and the feedback from your mentor.

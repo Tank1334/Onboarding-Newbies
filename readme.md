@@ -28,8 +28,8 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 05](./chapter_02/day_05.md)** Mastering OOP and Design Principles with Test-Driven Development (TDD)
 - **[Day 06](./chapter_02/day_06.md):**  Writing Clean Code
 - **[Day 07](./chapter_02/day_07.md):** Embarking on the Docker Journey
-- **[Exercise 01](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
-- **[Exercise 02](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
+- **[Final Exercise 01](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
+- **[Final Exercise 02](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
 
 
 ## Chapter 03: DevOps in Openshift
