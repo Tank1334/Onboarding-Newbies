@@ -39,6 +39,5 @@ Day 2 is dedicated to deepening your understanding of the essential components o
    - Foster a collaborative learning environment by encouraging participation and interaction.
 
 ## Action Items  
-- Identify areas for deeper exploration.
-- Get recommendations on resources for further learning.
+- Identify areas for deeper exploration, write conecpts you don't understand and ask your mentor to explain them, Get recommendations on resources for further learning.
 - Reflect on how you can contribute to the customer-centric data operations within the Unit.
