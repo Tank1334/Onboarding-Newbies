@@ -55,7 +55,7 @@ Read the following chapters from the [Spark Book](https://github.com/hemant-rout
    - Explore advanced optimizations using broadcast variables to efficiently share read-only data across Spark nodes.
    - Understand scenarios where broadcast variables can significantly improve performance, especially in joins and lookups.
 
-## **Discussion and Q&A (1 hour):**
+## **Discussion and Q&A:**
   - Engage in a discussion with mentors and peers to share insights and experiences related to advanced Spark topics.
   - Ask questions and seek clarification on any challenging concepts.
    - Discuss real-world applications and implications of advanced Spark programming in big data processing workflows.
