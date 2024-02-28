@@ -7,8 +7,6 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 #### **PAY ATTENTION**: :warning:
 - Day is not a day, it's just a session.
 
-
-
 ## Table of Contents
 ## Chapter 00: Foundations of Data Operations and Customer Engagement in the 883 Group
 - **[Day 00](./chapter_00/day_00.md):** Welcome & Introduction - Understand the onboarding process and the 883 Group's vision and mission :dart:
@@ -16,13 +14,11 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 02](./chapter_00/day_02.md):** Customer Interaction and Insight into Data Operations & Data Lifecycle in the 883 Group
 :bow_and_arrow:
 
-
 ## Chapter 01: Introduction to Hadoop Ecosystem
 - **[Day 03](./chapter_01/day_03.md):**  Introduction to Data concept & Hadoop Ecosystem (Hadoop, HDFS, MapReduce, YARN, Hive, ZooKeeper):elephant:
 - **[Day 04](./chapter_01/day_04.md):**  Introduction to Data concept & Hadoop Ecosystem (HBase, Spark, Kafka, Impala, Partitioning, Kerberos, Oozie):elephant::elephant:
 - **[Final Exercise](./chapter_01/final_exercise_01.md):** Introduction to Data Ops Team and Hadoop Ecosystem concepts Q&A :question:
 - **[Showcase](./chapter_01/showcase/showcase01.md):** In-Depth Exploration of Hadoop Ecosystem Component(s) :book:
-
 
 ## Chapter 02: Basic Docker & Testing & CI-CD
 - **[Day 05](./chapter_02/day_05.md):** Mastering OOP and Design Principles with Test-Driven Development (TDD)
@@ -30,7 +26,6 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 07](./chapter_02/day_07.md):** Embarking on the Docker Journey
 - **[Final Exercise 01](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
 - **[Final Exercise 02](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
-
 
 ## Chapter 03: DevOps in Openshift
 - **[Day 08](https://883g.github.io/GO-TO-INTERNAL):** Openshift Fundamentals for Data Ops using "zero to hero" Openshift labs
@@ -47,7 +42,6 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Showcase](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
 - **[Final Exercise 06](./chapter_04/final_exercise_06.md):** Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
 
-
 ## chapter 05: Mastering Apache Airflow for Workflow Orchestration
 
 - **[Day 14](./chapter_05/day_14.md):** Introduction to Apache Airflow concepts, terminology and architecture
@@ -60,10 +54,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 17](./chapter_07/day_17.md):** Introduction to Iceberg concepts, terminology and architecture
 
 ## Chapter 08: Culture - Jira & Confluence - Agile and more
-- **[Day 18](./chapter_08/null.md):** Introduction to Culture concepts, 
-    - Jira Terminology - Epic, Story, Task, Bugs, Retro, Planning and more.
-    - Project Management Terminology - Status updates and Syncs. 
-    - This is a Powerpoint presentation with a quiz at the end, ask your mentor for the link.(For better experience, install heebo font before)
+- **[Day 18](./chapter_08/null.md):** Introduction to 883 Culture concepts, terminology and architecture.
     
 ## Chapter 09: Real-world Project Simulation
 - **[BIG Final Exercise](./chapter_09/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
