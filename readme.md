@@ -26,6 +26,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 07](./chapter_02/day_07.md):** Embarking on the Docker Journey
 - **[Final Exercise 02](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
 - **[Final Exercise 03](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
+- **[Bonus - 60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w):** :fire:
 
 ## Chapter 03: DevOps in Openshift
 - **[Day 08](https://883g.github.io/GO-TO-INTERNAL):** Openshift Fundamentals for Data Ops using "zero to hero" Openshift labs
