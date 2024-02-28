@@ -58,8 +58,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
     
 ## Chapter 09: Real-world Project Simulation
 - **[BIG Final Exercise](./chapter_09/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
-- **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to
- showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
+- **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
 ## chapter 10: Documentation and Knowledge Sharing
 - **[Exercise](https://883g.github.io/GO-TO-INTERNAL):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
