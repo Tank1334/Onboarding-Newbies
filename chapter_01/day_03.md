@@ -16,6 +16,8 @@ Today's session is all about diving into the Hadoop ecosystem and understanding 
 - A lot of newbies have a problem with self-study and time management, so breath and take your time to plan your day carefully.
 - Be aware of the importance of time management. Plan your time 
 and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
+- You need to understand the full picture of every concept, so take your time to understand it, *if you can't explain it, you don't understand it*.
+- You need to be able to explain each concept and how it relates to the others and how it can be used in real-world scenarios.
 
 ## 1 .Introduction to Big Data and Hadoop
 - [Apache Hadoop](https://hadoop.apache.org/)
@@ -347,3 +349,5 @@ Talk with your mentor about the concepts you have learned today and how they are
 - Review the core concepts of Hadoop, MapReduce, YARN, Hive, and ZooKeeper.
 - Explore real-world use cases for these technologies and understand their practical applications.
 - Prepare questions and topics for discussion in the upcoming Q&A session with your mentor.
+- Reflect the new conecpet with the Challenge from [Day 01](./day_01#ready-for-a-challenge-trophy) 
+:trophy:
