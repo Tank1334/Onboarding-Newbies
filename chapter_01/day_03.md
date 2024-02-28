@@ -351,3 +351,8 @@ Talk with your mentor about the concepts you have learned today and how they are
 - Prepare questions and topics for discussion in the upcoming Q&A session with your mentor.
 - Reflect the new conecpet with the Challenge from [Day 01](./day_01#ready-for-a-challenge-trophy) 
 :trophy:
+
+## Recommended Articles and Videos:
+- [Hadoop Ecosystem Explained](https://www.youtube.com/watch?v=AZovvBgRLIY) - This video provides an overview of the Hadoop ecosystem, explaining the core components and their roles in big data processing.
+- [Hadoop Core Components](https://www.youtube.com/watch?v=d2xeNpfzsYI) - This video offers a detailed explanation of the core components of Hadoop, including HDFS, MapReduce, and YARN, and their significance in distributed data processing.
+- 
