@@ -22,9 +22,12 @@ Your task is to create a scenario based on the prompt provided above. Once you'v
 - Be creative and imaginative in crafting your scenario. You have the freedom to invent any setting, industry, or business context that you find interesting.
 - Ensure that the scenario highlights the relevance and importance of each technology within the context of solving the problem or achieving the objectives.
 - Focus on practicality and realism. Avoid including technologies or elements that don't contribute meaningfully to the scenario.
+- Prepare a PowerPoint presentation that clearly outlines the scenario, the problem, the solution, and the role of the DataOps team.
+- Think about consepts you have learned in [Day 01](./day_01#ready-for-a-challenge-trophy) like fault tolerance, scalability, and performance.
 
 ## Requirements
 
+### Technology Integration:
 Your scenario must include the following technologies:
 
 - **Airflow:** For orchestrating the data pipeline and workflow management.
@@ -34,9 +37,39 @@ Your scenario must include the following technologies:
 - **Either S3/HDFS:** For storing raw data files.
 - **Trino or Iceberg:** For advanced data querying and management.
 
+### Monitoring and Troubleshooting:
+ - Write prometheus exporter in python for health check of your data pipeline.
+ - Deploy your exporter OpenShift with helm and all the best practises you have learned.
+ - Create Grafana dashboard for your metrics.
+ - Use Pandora and Pulse platform to integrate your exporter to the centric prometheus environment.
+ - Create alerts for your metrics.
+
+### Presentation:
+Your scenario should be documented in a PowerPoint presentation that includes the following sections:
+    - Introduction
+    - Storyline Scenario Overview
+    - Problem Statement
+    - Solutions Overview - what was your options and why you choose this one?
+    - Choosen Data Pipeline Architecture
+    - Pros and Cons of the choosen architecture
+    - Improvement and Future Work
+
+### Calture and Agile:
+- Your scenario should include a section that outlines the roles, responsibilities, and objectives of the DataOps team within the given scenario.
+- Create Relsase Mail for your project - **DO THIS BEFORE YOU START THE PROJECT**.
+- Create a Jira Epic and a Confluence page for the project.
+- Create stories for the tasks that you will do in the project.
+- Create tasks under the stories.
+- Keep our culture with indicative stories, tasks and agile methodologies.
+- Create Press Release (PR) and Frequently Asked Questions (FAQ) pages in the confluence page.
+- Keep updated the status of the tasks in the confluence page every day.
+
 ## Evaluation
 
-Your scenario will be evaluated based on its creativity, relevance, coherence, and alignment with the objectives of the exercise. Make sure to demonstrate a deep understanding of the technologies and their practical applications within the context of your scenario.
+- Your scenario and architecture will be evaluated based on its creativity, relevance, coherence, and alignment with the objectives of the exercise. Make sure to demonstrate a deep understanding of the technologies and their practical applications within the context of your scenario.
+- Your presentation will be evaluated based on its clarity, organization, and ability to effectively communicate the scenario, problem, solution, and the role of the DataOps team.
+- Your monitoring and troubleshooting will be evaluated based on its effectiveness, completeness, and relevance to the scenario.
+- Your culture and agile will be evaluated based on keeping updates and the status of the tasks in the confluence page every day, and create indicative stories, tasks and agile methodologies.
 
 ---
 
