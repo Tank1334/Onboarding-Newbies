@@ -17,15 +17,15 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 ## Chapter 01: Introduction to Hadoop Ecosystem
 - **[Day 03](./chapter_01/day_03.md):**  Introduction to Data concept & Hadoop Ecosystem (Hadoop, HDFS, MapReduce, YARN, Hive, ZooKeeper):elephant:
 - **[Day 04](./chapter_01/day_04.md):**  Introduction to Data concept & Hadoop Ecosystem (HBase, Spark, Kafka, Impala, Partitioning, Kerberos, Oozie):elephant::elephant:
-- **[Final Exercise](./chapter_01/final_exercise_01.md):** Introduction to Data Ops Team and Hadoop Ecosystem concepts Q&A :question:
-- **[Showcase](./chapter_01/showcase/showcase01.md):** In-Depth Exploration of Hadoop Ecosystem Component(s) :book:
+- **[Final Exercise 01](./chapter_01/final_exercise_01.md):** Introduction to Data Ops Team and Hadoop Ecosystem concepts Q&A :question:
+- **[Practical Exercise 01](./chapter_01/practical_exercise_01.md):** Meet the Hadoop Ecosystem in Action :computer:
 
 ## Chapter 02: Basic Docker & Testing & CI-CD
 - **[Day 05](./chapter_02/day_05.md):** Mastering OOP and Design Principles with Test-Driven Development (TDD)
 - **[Day 06](./chapter_02/day_06.md):**  Writing Clean Code
 - **[Day 07](./chapter_02/day_07.md):** Embarking on the Docker Journey
-- **[Final Exercise 01](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
-- **[Final Exercise 02](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
+- **[Final Exercise 02](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
+- **[Final Exercise 03](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
 
 ## Chapter 03: DevOps in Openshift
 - **[Day 08](https://883g.github.io/GO-TO-INTERNAL):** Openshift Fundamentals for Data Ops using "zero to hero" Openshift labs
@@ -61,7 +61,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
 ## chapter 10: Documentation and Knowledge Sharing
-- **[Exercise](https://883g.github.io/GO-TO-INTERNAL):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
+- **[Final Exercise 07](https://883g.github.io/GO-TO-INTERNAL):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
 
 ## Contribution :raised_hands:
 If you have any suggestions or ideas to enhance the onboarding for future members, feel free to contribute. Fork, create a feature branch, commit changes, and create a pull request.

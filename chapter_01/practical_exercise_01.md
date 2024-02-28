@@ -20,6 +20,11 @@
 - How at is cloudera agent and how to manage it? 
 - How to access the API and the documentation.
 
+### 883 Group Dashboards - For each service, answer the following questions:
+- What is the go for each dashboard?
+- What are the main features of each dashboard?
+
+
 ## Additional Resources:
 - [Cloudera Manager](https://www.cloudera.com/products/cloudera-manager.html)
 - [Cloudera Manager Documentation](https://docs.cloudera.com/documentation/enterprise/6/6.3/topics/cm_ig_intro.html)
@@ -28,4 +33,4 @@
 
 ## Questions:
 - YOU HAVE TO ASK YOUR MENTOR EACH TIME YOU HAVE A QUESTION! :stop_sign:
-- THIS IS THE IMPORTENET CHEPTER OF THE HADOOP ECOSYSTEM, SO TAKE YOUR TIME TO UNDERSTAND IT WELL! :soccer:
+- **THIS IS THE IMPORTENET CHEPTER OF THE HADOOP ECOSYSTEM**, SO TAKE YOUR TIME TO UNDERSTAND IT WELL! :key:
