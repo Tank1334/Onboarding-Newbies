@@ -83,3 +83,6 @@ Discuss with your mentor about the day's learnings and explore potential project
 ## **Action Items:**
 - Identify areas for deeper exploration.  
 - Get recommendations on resources for further learning.
+
+## **Recommended Videos:** :bulb:
+- [Spark 101 - Introduction to Apache Spark Concepts](https://www.youtube.com/watch?v=QSZTlnqbdKs&t=2891s) - A comprehensive video tutorial on Apache Spark concepts and architecture.

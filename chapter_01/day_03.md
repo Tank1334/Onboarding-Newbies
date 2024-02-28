@@ -355,4 +355,6 @@ Talk with your mentor about the concepts you have learned today and how they are
 ## Recommended Articles and Videos:
 - [Hadoop Ecosystem Explained](https://www.youtube.com/watch?v=AZovvBgRLIY) - This video provides an overview of the Hadoop ecosystem, explaining the core components and their roles in big data processing.
 - [Hadoop Core Components](https://www.youtube.com/watch?v=d2xeNpfzsYI) - This video offers a detailed explanation of the core components of Hadoop, including HDFS, MapReduce, and YARN, and their significance in distributed data processing.
-- 
+- [Apache Hive Tutorial](https://www.youtube.com/watch?v=HhJX6KkdjRM) - This tutorial provides an introduction to Apache Hive, explaining its features, architecture, and use cases in big data analytics.
+- [Apache Yarn in AWS](https://aws.amazon.com/blogs/big-data/configure-hadoop-yarn-capacityscheduler-on-amazon-emr-on-amazon-ec2-for-multi-tenant-heterogeneous-workloads/) - This article explains how to configure Hadoop YARN CapacityScheduler on Amazon EMR for multi-tenant heterogeneous workloads, providing insights into resource management and scheduling.
+- [MapReduce - Computerphile](https://www.youtube.com/watch?v=cvhKoniK5Uo) - This video offers a comprehensive overview of the MapReduce programming model, its core concepts, and its role in distributed data processing.

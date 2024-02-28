@@ -379,3 +379,11 @@ Talk with your mentor about the concepts you have learned today and how they are
 
 ## Action Items:
 - Explore additional resources to deepen your understanding of the Hadoop ecosystem, partitioning strategies, Kerberos authentication, and Oozie workflow scheduling.
+
+## Recommended Articles and Videos:
+- [Apache HBase:How HBase Works](https://www.youtube.com/watch?v=lSrNUyMR_Ek)
+- [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
+- [Apache Impala Documentation](https://impala.apache.org/docs/build/html/topics/impala_overview.html)
+- [Oozie Workflow Scheduler Documentation](https://oozie.apache.org/docs/5.1.0/)
+- [Taming Kerberos - Computerphile](https://www.youtube.com/watch?v=qW361k3-BtU) - Kerberos is an authentication method - Dr Mike Pound explains how it works so neatly.
+- [Resource management at scale for SQL analytics - Apache Impala and Amazon S3](https://www.youtube.com/watch?v=G9ngVpKIqLw) - This video provides insights into resource management at scale for SQL analytics using Apache Impala and Amazon S3.

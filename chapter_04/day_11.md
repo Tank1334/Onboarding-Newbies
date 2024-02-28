@@ -68,7 +68,7 @@ Discuss with your mentor about the day's learnings and explore potential project
 - Get recommendations on resources for further learning.
 - Reflect on how you can integrate advanced Spark concepts into your current or future projects.
 
-## **Recommended Articles:** :bulb:
+## **Recommended Articles and Videos:** :bulb:
 1. **Spark Performance Tuning & Best Practices**: Insights on performance improvements using `mapPartitions()`, serialized data formats, and efficient data caching.
    - [Read more here](https://sparkbyexamples.com/spark/spark-performance-tuning/).
 
@@ -81,5 +81,9 @@ Discuss with your mentor about the day's learnings and explore potential project
 
 4. **"Advanced Spark Tuning, Optimization, and Performance Techniques" on Towards Data Science**: Offers a deep dive into optimizing Spark applications for high performance, covering topics not widely discussed.
    - [Read more here](https://towardsdatascience.com/advanced-spark-tuning-optimization-and-performance-techniques-d5b84ac2d7b8).
+
+5. **"Spark Performance Tuning" by Databricks**: A comprehensive guide to optimizing Spark applications for performance, covering key concepts and best practices.
+   - [Read more here](https://databricks.com/glossary/spark-performance-tuning).
+6. [Apache Spark Optimization Techniques and Tuning - Almog Gelber (Hebrew)](https://www.youtube.com/watch?v=BzVrPCIeXuY) - A video tutorial on Spark optimization techniques and tuning.
 
 **Congratulations on completing Day 11! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
