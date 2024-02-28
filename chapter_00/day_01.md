@@ -58,7 +58,7 @@ Engage in an open Q&A session with your mentor to address any queries or discuss
 ## Ready for a Challenge? :trophy:
 - We at 883 like challenges, understaing all this new buzz words is not easy, so you're encouraged to write down every concept from [Understanding the Data Landscape](#1-understanding-the-data-landscape)
  and evaluate at the end of every chapter for 5 minutes which concept it relates to
-        <img src="challenge_accepted.gif" alt="Challege Accepted" width="300"/>
+        <img src="../assets/challenge_accepted.gif" alt="Challege Accepted" width="300"/>
 - This will help you to understand the concepts better and relate them to real-world scenarios.
 
 ## Recommended Articles and Videos:
