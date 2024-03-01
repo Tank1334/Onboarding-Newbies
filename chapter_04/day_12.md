@@ -7,10 +7,6 @@ Today's focus is on advancing your expertise in Apache Spark with an emphasis on
 - Continue exploring advanced topics in Apache Spark to deepen your knowledge and skills in big data processing.
 - Build on the concepts and techniques covered in the previous days.
 
-:warning: **Note:**
-- Today's focus remains on advanced Spark topics, which are essential for becoming proficient in Spark application development.
-- Consistent practice and application of these concepts will enhance your expertise.
-
 ## 7. Running on a Cluster
 
 - **Topics Covered:**
@@ -86,3 +82,4 @@ Discuss with your mentor about the day's learnings and explore potential project
 
 ## **Recommended Videos:** :bulb:
 - [Spark 101 - Introduction to Apache Spark Concepts](https://www.youtube.com/watch?v=QSZTlnqbdKs&t=2891s) - A comprehensive video tutorial on Apache Spark concepts and architecture.
+- [Apache Spark Tutorial for Beginners](https://www.youtube.com/watch?v=QaoJNXW6SQo) - A beginner-friendly tutorial to understand the basics of Apache Spark and its applications in big data processing.

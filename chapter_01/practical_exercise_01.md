@@ -19,9 +19,17 @@
 - How to see the reports and the diagnostics.
 - How at is cloudera agent and how to manage it? 
 - How to access the API and the documentation.
+- SSH to the Resource Manager and the NameNode and check the logs.
+- SSH to the DataNode and check the logs.
+- SSH to the NodeManager and check the logs.
+- SSH to the HiveServer2 and check the logs.
+- SSH to the Hive Metastore and check the logs.
+- SSH to the proxy and query the Hive with hive cli.
+- SSH to the proxy and query the Hive with beeline.
+- SSH to the proxy and query the HDFS with hdfs dfs.
 
 ### 883 Group Dashboards - For each service, answer the following questions:
-- What is the go for each dashboard?
+- What is the go address for each dashboard?
 - What are the main features of each dashboard?
 
 

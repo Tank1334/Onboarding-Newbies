@@ -1,28 +1,31 @@
 # Day 03 - Introduction to Data concept & Hadoop Ecosystem :elephant:
 
 ## Overview:
-Today's session is all about diving into the Hadoop ecosystem and understanding its core components. You'll explore the foundational concepts of Hadoop, including the Hadoop Distributed File System (HDFS), MapReduce, YARN, and Apache Hive. The focus is on gaining a high-level understanding of the Hadoop ecosystem and its role in big data processing.
+Today's session is all about diving into the Hadoop ecosystem and understanding its core components. You'll explore the foundational concepts of Hadoop, including the Hadoop Distributed File System (HDFS), MapReduce, YARN, and Hive.
+
+**The focus is on gaining a high-level understanding of the Hadoop ecosystem and all the components and its role in big data processing.**
 
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
 - Explore key components and their roles in big data processing.
 - Make connections between the Hadoop ecosystem and real-world use cases.
-- Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing.
-- Familirize yourself with the Hadoop ecosystem and its role in big data processing.
 - Start to work with time estimation and planning.
 
 :warning: **Note:**
 - This is a self-study day, it is important to be able to work independently and manage your time.
 - A lot of newbies have a problem with self-study and time management, so breath and take your time to plan your day carefully.
-- Be aware of the importance of time management. Plan your time 
-and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
-- You need to understand the full picture of every concept, so take your time to understand it, *if you can't explain it, you don't understand it*.
+- Be aware of the importance of time management. 
+- Plan your time and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
+- You need to understand the **full picture** of every concept, so take your time to understand it, *if you can't explain it, you don't understand it*.
 - You need to be able to explain each concept and how it relates to the others and how it can be used in real-world scenarios.
+- This chapter will cover the essential concepts of the Hadoop ecosystem, and you will have a Q&A session with your mentor to discuss what you have learned.
+- To gain a deeper understanding of the concepts and how they are applied in real-world scenarios we'll provide you with key concepts and a brief explanation for each core concept. Your task is to delve deeper into each concept by researching them. 
+- Utilize Google, YouTube, or any other reliable source to gather comprehensive information that helps you grasp each concept thoroughly. This preparation will equip you for a productive question-and-answer session with your mentor, where you'll be expected to discuss what you've learned.
 
 ## 1 .Introduction to Big Data and Hadoop
-- [Apache Hadoop](https://hadoop.apache.org/)
+- [Apache Hadoop](https://hadoop.apache.org/) 
 
-Apache Hadoop is a powerful framework for distributed storage and processing of large datasets, commonly associated with big data analytics and processing tasks. In this chapter, we introduce some of the fundamental concepts of Big Data and Hadoop.
+Apache Hadoop is a robust framework designed for the distributed storage and processing of vast datasets, often linked with tasks related to big data analytics and processing.
 
 ### **What are the different vendor-specific distributions of Hadoop?**
    - Hadoop has gained popularity in various industries, leading to the development of different vendor-specific distributions. Some notable distributions include:
@@ -255,6 +258,25 @@ These examples demonstrate how Apache Hadoop YARN plays a pivotal role in divers
 - Similar to views in traditional databases, providing a virtual representation of data stored in one or more tables.
 - Simplifies complex queries and enhances data abstraction.
 
+#### 11. **Hive Transactions:**
+- Hive supports ACID (Atomicity, Consistency, Isolation, Durability) transactions for data manipulation operations.
+- Ensures data integrity and consistency in Hive tables.
+#### 12. **External Tables:**
+- Hive supports the creation of external tables, which reference data stored outside the Hive warehouse directory.
+- External tables allow Hive to interact with data in its original location without moving or copying it.
+#### 13.**Internal Tables:** 
+- Internal tables in Hive are managed by the Hive Metastore, and the data is stored in the Hive warehouse directory.
+- Internal tables are tightly coupled with Hive, and the data is deleted when the table is dropped.
+#### 14. **Materialized Views:**
+- Materialized views in Hive store the results of precomputed queries, allowing for faster query execution.
+- Materialized views are particularly useful for aggregations and complex queries on large datasets.
+#### 15. **Hive on Tez:**
+- Apache Tez is an alternative execution engine for Hive, providing improved performance and resource utilization.
+- Hive on Tez offers better query optimization and faster query execution for complex workloads.
+#### 16. **Hive Auxiliary JARs:**
+- Hive allows the use of auxiliary JARs to extend its functionality, such as custom SerDes, UDFs, and input/output formats.
+- Auxiliary JARs enable users to integrate custom logic and data formats into Hive queries.
+
 ### **Real-World Use Cases:**
 
 - **Data Warehousing:** Hive is widely used for large-scale data warehousing tasks, enabling users to perform analytics on vast datasets.
@@ -358,3 +380,14 @@ Talk with your mentor about the concepts you have learned today and how they are
 - [Apache Hive Tutorial](https://www.youtube.com/watch?v=HhJX6KkdjRM) - This tutorial provides an introduction to Apache Hive, explaining its features, architecture, and use cases in big data analytics.
 - [Apache Yarn in AWS](https://aws.amazon.com/blogs/big-data/configure-hadoop-yarn-capacityscheduler-on-amazon-emr-on-amazon-ec2-for-multi-tenant-heterogeneous-workloads/) - This article explains how to configure Hadoop YARN CapacityScheduler on Amazon EMR for multi-tenant heterogeneous workloads, providing insights into resource management and scheduling.
 - [MapReduce - Computerphile](https://www.youtube.com/watch?v=cvhKoniK5Uo) - This video offers a comprehensive overview of the MapReduce programming model, its core concepts, and its role in distributed data processing.
+- [ZooKeeper Explained](https://www.youtube.com/watch?v=gZj16chk0Ss) - This video provides an in-depth explanation of Apache ZooKeeper, its features, and its applications in distributed systems coordination.
+- [Apache Hadoop YARN Concepts and Applications](https://blog.cloudera.com/apache-hadoop-yarn-concepts-and-applications/) - Cloudera's comprehensive guide on the concepts and applications of Apache Hadoop YARN.
+- [YARN Capacity Scheduler and Node Labels Part 1](https://www.davidmcginnis.net/post/yarn-capacity-scheduler-and-node-labels-part-1) - First part of a detailed discussion on the options available in YARN's capacity scheduler.
+- [YARN Capacity Scheduler Overview](https://blog.cloudera.com/yarn-capacity-scheduler/) - An overview of YARN's capacity scheduler provided by Cloudera.
+- [Untangling Apache Hadoop YARN Part 1: Cluster and YARN Basics](https://blog.cloudera.com/untangling-apache-hadoop-yarn-part-1-cluster-and-yarn-basics/) - The first part in a series aimed at explaining the basics of clusters and YARN.
+- [Hadoop Tutorial YouTube Playlist](https://youtube.com/playlist?list=PLkz1SCf5iB4dw3jbRo0SYCk2urRESUA3v) - A playlist featuring tutorials on Hadoop, covering a variety of topics.
+- [Introduction to the Hadoop Ecosystem](https://www.analyticsvidhya.com/blog/2020/10/introduction-hadoop-ecosystem/) - An introductory article on the components and functionalities of the Hadoop ecosystem.
+- [Understanding the Hadoop Ecosystem](https://www.databricks.com/glossary/hadoop-ecosystem) - A glossary entry by Databricks offering insights into the Hadoop ecosystem.
+- [What is Hadoop? Simplilearn Tutorial](https://www.simplilearn.com/tutorials/hadoop-tutorial/what-is-hadoop) - A tutorial providing a foundational understanding of Hadoop.
+- [Hadoop Ecosystem Components Explained](https://data-flair.training/blogs/hadoop-ecosystem-components/) - An article detailing the components that make up the Hadoop ecosystem.
+- [Comprehensive Guide to the Hadoop Ecosystem](https://www.edureka.co/blog/hadoop-ecosystem/amp/#amp_tf=From%20%251%24s&aoh=16655728574406&referrer=https%3A%2F%2Fwww.google.com) - Edureka's in-depth guide on the Hadoop ecosystem, its components, and functionalities.

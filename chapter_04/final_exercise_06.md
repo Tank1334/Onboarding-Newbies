@@ -5,5 +5,5 @@
 - Explore advanced topics in Apache Spark to enhance your understanding and capabilities in big data processing.  
 - Dive deeper into Spark's core concepts and features.
 - Learn about Spark optimization and performance tuning techniques.
-- Be familiar with the concepts of WaaS.
+- Be familiar with the concepts of WaaS and Spark on OpenShift.
 

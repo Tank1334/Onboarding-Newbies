@@ -65,7 +65,8 @@ Engage in an open Q&A session with your mentor to address any queries or discuss
 - Get recommendations on resources for further learning.
 - Reflect on how you can integrate the principles of clean code into your coding routine.
 
-## Recommended Articles:
+## Recommended Articles and Videos:
 - [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - A must-read book by Robert C. Martin that delves into the principles of writing clean, maintainable, and efficient code.
 - [Clean Code: Writing Code for Humans](https://www.freecodecamp.org/news/clean-code-writing-code-for-humans/) - A comprehensive guide to writing clean code that is easy to understand and maintain, emphasizing the human aspect of coding.
 - [The Art of Readable Code: Simple and Practical Techniques for Writing Better Code](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293) - A book by Dustin Boswell and Trevor Foucher that offers practical techniques for writing code that is easy to understand and maintain.
+- [The Clean Code Blog](https://blog.cleancoder.com/) - A blog by Robert C. Martin, the author of "Clean Code," where he shares insights and best practices for writing clean, maintainable, and efficient code.

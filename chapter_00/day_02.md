@@ -7,6 +7,8 @@ Day 2 is dedicated to deepening your understanding of the essential components o
 - Gain a comprehensive understanding of the data pipelines and data lifecycle within the Unit.
 - Appreciate the meticulous care with which data is handled and the group's dedication to customer-centric operations.
 - Recognize your individual contribution to this ecosystem, fostering a sense of purpose and clarity.
+- Learn how to effectively engage with customers and understand their needs and challenges.
+- Undersand how computer works and what is data center.
 
 :warning: **Note:**
 - This day is crucial for understanding how your role integrates into the broader context of the group's objectives.
@@ -35,11 +37,11 @@ Day 2 is dedicated to deepening your understanding of the essential components o
 
 ## **Q&A Session:** :raising_hand:
    - Engage in an open Q&A session to address any queries or discussions about specific tools, technologies, or practices.
-   - Foster a collaborative learning environment by encouraging participation and interaction.
-
+   - Seek clarity on any concepts or processes you've encountered during the day's learning.
+   - Remmeber the challenge from yesterday? Share your thoughts and discuss about it with your mentor.
+   
 ## Action Items  
 - Identify areas for deeper exploration, write conecpts you don't understand and ask your mentor to explain them, Get recommendations on resources for further learning.
-- Reflect on how you can contribute to the customer-centric data operations within the Unit.
 
 ## Recommended Articles and Videos:
  - [Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://www.youtube.com/watch?v=bpTNcbnZjvY) - This video provides a behind-the-scenes look at a state-of-the-art data center, offering insights into the infrastructure and operations that power modern data management.

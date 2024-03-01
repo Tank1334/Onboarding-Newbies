@@ -5,14 +5,13 @@
 - Explore key components and their roles in big data processing.
 - Make connections between the Hadoop ecosystem and real-world use cases.
 - Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing.
-- Familirize yourself with the Hadoop ecosystem and its role in big data processing.
-- Start to work with time estimation and planning.
 - Learn to ask questions and how to find the answers with deep understanding of the whole concept.
 
 :warning: **Note:**
 - Maybe this is the first time you need to answer questions with your own words, so take your time to read the instructions carefully and ask your mentor if you have any questions.
 - Take time to think about the answers, don't just copy-paste from the internet.
 - Try to differ between the important and less important information.
+- We are looking for understanding, not just the right answer.
 
 ## Q&A and Discussion
 - Open forum for questions, clarifications, and discussions with the mentor.
@@ -28,7 +27,7 @@
 
 ### Chapter 2: Hadoop Distributed File System (HDFS)
 
-6.  What is HDFS?
+6.  What is HDFS? Explain its architecture.
 7.  What is the role of the NameNode in HDFS?
 8.  What is a DataNode in HDFS?
 9.  How does HDFS achieve fault tolerance?
@@ -36,7 +35,7 @@
 
 ### Chapter 3: MapReduce Programming Model
 
-11.  What is MapReduce?
+11.  What is MapReduce? Explain its key concepts.
 12.  What is the role of a Mapper in MapReduce?
 13.  What is the role of a Reducer in MapReduce?
 14.  What is meant by "Shuffling" in MapReduce?
@@ -44,7 +43,7 @@
 
 ### Chapter 4: Hadoop YARN
 
-16.  What is YARN?
+16.  What is YARN? Explain its architecture.
 17.  What are the main components of YARN?
 18.  What is the Resource Manager in YARN?
 19.  What is the role of the Node Manager in YARN?
@@ -52,7 +51,7 @@
 
 ### Chapter 5: Apache Hive
 
-21.  What is Apache Hive?
+21.  What is Apache Hive? Explain its architecture.
 22.  What is the Hive Metastore?
 23.  What is HiveQL?
 24.  What are partitions in Hive?
@@ -68,7 +67,7 @@
 
 ### Chapter 7: Apache HBase
 
-31.  What is Apache HBase?
+31.  What is Apache HBase? Explain its architecture.
 32.  What is a Row Key in HBase?
 33.  What is a Column Family in HBase?
 34.  How does HBase ensure data availability and fault tolerance?
@@ -76,7 +75,7 @@
 
 ### Chapter 8: Apache Kafka
 
-36.  What is Apache Kafka?
+36.  What is Apache Kafka? 
 37.  What are Topics in Kafka?
 38.  What are Partitions in Kafka?
 39.  What is the role of a Broker in Kafka?
@@ -84,7 +83,7 @@
 
 ### Chapter 10: Apache Impala
 
-41.  What is Apache Impala?
+41.  What is Apache Impala? Explain its architecture.
 42.  What is an Impala Daemon?
 43.  What is the role of a Catalog Service in Impala?
 44.  What is the role of a Query Coordinator in Impala?
@@ -126,3 +125,4 @@ Discuss your answers with your mentor and seek feedback on your understanding of
 - Prepare your presentation for tomorrow's showcase and be ready to share your insights with the team.
 - Start to work with time estimation and planning.
 - Learn to ask questions and how to find the answers with deep understanding of the whole concept.
+- Write down the questions you have asked to be redo it again in the next time.

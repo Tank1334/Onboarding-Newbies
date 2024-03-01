@@ -78,13 +78,10 @@
 * How does Trino handle data types from different data sources?
 * What is the difference between Trino and DB?
 
-### Wrapping Up the Day
-
-- **Discussion and Q&A (1 hour):**
-  - Engage in a discussion with mentors and peers to share insights and experiences related to Trino concepts, terminology, and architecture.
-  - Address questions and seek clarification on any challenging concepts.
-
-**Congratulations on completing Day 16! You've laid a solid foundation in Trino concepts, terminology, and architecture, which are essential for querying and analyzing distributed data sources effectively. Keep exploring and applying these concepts to excel in distributed query processing with Trino.**
-
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings with your mentor and peers. Discuss potential projects or use cases where you can apply Trino for distributed query processing and analytics. Consider how Trino can enhance your data analysis capabilities and streamline your data workflows.
+
+## Recommended Articles and Videos:
+- [Trino (PrestoSQL) Documentation](https://trino.io/docs/current/index.html) - Official documentation to explore Trino's features, architecture, and best practices.
+- [Trino: The Definitive Guide](https://www.oreilly.com/library/view/trino-the-definitive/9781098103893/) - A comprehensive guide to mastering Trino for distributed query processing and analytics.
+- [Trino: An Origin Story](https://www.youtube.com/watch?v=_VUQ-Jh-M68) - A video tutorial on Trino's capabilities and use cases for interactive querying at scale.

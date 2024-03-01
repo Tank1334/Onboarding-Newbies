@@ -26,9 +26,9 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 07](./chapter_02/day_07.md):** Embarking on the Docker Journey
 - **[Final Exercise 02](./chapter_02/final_exercise_02.md):** Clean Code Refactoring 
 - **[Final Exercise 03](./chapter_02/final_exercise_03.md):** Embracing DevOps: GitLab, Docker, and CI/CD Pipeline
-- **[Bonus - 60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w):** :fire:
+- **[Bonus - 60 Linux Commands you NEED to know (in 10 minutes)](https://www.youtube.com/watch?v=gd7BXuUQ91w)** :fire:
 
-## Chapter 03: DevOps in Openshift
+## Chapter 03: DevOps in Openshift - #INTERNAL
 - **[Day 08](https://883g.github.io/GO-TO-INTERNAL):** Openshift Fundamentals for Data Ops using "zero to hero" Openshift labs
 - **[Day 09](https://883g.github.io/GO-TO-INTERNAL):** Helm for Kubernetes Package Management using "Hero to Master" Openshift labs 
 - **[Day 10](https://883g.github.io/GO-TO-INTERNAL):**  Openshift "Best Practises"  Openshift labs
@@ -55,14 +55,15 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Day 17](./chapter_07/day_17.md):** Introduction to Iceberg concepts, terminology and architecture
 
 ## Chapter 08: Culture - Jira & Confluence - Agile and more
-- **[Day 18](./chapter_08/null.md):** Introduction to 883 Culture concepts, terminology and architecture.
+- **[Day 18](./chapter_08/day_18.md):** Introduction to 883 Culture concepts, terminology and architecture.
     
 ## Chapter 09: Real-world Project Simulation
 - **[BIG Final Exercise](./chapter_09/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
 - **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
-## chapter 10: Documentation and Knowledge Sharing
-- **[Final Exercise 07](https://883g.github.io/GO-TO-INTERNAL):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
+## Chapter 10: Documentation Knowledge Sharing and Open Source Contribution
+- **[Day 19](./chapter_10/day_19.md):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
+- **[Day 20](./chapter_10/day_20.md):** Open Source Contribution
 
 ## Contribution :raised_hands:
 If you have any suggestions or ideas to enhance the onboarding for future members, feel free to contribute. Fork, create a feature branch, commit changes, and create a pull request.

@@ -87,9 +87,7 @@
 **Reflection and Planning:**
 
 - Review the CI/CD pipeline's execution and ensure every stage completes successfully.
-- Plan any further enhancements or optimizations you might want to introduce to the pipeline.
-
-Congratulations on completing Day 08! You've successfully set up a complete CI/CD pipeline, paving the way for efficient, automated, and reliable development workflows.
+- Plan any further enhancements or optimizations you might want to introduce to the pipeline. 
 
 ## **Action Items:**
 - **CI/CD Pipeline Review:** Discuss the CI/CD pipeline with your mentor and seek feedback on the implementation.

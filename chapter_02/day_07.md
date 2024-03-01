@@ -67,7 +67,7 @@ Congratulations on completing Day 07! You've taken a significant step in masteri
 - Get recommendations on resources for further learning.
 - Reflect on how you can integrate Docker into your current or future projects.
 
-## Recommended Articles: 
+## Recommended Articles and Videos: 
 - [Docker Documentation](https://docs.docker.com/get-started/overview/) - Official documentation to explore Docker's features and functionalities.
 - [Docker Tutorials](https://www.docker.com/play-with-docker) - Interactive tutorials to learn Docker through hands-on exercises.
 - [Docker for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) - A beginner-friendly video tutorial to understand Docker concepts and practical applications.

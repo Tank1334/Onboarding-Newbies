@@ -1,4 +1,4 @@
-# Day 18 - Documentation for 883 Group Sample Project :page_with_curl:
+# Day 19 - Documentation for 883 Group Sample Project :page_with_curl:
 
 ## Overview
 **Goals:**
@@ -33,14 +33,6 @@
 ### 6. Compile Installation and Setup Instructions
 - Follow the prescribed format to compile installation and setup instructions for the sample project.
 - Provide step-by-step guidance for setting up the project environment, including dependencies and configurations.
-
-## Wrapping Up the Day
-
-- **Documentation Review (1 hour):**
-  - Review the drafted documentation with the mentor, seeking feedback and guidance for improvements.
-  - Revise and finalize the documentation based on the mentor's input and ensure alignment with organizational standards.
-
-**Congratulations on completing Day 18! You've successfully created comprehensive documentation for the 883 Group sample project using existing templates and guidelines from Jira. Your efforts contribute to maintaining consistency and alignment with organizational standards in project documentation. Keep up the excellent work!**
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's activities and the feedback received from the mentor. Discuss strategies for continuously improving documentation skills and ensuring adherence to organizational standards in future projects. Consider incorporating feedback into documentation templates for enhanced clarity and effectiveness.

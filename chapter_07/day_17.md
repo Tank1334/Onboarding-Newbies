@@ -66,13 +66,11 @@
    - Understand the benefits of integrating Iceberg with external metadata stores such as Apache Hive Metastore or Amazon S3.
    - Explore configuration options and best practices for setting up metadata store integration in Iceberg.
 
-### Wrapping Up the Day
-
-- **Discussion and Q&A (1 hour):**
-  - Engage in a discussion with mentors and peers to share insights and experiences related to Iceberg concepts, terminology, and architecture.
-  - Address questions and seek clarification on any challenging concepts.
-
-**Congratulations on completing Day Z! You've gained a solid understanding of Iceberg concepts, terminology, and architecture, which are essential for managing tables in data lakes efficiently. Keep exploring and applying these concepts to optimize your data lake management workflows with Iceberg.**
-
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings with your mentor and peers. Discuss potential projects or use cases where you can leverage Iceberg for efficient table management in data lakes. Consider how Iceberg can improve scalability, reliability, and performance in your data lake architecture.
+
+## Recommended Articles and Videos:
+- [Iceberg: Table Format for Large-scale Data Lakes](https://iceberg.apache.org/) - Official website for Apache Iceberg, featuring documentation, tutorials, and best practices.
+- [Introduction to Iceberg: A New Table Format for the Data Lake](https://databricks.com/blog/2020/07/22/introducing-iceberg-table-format-apache-iceberg.html) - A comprehensive blog post introducing Iceberg and its benefits for data lake management.
+- [Apache Iceberg - A Table Format for Huge Analytic Datasets](https://www.youtube.com/watch?v=mf8Hb0coI6o) - A video presentation on Apache Iceberg's features and architecture for managing large-scale analytic datasets in data lakes.
+- [AWS analytics Shortclip: Apache Iceberg on EMR (Hebrew)](https://www.youtube.com/watch?v=af8Okzx5NkM) - A short video clip demonstrating the use of Apache Iceberg on Amazon EMR for efficient table management in data lakes.

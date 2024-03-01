@@ -1,21 +1,15 @@
 # Day 04 - Introduction to Data concept & Hadoop Ecosystem :elephant::elephant:
 
 ## Overview:
-Today's session is dedicated to deepening your understanding of the Hadoop ecosystem, a powerful framework for distributed storage and processing of large datasets. You'll explore key components such as Hadoop Distributed File System (HDFS), MapReduce, YARN, Hive, ZooKeeper, HBase, and Kafka, gaining insights into their roles and applications in big data processing. The focus is on developing a high-level understanding of the Hadoop ecosystem and its role in big data processing.
+Today's session is dedicated to deepening your understanding of the Hadoop ecosystem, a powerful framework for distributed storage and processing of large datasets. You'll explore key components such as HBase, Kafka, Impala, Oozie, Kervberos, and partitioning strategies, gaining insights into their roles and applications in big data processing. The focus is on developing a high-level understanding of the Hadoop ecosystem and its role in big data processing.
 
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
 - Explore key components and their roles in big data processing.
 - Make connections between the Hadoop ecosystem and real-world use cases.
 - Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing.
-- Familirize yourself with the Hadoop ecosystem and its role in big data processing.
 - Continue to work with time estimation and planning.
 
-:warning: **Note:**
-- This is a self-study day, it is important to be able to work independently and manage your time.
-- A lot of newbies have a problem with self-study and time management, so breath and take your time to plan your day carefully.
-- Be aware of the importance of time management. Plan your time 
-and tasks, and try to stick to your plan. If you are not able to finish the tasks in the time you have planned, you should discuss it with your mentor, maybe you learn more then you should.
 
 ## 7. Apache HBase
 - [Apache HBase](https://hbase.apache.org/)
@@ -387,3 +381,4 @@ Talk with your mentor about the concepts you have learned today and how they are
 - [Oozie Workflow Scheduler Documentation](https://oozie.apache.org/docs/5.1.0/)
 - [Taming Kerberos - Computerphile](https://www.youtube.com/watch?v=qW361k3-BtU) - Kerberos is an authentication method - Dr Mike Pound explains how it works so neatly.
 - [Resource management at scale for SQL analytics - Apache Impala and Amazon S3](https://www.youtube.com/watch?v=G9ngVpKIqLw) - This video provides insights into resource management at scale for SQL analytics using Apache Impala and Amazon S3.
+- [Oozie Share Lib Installation Guide](https://oozie.apache.org/docs/5.0.0-beta1/AG_Install.html#Oozie_Share_Lib) - Detailed documentation on installing and understanding Oozie's Share Lib.

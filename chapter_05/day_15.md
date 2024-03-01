@@ -31,3 +31,9 @@
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings and experiences with your mentor and peers. Discuss how you can leverage the Airflow web UI in your workflow management processes. Consider incorporating these tools into your workflow management practices to enhance efficiency and productivity.
+
+## Recommended Articles and Videos:
+- [Airflow Web UI Overview](https://www.youtube.com/watch?v=GrEskQFqQE0) - A comprehensive video tutorial on navigating the Airflow web UI and managing workflows effectively.
+- [Airflow Web UI Documentation](https://airflow.apache.org/docs/apache-airflow/stable/ui.html) - Official documentation to explore the features and functionalities of the Airflow web UI.
+- [Airflow Web UI Best Practices](https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html) - A guide to best practices for using the Airflow web UI for efficient workflow management.
+- [Airflow - Improve DAG authoring skills: Tips & Tricks - Elad Kalif (Hebrew)](https://www.youtube.com/watch?v=KInfwVySobA) - you will learn about the features and the must-know practices, plus the common pitfalls of working with Apache-Airflow.

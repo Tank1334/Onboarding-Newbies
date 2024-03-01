@@ -8,6 +8,7 @@ Today's session is all about mastering the fundamental principles of Object-Orie
 - Grasp fundamental design principles and the concept of Object-Oriented Programming (OOP).
 - Explore how these concepts shape robust, maintainable, and scalable software designs.
 - Learn how to use test-driven development (TDD) to write clean, testable, and efficient code.
+- Learn pyTest for Python, mocking, and how to write testable code.
 
 **⚠️ Note:**
 
@@ -56,7 +57,9 @@ Today's session is all about mastering the fundamental principles of Object-Orie
 - Identify areas for deeper exploration.
 - Get recommendations on resources for further learning.
 
-## Recommended Articles:
+## Recommended Articles and Videos:
 - [SOLID Principles: The Definitive Guide](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design) - A comprehensive guide to understanding the SOLID principles and their application in software design.
 - [Design Patterns: Elements of Reusable Object-Oriented Software](https://refactoring.guru/design-patterns/book) - A classic book on design patterns that provides in-depth insights into the principles and practical applications of design patterns.
-- [Test-Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) - A book by Kent Beck that offers a comprehensive understanding of TDD and its significance in software development.
+- [Test-Driven Development in Python: Test First Code Later](https://www.youtube.com/watch?v=Y6Q3ZWXIvms) - A video tutorial that provides a practical guide to test-driven development, covering the core concepts and best practices for writing testable code.
+- [Pytest Tutorial – How to Test Python Code](https://www.youtube.com/watch?v=cHYq1MRoyI0) - A comprehensive tutorial on PyTest for Python, covering the basics and advanced features of the testing framework.
+- [10 Design Patterns Explained in 10 Minutes](https://www.youtube.com/watch?v=tv-_1er1mWI) - A video tutorial that provides a comprehensive overview of design patterns in Python, offering practical examples and use cases.

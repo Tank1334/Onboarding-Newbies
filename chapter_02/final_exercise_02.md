@@ -280,12 +280,12 @@ if __name__ == "__main__":
 
 ## Wrapping Up
 
-After completing these exercises, you should have a better understanding of how to apply clean code principles to improve the readability, maintainability, and efficiency of code. Remember, clean code is not just about making code work; it's about making code work well for humans and machines alike.
-Be aware that if your mentor not understand the code, tomorrow in production code, you will have the same problem with another team member, so pay attention to the feedback and make the necessary changes.
+- After completing these exercises, you should have a better understanding of how to apply clean code principles to improve the readability, maintainability, and efficiency of code. Remember, clean code is not just about making code work; it's about making code work well for humans and machines alike.
+- Be aware that if your mentor not understand the code, tomorrow in production code, you will have the same problem with another team member, so pay attention to the feedback and make the necessary changes.
 
 ## Action Items :pencil:
 
-- **The Importence of Clean Code:** Discuss your mentor about the neccearyy of Clean Code and why it is so important.
+- **The Importence of Clean Code:** Discuss your mentor about the necceary of Clean Code and why it is so important.
 - **Refactor for Readability:** Ensure your code is easily understandable at a glance. Use meaningful variable and function names, and break down complex functions into smaller, more manageable pieces.
 - **Optimize for Maintainability:** Write code that is easy to modify and extend. This often means adhering to SOLID principles and avoiding unnecessary dependencies between components.
 - **Improve Efficiency:** Where applicable, optimize your code for performance. However, do not compromise readability for the sake of marginal performance gains.

@@ -10,6 +10,9 @@ Today, you'll dive into advanced topics in Apache Spark to enhance your understa
 :warning: **Note:**
 - Advanced topics in Spark will help you optimize your Spark applications and gain a deeper insight into its inner workings.
 - These topics are essential for building high-performance Spark applications.
+- This chapter will cover the essential concepts of the Spark and you will have a Q&A session with your mentor to discuss what you have learned.
+- To gain a deeper understanding of the concepts and how they are applied in real-world scenarios we'll provide you with key concepts and a brief explanation for each core concept. Your task is to delve deeper into each concept by researching them. 
+- Utilize Google, YouTube, or any other reliable source to gather comprehensive information that helps you grasp each concept thoroughly. This preparation will equip you for a productive question-and-answer session with your mentor, where you'll be expected to discuss what you've learned.
 
 ## 3. Programming with RDDs
 Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
@@ -93,16 +96,10 @@ Discuss with your mentor about the day's learnings and explore potential project
 - [Part 3: Cost Efficient Executor Configuration for Apache Spark](https://link.medium.com/KFlwhEH0Pub) - A guide to cost-efficient executor configuration for Apache Spark applications.
 - [Spark OOM Error — Closeup](https://link.medium.com/LLX1pap0Pub) - A detailed explanation of Spark's Out of Memory (OOM) error and strategies to address it.
 - [3 Reasons Why Spark’s Lazy Evaluation is Useful](https://link.medium.com/faI3jfc0Pub) - An exploration of the benefits of Spark's lazy evaluation mechanism.
-- [Apache Hadoop YARN Concepts and Applications](https://blog.cloudera.com/apache-hadoop-yarn-concepts-and-applications/) - Cloudera's comprehensive guide on the concepts and applications of Apache Hadoop YARN.
-- [Oozie Share Lib Installation Guide](https://oozie.apache.org/docs/5.0.0-beta1/AG_Install.html#Oozie_Share_Lib) - Detailed documentation on installing and understanding Oozie's Share Lib.
-- [YARN Capacity Scheduler and Node Labels Part 1](https://www.davidmcginnis.net/post/yarn-capacity-scheduler-and-node-labels-part-1) - First part of a detailed discussion on the options available in YARN's capacity scheduler.
-- [YARN Capacity Scheduler Overview](https://blog.cloudera.com/yarn-capacity-scheduler/) - An overview of YARN's capacity scheduler provided by Cloudera.
-- [Untangling Apache Hadoop YARN Part 1: Cluster and YARN Basics](https://blog.cloudera.com/untangling-apache-hadoop-yarn-part-1-cluster-and-yarn-basics/) - The first part in a series aimed at explaining the basics of clusters and YARN.
-- [Hadoop Tutorial YouTube Playlist](https://youtube.com/playlist?list=PLkz1SCf5iB4dw3jbRo0SYCk2urRESUA3v) - A playlist featuring tutorials on Hadoop, covering a variety of topics.
-- [Introduction to the Hadoop Ecosystem](https://www.analyticsvidhya.com/blog/2020/10/introduction-hadoop-ecosystem/) - An introductory article on the components and functionalities of the Hadoop ecosystem.
-- [Understanding the Hadoop Ecosystem](https://www.databricks.com/glossary/hadoop-ecosystem) - A glossary entry by Databricks offering insights into the Hadoop ecosystem.
-- [What is Hadoop? Simplilearn Tutorial](https://www.simplilearn.com/tutorials/hadoop-tutorial/what-is-hadoop) - A tutorial providing a foundational understanding of Hadoop.
-- [Hadoop Ecosystem Components Explained](https://data-flair.training/blogs/hadoop-ecosystem-components/) - An article detailing the components that make up the Hadoop ecosystem.
-- [Comprehensive Guide to the Hadoop Ecosystem](https://www.edureka.co/blog/hadoop-ecosystem/amp/#amp_tf=From%20%251%24s&aoh=16655728574406&referrer=https%3A%2F%2Fwww.google.com) - Edureka's in-depth guide on the Hadoop ecosystem, its components, and functionalities.
 
 **Congratulations on completing Day 11! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
+
+- [x] Red
+- [ ] Green
+- [x] Blue
+- [ ] Yellow
