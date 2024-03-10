@@ -61,6 +61,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 ## Chapter 09: Documentation Knowledge Sharing and Open Source Contribution
 - **[Day 18](./chapter_09/day_18.md):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
 - **[Day 19](./chapter_09/day_19.md):** Open Source Contribution 
+## Chapter 10: Onboarding Process Analysis & Improvement
 - **[Day 20](./chapter_10/day_20.md):** Review the onboarding process and suggest improvements.
 
 ## Contribution :raised_hands:
