@@ -14,25 +14,41 @@ Today is all about getting comfortable and understanding the big picture. You'll
 - This is the first step in your journey with the 883 Group, and it's all about getting comfortable and understanding the big picture.
 - Feel free to ask questions and interact with your colleagues to start building your network within the team.
 - Remember, everyone in the group was once in your shoes, and they're here to support you!
+- To do the full onboarding process, you need to have a privete computer. (If you don't have one, please ask your mentor to provide you one or find a solution for you).
 
 ## 1. Introduction to the 883 Group -  Understanding the Onboarding Process (With Your Mentor)
 
-- **Onboarding Overview:**
+### **Onboarding Overview:**
   - Overview of the onboarding schedule, expectations, and the journey ahead.
   - Introduction to the tools and resources you'll be using.
-- **Welcome Interview:** 
+### **Welcome Interview:** 
   - Ask your mentor about SHALISHOT welcome
    interview that your commander need to do for you.
 
-- **The 883 Group's Vision and Mission:**
+### **The 883 Group's Vision and Mission:**
   - Presentation about the 883 Group's strategic objectives and core values.
   - Understand how your role aligns with the group's mission and how your work contributes to our collective goals.
   - Understand the group stracture, flat hiraechy, and the team and project work.
 
-- **Learn yourself and your learning style:**
+### **Unit Setup**:
+- Ask your mentor to guide you - how to insert your fingerprint to the system, so you can create an internal account.
+- After you insert your fingerprint, Ask your mentor to open for you a profile in "One Identitiy" so that you can belong organizationally to the 883 group
+- After that you will get an user and password to the and ask your mentor to join you to 883 mail and whastapp group.
+- Talk with your mentor about TORANOYUT" (תורניות) and insert your אי זמינויות to the "BUSY" platform.
+- Ask your mentor about the following platforms:
+  - [ ] BUSY
+  - [ ] BISON
+  - [ ] Share folders
+  - [ ] MI
+  - [ ] GO
+
+### **Learn yourself and your learning style:**
   - Take a moment to understand what is the best way for you to learn, which type of learner you are, and how you can improve your learning process. [Do this](https://www.verywellmind.com/what-is-your-learning-style-2795153) to understand more about learning styles.
   - Discuss with your mentor about your learning style and how you can improve it.
   - Discuss with your mentor about your sleep cycle and how it can affect your learning process.
+
+### **RAMAD meeting:**
+  - Ask your mentor about the RAMAD meeting and ask him to schedule a meeting with the RAMAD.
 
 ## Wrapping Up:
 - Take a moment to reflect on your first day: Note down key takeaways and any questions or uncertainties you have.

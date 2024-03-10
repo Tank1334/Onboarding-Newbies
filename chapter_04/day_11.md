@@ -98,8 +98,3 @@ Discuss with your mentor about the day's learnings and explore potential project
 - [3 Reasons Why Spark’s Lazy Evaluation is Useful](https://link.medium.com/faI3jfc0Pub) - An exploration of the benefits of Spark's lazy evaluation mechanism.
 
 **Congratulations on completing Day 11! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
-
-- [x] Red
-- [ ] Green
-- [x] Blue
-- [ ] Yellow
