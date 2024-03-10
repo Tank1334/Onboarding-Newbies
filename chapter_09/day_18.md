@@ -1,4 +1,4 @@
-# Day 19 - Documentation for 883 Group Sample Project :page_with_curl:
+# Day 18 - Documentation for 883 Group Sample Project :page_with_curl:
 
 ## Overview
 **Goals:**

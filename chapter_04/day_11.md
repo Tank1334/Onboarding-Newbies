@@ -13,6 +13,8 @@ Today, you'll dive into advanced topics in Apache Spark to enhance your understa
 - This chapter will cover the essential concepts of the Spark and you will have a Q&A session with your mentor to discuss what you have learned.
 - To gain a deeper understanding of the concepts and how they are applied in real-world scenarios we'll provide you with key concepts and a brief explanation for each core concept. Your task is to delve deeper into each concept by researching them. 
 - Utilize Google, YouTube, or any other reliable source to gather comprehensive information that helps you grasp each concept thoroughly. This preparation will equip you for a productive question-and-answer session with your mentor, where you'll be expected to discuss what you've learned.
+- **Before you start**  take a look to the [Final Exercise](final_exercise_04.md) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
+- If you have any questions and have conflicts if you need to learn some concept or not, you should discuss it with your mentor.
 
 ## 3. Programming with RDDs
 Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)

@@ -51,19 +51,17 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 ## Chapter 06: Trino core concepts
 - **[Day 16](./chapter_06/day_16.md):** Introduction to Trino concepts, terminology and architecture
 
-## Chapter 07: Iceberg core concepts
-- **[Day 17](./chapter_07/day_17.md):** Introduction to Iceberg concepts, terminology and architecture
-
-## Chapter 08: Culture - Jira & Confluence - Agile and more
-- **[Day 18](./chapter_08/day_18.md):** Introduction to 883 Culture concepts, terminology and architecture.
+## Chapter 07: Culture - Jira & Confluence - Agile and more
+- **[Day 17](./chapter_07/day_17.md):** Introduction to 883 Culture concepts, terminology and architecture.
     
-## Chapter 09: Real-world Project Simulation
-- **[BIG Final Exercise](./chapter_09/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
+## Chapter 08: Real-world Project Simulation
+- **[BIG Final Exercise](./chapter_08/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
 - **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
-## Chapter 10: Documentation Knowledge Sharing and Open Source Contribution
-- **[Day 19](./chapter_10/day_19.md):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
-- **[Day 20](./chapter_10/day_20.md):** Open Source Contribution
+## Chapter 09: Documentation Knowledge Sharing and Open Source Contribution
+- **[Day 18](./chapter_09/day_18.md):** Create documentation for a sample project from the 883 Group and present it to the team.(ask your mentor for the link to the project)
+- **[Day 19](./chapter_09/day_19.md):** Open Source Contribution 
+- **[Day 20](./chapter_10/day_20.md):** Review the onboarding process and suggest improvements.
 
 ## Contribution :raised_hands:
 If you have any suggestions or ideas to enhance the onboarding for future members, feel free to contribute. Fork, create a feature branch, commit changes, and create a pull request.

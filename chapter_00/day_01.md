@@ -8,6 +8,9 @@
 ## Overview:
 Today's session is all about laying the foundation for your journey into the world of data operations. You'll explore the core concepts that underpin the modern data landscape, gaining insights into the intricacies of data management, processing, and analysis. The focus is on understanding the significance of data in driving business decisions and the pivotal role it plays in shaping the strategic direction of the organization.
 
+:warning: **Note:**
+- This is the first day of your journey into the world of data operations. Don't waste your time to go deep into the concepts, just try to understand the big picture and the main concepts.
+
 ## 1. Understanding the Data Landscape
 
 Explore the following concepts by conducting web research to find real-world examples for each. Engage in a discussion with your mentor to deepen your understanding and clarify any questions you may have, maintaining a high-level perspective.

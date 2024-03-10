@@ -10,6 +10,8 @@ Today's session is dedicated to deepening your understanding of the Hadoop ecosy
 - Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing.
 - Continue to work with time estimation and planning.
 
+:warning: **Note:**
+- **Before you start**  take a look to the [Final Exercise](final_exercise_01.md) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
 
 ## 7. Apache HBase
 - [Apache HBase](https://hbase.apache.org/)

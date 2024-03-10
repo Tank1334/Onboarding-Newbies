@@ -1,4 +1,4 @@
-# Final Exercise 06 - Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
+# BONUS Exercise - Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
 
 ## Overview
 **Goals:**

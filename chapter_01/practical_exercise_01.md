@@ -7,6 +7,9 @@
 - Explore the Cloudera Manager and the Hadoop ecosystem in action.
 - Explore our Dashboard for monitoring and managing the Hadoop ecosystem.
 
+:warning: **Note:**
+- Pay attention to run your commands in the TEST environment, so you don't affect the PROD environment.
+
 ## Tasks:
 ### Cloudera Manager - For each service, answer the following questions:
 - How to access to the service in test prod and dev?
