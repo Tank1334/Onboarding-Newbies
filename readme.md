@@ -54,7 +54,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 ## Chapter 07: Culture - Jira & Confluence - Agile and more
 - **[Day 17](./chapter_07/day_17.md):** Introduction to 883 Culture concepts, terminology and architecture.
     
-## Chapter 08: Real-world Project Simulation #INTERNAL
+## Chapter 08: Real-world Project Simulation - #INTERNAL
 - **[BIG Final Exercise](./chapter_08/big_final_exercise.md):** Senior Data Infra Engineer Onboarding Final Exercise :rocket:
 - **[Showcase](https://883g.github.io/GO-TO-INTERNAL):** Prepare a presentation to the group to showcase the story, architecture, insights gained, and troubleshooting strategies of your final exercise solution in just two sentences.
 
