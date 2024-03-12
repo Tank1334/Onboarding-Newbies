@@ -31,7 +31,7 @@ Apache Hadoop is a robust framework designed for the distributed storage and pro
 
 ### **What are the different vendor-specific distributions of Hadoop?**
    - Hadoop has gained popularity in various industries, leading to the development of different vendor-specific distributions. Some notable distributions include:
-     - **Cloudera**: Cloudera offers Cloudera Distribution Platform (CDP), a comprehensive distribution that includes various Hadoop ecosystem components along with management and monitoring tools.
+     - **Cloudera**: Cloudera offers Cloudera Data Platform (CDP), a comprehensive distribution that includes various Hadoop ecosystem components along with management and monitoring tools.
      - **Amazon EMR**: Amazon Elastic MapReduce (EMR) is a cloud-native Hadoop distribution provided by Amazon Web Services (AWS), offering easy scalability and integration with other AWS services.
      - **Microsoft Azure**: Microsoft provides Azure HDInsight, a Hadoop distribution on the Azure cloud platform, with support for various big data and machine learning frameworks.
 
@@ -86,7 +86,6 @@ Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop 
 
   #### 10. NameService
   - The NameService in HDFS is a logical grouping of NameNodes in a federated setup. It facilitates the use of multiple NameNodes in the cluster, each managing a distinct namespace volume.
-  - NameServices allow for horizontal scalability of the namespace, as additional NameNodes can be added to handle more files and directories.
   - Each NameService is configured with one or more NameNodes for redundancy and high availability, ensuring the file system's resilience and reliability.
 
 #### 11. Block Report
@@ -263,12 +262,12 @@ These examples demonstrate how Apache Hadoop YARN plays a pivotal role in divers
 #### 11. **Hive Transactions:**
 - Hive supports ACID (Atomicity, Consistency, Isolation, Durability) transactions for data manipulation operations.
 - Ensures data integrity and consistency in Hive tables.
-#### 12. **External Tables:**
+#### 12.**Managed Tables:** 
+- Managed tables in Hive are managed by the Hive Metastore, and the data is stored in the Hive warehouse directory.
+- Managed tables are tightly coupled with Hive, and the data is deleted when the table is dropped.
+#### 13. **External Tables:**
 - Hive supports the creation of external tables, which reference data stored outside the Hive warehouse directory.
 - External tables allow Hive to interact with data in its original location without moving or copying it.
-#### 13.**Internal Tables:** 
-- Internal tables in Hive are managed by the Hive Metastore, and the data is stored in the Hive warehouse directory.
-- Internal tables are tightly coupled with Hive, and the data is deleted when the table is dropped.
 #### 14. **Materialized Views:**
 - Materialized views in Hive store the results of precomputed queries, allowing for faster query execution.
 - Materialized views are particularly useful for aggregations and complex queries on large datasets.

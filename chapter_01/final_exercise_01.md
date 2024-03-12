@@ -29,9 +29,9 @@
 
 6.  What is HDFS? Explain its architecture.
 7.  What is the role of the NameNode in HDFS?
-8.  What is a DataNode in HDFS?
+8.  What is the optimal HDFS files size? how does having multiple small files hurt the HDFS?
 9.  How does HDFS achieve fault tolerance?
-10.  Can you explain rack awareness in HDFS?
+10.  Explain rack awareness in HDFS, and name it's advantages.
 
 ### Chapter 3: MapReduce Programming Model
 
@@ -55,7 +55,7 @@
 22.  What is the Hive Metastore?
 23.  What is HiveQL?
 24.  What are partitions in Hive?
-25.  Can you define SerDe in the context of Hive?
+25.  What is a SerDe in the context of Hive?
 
 ### Chapter 6: Apache ZooKeeper
 
@@ -68,8 +68,8 @@
 ### Chapter 7: Apache HBase
 
 31.  What is Apache HBase? Explain its architecture.
-32.  What is a Row Key in HBase?
-33.  What is a Column Family in HBase?
+32.  What is a Column Family in HBase?
+33.  How does HBase achieve it's unique efficiency on big datasets?
 34.  How does HBase ensure data availability and fault tolerance?
 35.  What is the role of ZooKeeper in an HBase environment?
 

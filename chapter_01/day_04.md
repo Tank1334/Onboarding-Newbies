@@ -1,7 +1,7 @@
 # Day 04 - Introduction to Data concept & Hadoop Ecosystem :elephant::elephant:
 
 ## Overview:
-Today's session is dedicated to deepening your understanding of the Hadoop ecosystem, a powerful framework for distributed storage and processing of large datasets. You'll explore key components such as HBase, Kafka, Impala, Oozie, Kervberos, and partitioning strategies, gaining insights into their roles and applications in big data processing. The focus is on developing a high-level understanding of the Hadoop ecosystem and its role in big data processing.
+Today's session is dedicated to deepening your understanding of the Hadoop ecosystem, a powerful framework for distributed storage and processing of large datasets. You'll explore key components such as HBase, Kafka, Impala, Oozie, Kerberos, and partitioning strategies, gaining insights into their roles and applications in big data processing. The focus is on developing a high-level understanding of the Hadoop ecosystem and its role in big data processing.
 
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
@@ -19,18 +19,16 @@ Today's session is dedicated to deepening your understanding of the Hadoop ecosy
 
 #### 1. **Table:**
 - Fundamental data storage unit in HBase, similar to a table in a relational database.
-- Tables are distributed across the cluster and consist of rows and columns.
 
 #### 2. **Row Key:**
 - Unique identifier for each row in an HBase table.
-- Determines the physical storage location of the data in the distributed environment.
 
 #### 3. **Column Family:**
 - Groups of related columns stored together for efficient retrieval.
 - Defined at the table level and must be declared upfront.
 
 #### 4. **Column Qualifier:**
-- Part of a column that further qualifies the data within a column family.
+- Part of a column family that further qualifies the data within it.
 - Combined with the column family and row key, it forms a unique cell in the table.
 
 #### 5. **Cell:**
@@ -40,10 +38,12 @@ Today's session is dedicated to deepening your understanding of the Hadoop ecosy
 #### 6. **HFile:**
 - The underlying storage format for HBase tables.
 - Represents the sorted and indexed form of the data on disk.
+- Stored in HDFS.
 
 #### 7. **Region:**
 - A contiguous range of rows stored together in an HBase table.
 - Tables are horizontally partitioned into regions to enable parallel processing.
+- The tables are partitioned by lexicography sorting and spliting the table's row keys.
 
 #### 8. **Region Server:**
 - Hosts one or more regions and manages read and write requests for those regions.
@@ -53,9 +53,15 @@ Today's session is dedicated to deepening your understanding of the Hadoop ecosy
 - Coordinates and manages distributed components in HBase.
 - Helps in leader election, synchronization, and distributed configuration.
 
-#### 10. **Coprocessors:**
-- Custom user code that can be executed on HBase servers.
-- Provides the ability to perform operations close to the data.
+#### 10. **Block Cache:**
+- A caching mechanism through which HBase is able to serve random reads with millisecond latency.
+- When an HBase data block is read from HDFS, it is cached in the BlockCache.
+- A single insatnce is maintained per region server.
+
+#### 10. **Memstore:**
+- A buffer that stores data written, in the form of key,value, in memory.
+- A single instance is maintained per column family.
+- When the MemStore fills up, its contents flush to disk to form an HFile. It forms a new HFile on every flush, rather than writing to an existing HFile.
 
 #### 11. **Mob (Medium Object):**
 - A storage feature in HBase for optimizing the storage of large cells (typically larger than 100KB).
@@ -88,8 +94,7 @@ Certainly! Here are the three key reasons in Markdown format:
   - Predicting customer churn by analyzing user behavior and subscription patterns to proactively address potential cancellations.
 
 - **Real Example:**
-  - Netflix utilizes Apache Spark MLlib for machine learning tasks, including customer churn prediction. By analyzing viewing habits, engagement metrics, and other relevant data, Netflix can identify users at risk of churning and take personalized actions to retain subscribers.
-
+   - Facebook has used HBase to store real-time messages.
 
 ## 8. Apache Kafka
 - [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
@@ -156,6 +161,7 @@ Certainly! Here are the three key reasons in Markdown format:
 7. **Catalog Service:**
    - Manages metadata about tables, schemas, and other database objects.
    - Helps optimize query planning and execution by storing essential metadata.
+   - Draws it's the data from Hive's metastore.
 8. **Query Coordinator:**
    - Coordinates query execution and optimization across the Impala cluster.
    - Decides how to distribute queries to Impala daemons for maximum efficiency.
