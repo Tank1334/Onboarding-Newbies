@@ -41,7 +41,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Final Exercise 05](./chapter_04/final_exercise_05.md):** Spark RDD Exercises with Joker and Batman
 - **[SKILA](https://www.youtube.com/watch?v=dQw4w9WgXcQ):** :dancer:
 - **[Showcase](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
-- **[Final Exercise 06](./chapter_04/final_exercise_06.md):** Advanced Spark Topics With Miluim and WAAS - Spark Optimization and Performance Tuning :fire:
+
 
 ## chapter 05: Mastering Apache Airflow for Workflow Orchestration
 
