@@ -20,7 +20,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Final Exercise 01](./chapter_01/final_exercise_01.md):** Introduction to Data Ops Team and Hadoop Ecosystem concepts Q&A :question:
 - **[Practical Exercise 01](./chapter_01/practical_exercise_01.md):** Meet the Hadoop Ecosystem in Action 
 :computer:
-- **[Bonus - Showcase](./chapter_01/showcase/showcase_01.md):** Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing. :mag_right:
+- **[Showcase 01](./chapter_01/showcase/showcase_01.md):** Develop a high-level understanding of the Hadoop ecosystem and its role in big data processing. :mag_right:
 
 ## Chapter 02: Basic Docker & Testing & CI-CD
 - **[Day 05](./chapter_02/day_05.md):** Mastering OOP and Design Principles with Test-Driven Development (TDD)
@@ -42,7 +42,7 @@ Each day will have a set of tasks, goals, and resources to guide you through the
 - **[Final Exercise 04](./chapter_04/final_exercise_04.md):** Spark Q&A and Discussion
 - **[Final Exercise 05](./chapter_04/final_exercise_05.md):** Spark RDD Exercises with Joker and Batman
 - **[SKILA](https://www.youtube.com/watch?v=dQw4w9WgXcQ):** :dancer:
-- **[Showcase](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
+- **[Showcase 02](./chapter_04/showcase/showcase_02.md):** In-Depth Exploration of Spark Component(s)
 
 
 ## chapter 05: Mastering Apache Airflow for Workflow Orchestration
