@@ -8,28 +8,36 @@
 - Explore our Dashboard for monitoring and managing the Hadoop ecosystem.
 
 :warning: **Note:**
-- Pay attention to run your commands in the TEST environment, so you don't affect the PROD environment.
+- Pay attention to run your commands in the DEV environment, so you don't affect the TEST and PROD environments.
 
 ## Tasks:
-### Cloudera Manager - For each service, answer the following questions:
-- How to access to the service in test prod and dev?
-- How to see the diffrent Environments managed by The Cloudera Manager.
-- How to see Audit Events.    
-- How to change and search configuration.
-- How to see the servers and the services.
-- How to see the charts and the monitoring.
-- How to see the alerts and the events.
-- How to see the reports and the diagnostics.
-- How at is cloudera agent and how to manage it? 
-- How to access the API and the documentation.
-- SSH to the Resource Manager and the NameNode and check the logs.
-- SSH to the DataNode and check the logs.
-- SSH to the NodeManager and check the logs.
-- SSH to the HiveServer2 and check the logs.
-- SSH to the Hive Metastore and check the logs.
-- SSH to the proxy and query the Hive with hive cli.
-- SSH to the proxy and query the Hive with beeline.
-- SSH to the proxy and query the HDFS with hdfs dfs.
+
+Make sure to include photos for each step!
+
+#### Getting to know the Cloudera Manager
+1. Enter the Cluoudera Manager of the dev environmet.
+2. Navigate to the HDFS service.
+3. Navigate to the active NameNode.
+4. What is the namenodes transaction count?
+5. Using the CM, find out how much memory does the Namenode server has & and how much is utilized out of it.
+6. Enter the charts library of the active namenode, explain about 3 different charts and how they me be of use to us.
+7. Now, we would like to look at some logs.
+8. Use the CM to read the logs of the namenode in the lates 30 mins.
+9. Enter the configuration tab of the namenode.
+10. Find the configuration that specifies where the namenode's logs are stored.
+11. Now SSH to the namenode's server, and look at the directory you have found in step 10, and check the out.
+12. Now repeat steps 5-11 just for the hive meatstore server role (match the steps for the role yourself).
+13. on the hive metastore server check the status of the cloudera-scm-agent service. What is the cloudera-scm-agent?
+
+#### Interacting with the services
+1. Create a csv file of your choice using excel, make sure it resmebles a table by having headers for each column, and a few data rows.
+2. SSH to a server where the HDFS CLI can be used on it.
+3. Upload the csv file to your home directory (create a specialized directory for this excercise called 'my_table_exercise') in HDFS using the HDFS CLI.
+4. Now try to see if the file is there, if it is read it using the HDFS CLI.
+5. Navigate to the HUE interface.
+6. Create a hive table on your uploaded CSV file.
+7. Query the table.
+8. Query the same table using Impala, What did you have to do in order to make it queriable in Impala?
 
 ### 883 Group Dashboards - For each service, answer the following questions:
 - What is the go address for each dashboard?
@@ -44,4 +52,4 @@
 
 ## Questions:
 - YOU HAVE TO ASK YOUR MENTOR EACH TIME YOU HAVE A QUESTION! :stop_sign:
-- **THIS IS THE IMPORTENET CHEPTER OF THE HADOOP ECOSYSTEM**, SO TAKE YOUR TIME TO UNDERSTAND IT WELL! :key:
+- **THIS IS THE IMPORTANT CHEPTER OF THE HADOOP ECOSYSTEM**, SO TAKE YOUR TIME TO UNDERSTAND IT WELL! :key:
