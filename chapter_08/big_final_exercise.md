@@ -79,3 +79,5 @@ Your scenario should be documented in a PowerPoint presentation that includes th
 - How does the choice of using either S3 or HDFS for storing raw data files impact the scalability and accessibility of your data infrastructure?
 
 These questions will be part of the evaluation process.
+## Recommended Resources:
+- [What is REST](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
