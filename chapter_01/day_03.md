@@ -97,8 +97,6 @@ Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop 
   - RPC ensures a standardized method of communication across the distributed components of HDFS, providing a seamless operational experience and ensuring the efficiency and reliability of the file system's operations.
   
 
-#### 10. HDFS Deep Dive
-- [HDFS Deep Dive](./deep_dive/HDFS.md)
 ### Real-World Examples:
 
 #### 1. **Big Data Analytics in Financial Services:**
