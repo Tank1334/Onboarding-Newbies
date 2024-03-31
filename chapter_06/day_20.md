@@ -1,4 +1,4 @@
-# Day 16 - Introduction to Trino Concepts, Terminology, and Architecture :bar_chart:
+# Day 20 - Introduction to Trino Concepts, Terminology, and Architecture :bar_chart:
 
 ## Overview
 **Goals:**

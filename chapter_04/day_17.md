@@ -1,4 +1,4 @@
-# Day 13 - Exploring Spark SQL :bar_chart:
+# Day 17 - Exploring Spark SQL :bar_chart:
 
 ## Overview:
 Today, you'll dive into the world of Spark SQL, a powerful module for working with structured data in Apache Spark. You'll explore the capabilities of Spark SQL, including querying structured data, integrating SQL with your Spark applications, and leveraging the power of DataFrames and Datasets for structured data processing.

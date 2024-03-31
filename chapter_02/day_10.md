@@ -1,5 +1,5 @@
 
-# Day 06 - Writing Clean Code :pencil2:
+# Day 10 - Writing Clean Code :pencil2:
 
 ## Overview:
 Today's focus is on mastering the art of writing clean, maintainable, and efficient code. We'll explore the best practices that not only make your code work but also ensure it's understandable, maintainable, and elegant. By diving into the seminal book "Clean Code" by Robert C. Martin, we aim to grasp the essence of crafting high-quality code that stands the test of time.
