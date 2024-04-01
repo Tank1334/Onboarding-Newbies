@@ -10,15 +10,15 @@
 - This combined schedule accommodates both junior and senior participants, offering a comprehensive learning experience covering basic and advanced Airflow topics.
 
 ### Read the following chapters from the [Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
-#### Chapter 1: Introduction to Apache Airflow
+### Chapter 1: Introduction to Apache Airflow
 
 - **Topics Covered:**
   - **What is Apache Airflow?**
     - Introduction to workflow management systems and Airflow's role.
   - **Key Concepts and Terminology**
-    - Definitions of terms like DAGs, Operators, Executors, and Schedulers.
+    - Definitions of terms like DAGs, Operators, Tasks, DAGRun, TaskInstance, Hook.
   - **Core Components**
-    - Detailed explanation of components like Scheduler, Web Interface, Metadata Database, and Executors.
+    - Detailed explanation of components like Scheduler, Web Interface, Metadata Database, Dag Processor, Triggerer and Executors.
   - **Architecture Overview**
     - High-level overview of Airflow's distributed architecture.
   - **DAGs (Directed Acyclic Graphs)**
@@ -32,7 +32,7 @@
   - **Web Interface**
     - Overview of the Airflow web interface for monitoring and managing workflows.
 
-##### Core Concepts
+### Chapter 2: Core Concepts
 
 ###### 1. **Directed Acyclic Graphs (DAGs):**
    - Understand the concept of DAGs in Airflow and their role in defining workflows.
@@ -42,22 +42,30 @@
    - Explore different types of operators available in Airflow for performing tasks within DAGs.
    - Gain familiarity with commonly used operators such as BashOperator, PythonOperator, and more.
 
+###### 2. **Core Features:**
+   - Read about Variables, exaplain the puprose of using them.
+   - Read about Connections, give example of a connection we are using.
+   - Read about Pools and explain the puprose of them.
 ### Read the following chapters from the [Apache Airflow Documentation](https://airflow.apache.org/docs/apache-airflow/stable/index.html)
-#### Chapter 3: Advanced Airflow Concepts
+### Chapter 3: Advanced Airflow Concepts
 
 - **Topics Covered:**
   - **Custom Operators and Hooks**
     - Techniques for creating custom operators and hooks to extend Airflow's functionality.
   - **XComs (Cross-Communication)**
     - Role of XComs in facilitating communication between tasks within a DAG.
-  - **SubDAGs and TaskGroups**
-    - Organizing and managing complex workflows using SubDAGs and TaskGroups.
+  - **DynamicTaskMapping and TaskGroups**
+    - Organizing and managing complex workflows using DynamicTaskMapping and TaskGroups.
   - **Trigger Rules**
     - Configuring trigger rules for defining task dependencies and execution triggers.
-  - **Airflow Sensors**
+  - **Airflow Sensors and Deferrable Operator**
+    - What are deferrable operators? Why they help us? Explain the flow when running deferred operator.
     - Implementing sensors for waiting on external conditions before task execution.
   - **Macros and Templating**
     - Using macros and Jinja templating for dynamic task generation and parameterization.
+  -**Maintainers**
+    - Read about plugins, give example of an implemented plugin.
+    - Read about cluster policies, give example of an implemented policy.
 
 ##### Core Concepts
 
@@ -79,13 +87,15 @@
 
 ## **Questions:** ❓
 * Can you explain what a DAG is in Airflow?
+* Explain the flow of a TaskInstance in Airflow.
 * What are Operators in Airflow, and can you name a few types?
 * What is the role of the Scheduler in Airflow?
 * Can you describe what a Task Instance is in Airflow? Give an example in context of dummy usage
 * What are Hooks and how are they used in Airflow?
-* Can you explain what the Executor is in Airflow and name a few types? What executor is the most common, and what's executor we generally use?
+* Can you explain what the Executor is in Airflow and name a few types? What executor is the most common, and what's executor we generally use? What are the differences between each executor and when we will use each one?
 * What is the purpose of the Webserver in Airflow?
 * How do you define or create a workflow in Airflow?
+* What is deferrable and how Airflow runs it?
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learnings with your mentor and peers, discussing how you can apply both introductory and advanced Airflow concepts in your projects. Consider potential use cases and scenarios where Airflow can streamline your workflow processes and enhance productivity in data pipeline management.
