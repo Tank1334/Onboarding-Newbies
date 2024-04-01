@@ -63,9 +63,9 @@
     - Implementing sensors for waiting on external conditions before task execution.
   - **Macros and Templating**
     - Using macros and Jinja templating for dynamic task generation and parameterization.
-  -**Maintainers**
-    - Read about plugins, give example of an implemented plugin.
-    - Read about cluster policies, give example of an implemented policy.
+  - **Maintainers**
+    - Plugins help us to extend airflow abilities. 
+    - Cluster Policies gives us the ability to check or mutate DAGs or Tasks on a cluster-wide level.
 
 ##### Core Concepts
 
