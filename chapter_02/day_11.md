@@ -1,4 +1,4 @@
-# Day 07 - Embarking on the Docker Journey :ship:
+# Day 11 - Embarking on the Docker Journey :ship:
 
 ## Overview:   
 Today, we're setting sail on a journey into the world of Docker, a powerful tool that has revolutionized the way software is developed, tested, and deployed. Docker's containerization technology has become a cornerstone of modern software development, enabling teams to build, ship, and run applications consistently across different environments.

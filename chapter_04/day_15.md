@@ -1,4 +1,4 @@
-# Day 11 - Basic Spark Topics :sparkles:
+# Day 15 - Basic Spark Topics :sparkles:
 
 ## Overview:
 Today, you'll dive into advanced topics in Apache Spark to enhance your understanding and capabilities in big data processing. You'll explore advanced RDD operations, lazy evaluation, passing functions to Spark, accumulators, broadcast variables, and working on a per-partition basis. These topics are essential for building high-performance Spark applications and optimizing your data processing workflows.

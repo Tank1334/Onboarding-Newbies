@@ -1,4 +1,4 @@
-# [Day 17](https://883g.github.io/GO-TO-INTERNAL): Introduction to 883 Culture concepts, terminology and architecture.
+# [Day 21](https://883g.github.io/GO-TO-INTERNAL): Introduction to 883 Culture concepts, terminology and architecture.
 ### [CLICK HERE](https://883g.github.io/GO-TO-INTERNAL) 
 This internal chapter is a part of the 883 Group's onboarding process. To access the content, you need to enter to go/orcaLabs in the internal network.
     - Jira Terminology - Epic, Story, Task, Bugs, Retro, Planning and more.

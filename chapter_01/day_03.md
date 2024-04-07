@@ -1,14 +1,15 @@
 # Day 03 - Introduction to Data concept & Hadoop Ecosystem :elephant:
 
 ## Overview:
-Today's session is all about diving into the Hadoop ecosystem and understanding its core components. You'll explore the foundational concepts of Hadoop, including the Hadoop Distributed File System (HDFS), MapReduce, YARN, and Hive.
+Today's session is all about getting to know the Hadoop ecosystem and understanding a few concepts before we dive further in. You'll explore the foundational concepts of Hadoop, and a few base components needed for it's understanding such Zookeeper, Kafka and Kerberos.
 
-**The focus is on gaining a high-level understanding of the Hadoop ecosystem and all the components and its role in big data processing.**
+**The focus is on gaining a high-level understanding of the Hadoop ecosystem and its role in big data processing & storing.**
 
 ## Goals:
 - Gain a foundational understanding of the Hadoop ecosystem.
-- Explore key components and their roles in big data processing.
+- Explore it's role in big data processing.
 - Make connections between the Hadoop ecosystem and real-world use cases.
+- Understand core concepts and components to allow further dive in the ecosystem.
 - Start to work with time estimation and planning.
 
 :warning: **Note:**
@@ -21,7 +22,7 @@ Today's session is all about diving into the Hadoop ecosystem and understanding 
 - This chapter will cover the essential concepts of the Hadoop ecosystem, and you will have a Q&A session with your mentor to discuss what you have learned.
 - To gain a deeper understanding of the concepts and how they are applied in real-world scenarios we'll provide you with key concepts and a brief explanation for each core concept. Your task is to delve deeper into each concept by researching them. 
 - Utilize Google, YouTube, or any other reliable source to gather comprehensive information that helps you grasp each concept thoroughly. This preparation will equip you for a productive question-and-answer session with your mentor, where you'll be expected to discuss what you've learned.
-- **Before you start**  take a look to the [Final Exercise](final_exercise_01.md) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
+- **Before you start**  take a look to the [Exercise](#excercise) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
 - If you have any questions and have conflicts if you need to learn some concept or not, you should discuss it with your mentor.
 
 ## 1 .Introduction to Big Data and Hadoop
@@ -35,261 +36,7 @@ Apache Hadoop is a robust framework designed for the distributed storage and pro
      - **Amazon EMR**: Amazon Elastic MapReduce (EMR) is a cloud-native Hadoop distribution provided by Amazon Web Services (AWS), offering easy scalability and integration with other AWS services.
      - **Microsoft Azure**: Microsoft provides Azure HDInsight, a Hadoop distribution on the Azure cloud platform, with support for various big data and machine learning frameworks.
 
-## 2. Hadoop Distributed File System (HDFS) :star:
-- [Hadoop Distributed File System (HDFS)](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/HdfsUserGuide.html)
-
-Hadoop Distributed File System (HDFS) is a foundational component of the Hadoop ecosystem, designed to store and manage large volumes of data across a distributed cluster.
-
-### Core Concepts
-
-#### 1. NameNode and DataNode
-- **NameNode:**
-  - Centralized metadata repository managing file system namespace and hierarchy.
-  - Keeps track of file metadata and the location of data blocks.
-- **DataNode:**
-  - Stores and manages the actual data blocks.
-  - Communicates with the NameNode to report block information and perform block-related operations.
-
-#### 2. Block Storage
-- HDFS divides files into fixed-size blocks (default 128 MB or 256 MB).
-- Each block is stored redundantly across multiple DataNodes for fault tolerance.
-- Redundant storage ensures data availability even in the case of node failures.
-
-#### 3. Replication
-- HDFS replicates data blocks to multiple DataNodes to ensure data durability and fault tolerance.
-- The default replication factor is three, but it can be configured based on specific requirements.
-
-#### 4. Rack Awareness
-- HDFS is rack-aware, meaning it considers the physical network topology.
-- Replication is done across racks to enhance fault tolerance and reduce network congestion.
-
-#### 5. High Availability (HA)
-- HDFS supports High Availability configurations for the NameNode.
-- In HA mode, two NameNodes (Active and Standby) work in coordination to ensure continuous operation in the event of a NameNode failure.
-
-#### 6. Data Integrity
-- HDFS ensures data integrity through checksums.
-- Checksums are calculated for data blocks, and any corruption is detected during read operations.
-
-#### 7. HDFS Federation
-- HDFS Federation allows multiple independent HDFS namespaces to share a common cluster.
-- Enhances scalability by distributing namespace and storage across multiple NameNodes.
-
-#### 8. Snapshots
-- HDFS supports snapshots for creating point-in-time copies of a directory or the entire file system.
-- Useful for data recovery, testing, and backup purposes.
-
-#### 9. JournalNode
-  - In HDFS High Availability (HA) configurations, JournalNodes are integral for synchronizing the file system metadata between Active and Standby NameNodes. They maintain a shared edit log, ensuring that any changes made by the Active NameNode are quickly replicated to the Standby NameNode.
-  - The Active NameNode records each metadata change to multiple JournalNodes (forming a quorum) for fault tolerance. This approach ensures that the Standby NameNode can seamlessly transition to an Active role if needed, providing robustness against failures.
-  - The deployment of JournalNodes is crucial and should be strategically planned to ensure network reliability and reduce the risk of simultaneous failures, thus maintaining the high availability and integrity of the HDFS namespace.
-
-  #### 10. NameService
-  - The NameService in HDFS is a logical grouping of NameNodes in a federated setup. It facilitates the use of multiple NameNodes in the cluster, each managing a distinct namespace volume.
-  - Each NameService is configured with one or more NameNodes for redundancy and high availability, ensuring the file system's resilience and reliability.
-
-#### 11. Block Report
-  - Block Reports are periodic messages sent by DataNodes to the NameNode. These reports contain a list of all blocks on a DataNode, allowing the NameNode to keep its block mapping up-to-date.
-  - Block Reports are crucial for maintaining the integrity of the file system, enabling the NameNode to identify missing blocks and initiate necessary replication to maintain the desired level of redundancy.
-
-#### 12. RPC Requests
-  - Remote Procedure Call (RPC) requests in HDFS are used for communication between the NameNode, DataNodes, and clients. They facilitate operations like opening files, creating directories, renaming files, and replicating or deleting blocks.
-  - RPC ensures a standardized method of communication across the distributed components of HDFS, providing a seamless operational experience and ensuring the efficiency and reliability of the file system's operations.
-  
-
-### Real-World Examples:
-
-#### 1. **Big Data Analytics in Financial Services:**
-   - *Use Case:* A financial institution leverages HDFS for storing and managing vast datasets used in big data analytics. The distributed nature of HDFS allows the institution to scale its data storage and processing capabilities to gain insights into market trends, customer behavior, and risk assessment.
-
-#### 2. **Log Storage and Analysis in Cybersecurity:**
-   - *Use Case:* A cybersecurity firm utilizes HDFS to store and analyze large volumes of log data generated by various security tools. HDFS's fault-tolerant design ensures that log data is resilient to node failures, and the distributed nature facilitates parallel processing for real-time threat detection and response.
-
-#### 3. **Genomic Data Storage in Healthcare Research:**
-   - *Use Case:* In healthcare research, HDFS serves as the storage foundation for large-scale genomic datasets. The ability of HDFS to manage and replicate data across nodes ensures the integrity and availability of genomic data for analysis and research in fields like precision medicine.
-
-#### 4. **Media and Entertainment Content Distribution:**
-   - *Use Case:* A media company employs HDFS for the storage and distribution of multimedia content. The distributed nature of HDFS allows efficient storage and retrieval of large video and audio files, supporting content delivery networks and optimizing the streaming experience for end-users.
-
-#### 5. **IoT Data Management for Smart Cities:**
-   - *Use Case:* In smart city initiatives, HDFS is used for storing and processing data generated by IoT devices, sensors, and connected infrastructure. The scalability and fault tolerance of HDFS accommodate the diverse and massive data streams, enabling data-driven decision-making for urban planning and management.
-
-These real-world examples illustrate the versatility and applicability of Hadoop Distributed File System (HDFS) across diverse industries and use cases.
-
-
-## 3. MapReduce Programming Model
-- [MapReduce Tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
-
-MapReduce is a Java-based, distributed execution framework within the Apache Hadoop Ecosystem.  It takes away the complexity of distributed programming by exposing two processing steps that developers implement: **1) Map** and **2) Reduce**. In the Mapping step, data is split between parallel processing tasks. Transformation logic can be applied to each chunk of data. Once completed, the Reduce phase takes over to handle aggregating data from the Map set.. In general, MapReduce uses Hadoop Distributed File System (HDFS) for both input and output. However, some technologies built on top of it, such as Sqoop, allow access to relational systems.
-
-### Core Concepts
-
-A MapReduce system is usually composed of three steps (even though it's generalized as the combination of Map and Reduce operations/functions). The MapReduce operations are:
-
-#### 1. **Map:** 
-- The input data is first split into smaller blocks. The Hadoop framework then decides how many mappers to use, based on the size of the data to be processed and the memory block available on each mapper server. Each block is then assigned to a mapper for processing. Each ‘worker’ node applies the map function to the local data, and writes the output to temporary storage. The primary (master) node ensures that only a single copy of the redundant input data is processed.
-
-#### 2. **Shuffle:**
-- combine and partition: worker nodes redistribute data based on the output keys (produced by the map function), such that all data belonging to one key is located on the same worker node. As an optional process the combiner (a reducer) can run individually on each mapper server to reduce the data on each mapper even further making reducing the data footprint and shuffling and sorting easier. Partition (not optional) is the process that decides how the data has to be presented to the reducer and also assigns it to a particular reducer.
-
-#### 3. **Reduce:**
-- A reducer cannot start while a mapper is still in progress. Worker nodes process each group of <key,value> pairs output data, in parallel to produce <key,value> pairs as output. All the map output values that have the same key are assigned to a single reducer, which then aggregates the values for that key. Unlike the map function which is mandatory to filter and sort the initial data, the reduce function is optional.
-
-## 4. Hadoop YARN
-- [Apache Hadoop YARN](https://hadoop.apache.org/docs/stable/hadoop-yarn/hadoop-yarn-site/YARN.html)
-
-YARN (Yet Another Resource Negotiator) is a fundamental component in the Hadoop ecosystem, serving as a resource management layer to efficiently share resources among multiple applications in a Hadoop cluster.
-
-### Core Concepts
-
-#### 1. Resource Manager (RM)
-- Central component managing and allocating resources across the Hadoop cluster.
-- Keeps track of available resources and schedules applications based on their resource requirements.
-
-#### 2. Node Manager (NM)
-- Runs on each machine in the cluster, managing resources (CPU, memory, etc.) on that specific node.
-- Communicates with the Resource Manager to provide information about available resources and request resources for running applications.
-
-#### 3. Application Master (AM)
-- Created for each application submitted to YARN.
-- Negotiates with the Resource Manager to obtain resources and coordinates the execution of tasks on Node Managers.
-- Acts as a liaison between the application and the resource manager.
-
-#### 4. Container
-- Fundamental unit of resource allocation in YARN.
-- Represents the allocated resources (CPU, memory) on a specific node for a particular application.
-- Applications may consist of one or more containers.
-
-#### 5. Application Lifecycle
-- When a client submits a job to YARN, an Application Master is created for that job.
-- The Application Master negotiates with the Resource Manager to obtain resources and launches containers on the Node Managers.
-- Containers execute the tasks of the application.
-
-#### 6. Schedulers
-- YARN supports different schedulers, such as CapacityScheduler and FairScheduler.
-- CapacityScheduler allows sharing resources among multiple queues with allocated capacities.
-- FairScheduler assigns resources in a balanced manner, ensuring that all applications get a fair share.
-
-#### 7. Resource Allocation
-- YARN supports dynamic resource allocation, allowing applications to request additional resources or release unused resources during runtime.
-- This flexibility enables optimal resource utilization based on the varying needs of applications.
-
-#### 8. Fault Tolerance
-- YARN provides fault tolerance by monitoring the health of Node Managers and restarting failed containers on healthy nodes.
-- Ensures the reliability of applications by handling node failures and container restarts.
-
-#### 9. Security
-- YARN includes security features such as authentication and authorization to control access to cluster resources.
-- Helps maintain the integrity and security of the Hadoop cluster.
-
-#### 10. Preemption
-- Preemption is a feature in YARN that allows the Resource Manager to interrupt and reclaim resources from running applications.
-- Useful in multi-tenant environments where higher-priority applications may need resources currently allocated to lower-priority applications.
-
-#### 11. Queue
-- In the context of Apache Hadoop YARN, a "queue" refers to a logical subdivision or container for managing and allocating resources within a cluster.
-- YARN queues play a crucial role in the resource management layer, allowing organizations to control how resources are shared among different applications or user groups.
-- Queues facilitate multi-tenancy by providing distinct containers for different teams or applications, preventing resource contention and ensuring efficient workload isolation.
-
-### Real-World Examples:
-In real-world scenarios, Apache Hadoop YARN serves as a crucial resource management layer, enabling dynamic resource allocation and workload diversity. Here are detailed examples showcasing the practical applications of Apache Hadoop YARN:
-
-#### 1. **Large-Scale Data Processing in E-commerce:**
-   - *Use Case:* A multinational e-commerce company relies on YARN to process and analyze vast amounts of customer and transaction data in a cloud environment. YARN dynamically allocates resources for diverse workloads, from routine batch processing to complex analytics, ensuring optimal resource utilization. This enables the company to handle the global scale of its operations efficiently.
-
-#### 2. **Enterprise Data Lakes for Financial Analysis:**
-   - *Use Case:* A financial institution employs YARN to manage its enterprise data lake for in-depth financial analysis. YARN's resource allocation capabilities support concurrent execution of data processing tasks, allowing financial analysts to run complex algorithms and queries without contention. This ensures timely insights into market trends, risk assessment, and investment strategies.
-
-#### 3. **Genomic Data Processing in Healthcare:**
-   - *Use Case:* A healthcare research institution utilizes YARN for processing large-scale genomic data. YARN's ability to dynamically allocate resources based on the computational needs of genomic analysis tasks ensures efficient utilization of cluster resources. This accelerates genomic research, enabling scientists to analyze and interpret vast datasets for precision medicine initiatives.
-
-#### 4. **Log Analysis for Cybersecurity:**
-   - *Use Case:* A cybersecurity firm employs YARN for log analysis to detect and respond to security threats. YARN's resource management ensures that log processing tasks receive the necessary resources for real-time analysis. This allows the firm to identify and mitigate security incidents promptly, enhancing the overall cybersecurity posture.
-
-#### 5. **Media and Entertainment Content Processing:**
-   - *Use Case:* A media and entertainment company uses YARN to process and analyze content data, including video transcoding and metadata extraction. YARN's flexibility in handling diverse workloads allows the company to efficiently allocate resources for tasks like video processing, image recognition, and content recommendation, optimizing the content delivery pipeline.
-
-These examples demonstrate how Apache Hadoop YARN plays a pivotal role in diverse industries, providing scalable and efficient resource management for a wide range of data processing tasks.
-
-
-## 5. Apache Hive
-- [Apache Hive Documentation](https://hive.apache.org/documentation.html)
-
-### Core Concepts
-
-#### 1. **Hive Metastore:**
-- Centralized metadata repository that stores schema and partition information for Hive tables.
-- Allows Hive to operate independently of the underlying Hadoop storage system.
-
-#### 2. **Tables:**
-- Data in Hive is organized into tables, similar to relational databases.
-- Tables can be external or managed, defining how data is stored and managed.
-
-#### 3. **HiveQL:**
-- SQL-like query language for Hive, making it accessible to users familiar with SQL.
-- Supports queries, data definition language (DDL) statements, and data manipulation language (DML) statements.
-
-#### 4. **Partitions:**
-- Enables the division of large datasets into smaller, more manageable parts.
-- Improves query performance by allowing pruning of unnecessary data during queries.
-
-#### 5. **SerDe (Serializer/Deserializer):**
-- SerDe is a crucial component that defines how Hive serializes and deserializes data during input and output.
-- It allows Hive to work with various data formats, including JSON, XML, and custom formats.
-
-#### 6. **UDFs (User-Defined Functions):**
-- Hive allows the creation of custom functions to extend its functionality.
-- UDFs can be implemented in languages like Java, Python, or other supported languages.
-
-#### 7. **Hive Execution Engine:**
-- Responsible for executing HiveQL queries and generating query plans.
-- Supports different execution engines, including MapReduce and Tez, offering flexibility in processing large-scale data.
-
-#### 8. **Bucketing:**
-- Technique to improve query performance by organizing data into buckets based on a hash function.
-- Enables more efficient joins and queries on large datasets.
-
-#### 9. **Dynamic Partition Pruning:**
-- Optimizes query performance by dynamically excluding unnecessary partitions during query execution.
-- Reduces the amount of data that needs to be processed.
-
-#### 10. **Hive Views:**
-- Similar to views in traditional databases, providing a virtual representation of data stored in one or more tables.
-- Simplifies complex queries and enhances data abstraction.
-
-#### 11. **Hive Transactions:**
-- Hive supports ACID (Atomicity, Consistency, Isolation, Durability) transactions for data manipulation operations.
-- Ensures data integrity and consistency in Hive tables.
-#### 12.**Managed Tables:** 
-- Managed tables in Hive are managed by the Hive Metastore, and the data is stored in the Hive warehouse directory.
-- Managed tables are tightly coupled with Hive, and the data is deleted when the table is dropped.
-#### 13. **External Tables:**
-- Hive supports the creation of external tables, which reference data stored outside the Hive warehouse directory.
-- External tables allow Hive to interact with data in its original location without moving or copying it.
-#### 14. **Materialized Views:**
-- Materialized views in Hive store the results of precomputed queries, allowing for faster query execution.
-- Materialized views are particularly useful for aggregations and complex queries on large datasets.
-#### 15. **Hive on Tez:**
-- Apache Tez is an alternative execution engine for Hive, providing improved performance and resource utilization.
-- Hive on Tez offers better query optimization and faster query execution for complex workloads.
-#### 16. **Hive Auxiliary JARs:**
-- Hive allows the use of auxiliary JARs to extend its functionality, such as custom SerDes, UDFs, and input/output formats.
-- Auxiliary JARs enable users to integrate custom logic and data formats into Hive queries.
-
-### **Real-World Use Cases:**
-
-- **Data Warehousing:** Hive is widely used for large-scale data warehousing tasks, enabling users to perform analytics on vast datasets.
-- **ETL (Extract, Transform, Load):** Used for preprocessing and transforming raw data into a structured format.
-- **Ad Hoc Querying:** Provides a familiar SQL-like interface for users to run ad hoc queries on Hadoop data.
-- **Hive on Text:** Hive can be used to process and analyze text data, including log files and social media data.
-To process and analyze text data in Hive, follow these steps:
-   - Define Tables: Create Hive tables that match your text data structure.
-   - Choose SerDe: Specify a Serializer/Deserializer (SerDe) for parsing text.
-   - Load Data: Use LOAD DATA to import text data into Hive tables.
-   - Query: Run HiveQL queries for text analysis, utilizing built-in functions.
-   - Store Results: Save results in Hive or export as required.
-
-## 6. Apache ZooKeeper
+## 2. Apache ZooKeeper
 - [Apache ZooKeeper](https://zookeeper.apache.org/)
 
 Apache ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. It's an essential component in distributed systems, often used in Hadoop ecosystems to coordinate and manage servers effectively.
@@ -363,11 +110,157 @@ Hadoop configuration files provide the flexibility to tailor the behavior of Had
 
 Remember that Hadoop's flexibility extends beyond these core configuration files, as it allows you to create custom configurations and adapt the framework to the unique needs of your big data projects.
 
+## 3. Apache Kafka
+- [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
+
+### Core Concepts:
+
+#### 1. **Topics:**
+   - Kafka organizes data into topics, which represent feeds of messages. Producers publish messages to topics, and consumers subscribe to topics to process those messages.
+
+#### 2. **Partitions:**
+   - Topics can be divided into partitions, allowing for parallel processing of messages. Each partition is an ordered and immutable sequence of records.
+
+#### 3. **Brokers:**
+   - Kafka brokers are servers that store data and serve client requests. They manage the storage and retrieval of messages, as well as the communication between producers and consumers.
+
+#### 4. **Producers:**
+   - Producers are responsible for publishing messages to Kafka topics. They send messages to specific topics, and Kafka ensures that these messages are distributed across partitions.
+
+#### 5. **Consumers:**
+   - Consumers subscribe to topics and process messages. They can maintain their own offset, indicating the position in the partition from which they have consumed messages.
+
+#### 6. **Consumer Groups:**
+   - Consumers can be organized into consumer groups, allowing multiple instances to work together to consume messages from a topic. Each consumer in a group processes a different subset of the partitions.
+
+#### Real-World Use Cases:
+
+1. **Log Aggregation:**
+   - *Core Concept Applied:* Topics and Partitions
+   - *Use Case:* Imagine a bustling library of online experiences. **LinkedIn** employs Kafka to aggregate logs, creating a comprehensive anthology of user interactions. Each log type is a distinct section, and Kafka partitions ensure parallel processing, turning logs into valuable stories for platform enhancement.
+
+2. **Event Sourcing:**
+   - *Core Concept Applied:* Producers and Topics
+   - *Use Case:* Picture an eventful journey with **Uber**, where every ride is a story. Kafka captures and replays these events, creating a historical record. The events (chapters) are written by various producers, and Kafka's topics maintain the narrative's integrity for accurate retrospection.
+
+3. **Real-Time Data Processing:**
+   - *Core Concept Applied:* Producers, Consumers, and Topics
+   - *Use Case:* Enter the fast-paced world of social media at **Twitter**. Kafka processes and analyzes tweets in real-time, crafting a dynamic narrative of trending topics, user sentiments, and global conversations—a real-time storybook that captivates millions.
+
+4. **Microservices Communication:**
+   - *Core Concept Applied:* Producers, Consumers, and Topics
+   - *Use Case:* Journey into the realm of digital streaming with **Netflix**. Kafka acts as the communication backbone between microservices, allowing seamless interaction. Each microservice contributes to the collective storyline, enabling scalable and fault-tolerant storytelling in the digital entertainment saga.
+
+## 4. Kerberos Authentication
+
+### Core Concepts
+#### 1. **Kerberos Protocol:**
+   - Kerberos is a network authentication protocol designed to secure communication over an insecure network, providing strong authentication and encryption.
+
+#### 2. **Principal:**
+   - A principal is a unique identity, often associated with a user or service, in the Kerberos authentication system. It's represented by a unique name, such as "user@REALM."
+
+#### 3. **KDC (Key Distribution Center):**
+   - The Key Distribution Center is the central authentication server in a Kerberos system. It consists of two main components: 
+     - Authentication Server (AS): Responsible for initial authentication and issuing tickets.
+     - Ticket Granting Server (TGS): Grants service tickets to users for accessing specific services.
+
+#### 4. **Tickets:**
+   - Kerberos relies on the use of tickets for authentication. There are two primary types of tickets:
+     - Ticket Granting Ticket (TGT): Obtained after initial authentication with the AS and used to request service tickets.
+     - Service Ticket: Grants access to a specific service, proving the user's identity to that service.
+
+#### 5. **Authentication Process:**
+   - Kerberos authentication involves a series of steps, including authentication, ticket issuance, and ticket validation. The process ensures that users or services can securely access resources.
+
+#### 6. **Single Sign-On (SSO):**
+   - Kerberos enables Single Sign-On, allowing users to access multiple services without re-entering their credentials after the initial authentication.
+
+#### 7. **Realm:**
+   - A realm is a Kerberos administrative domain where users, services, and the KDC reside. It's represented as a realm name, such as "EXAMPLE.COM."
+
+#### 8. **Key Encryption Key (KEK):**
+   - KEK is used for securing the communication between the client and the KDC. It helps protect the TGT from eavesdropping during transmission.
+
+#### 9. **Time Sensitivity:**
+   - Kerberos tickets have a limited validity period to enhance security. The short-lived nature of tickets reduces the risk of compromise if they are intercepted.
+
+### Kerberos Commands
+
+#### `kinit` - Kerberos Ticket Initialization
+The `kinit` command is used to obtain a Ticket Granting Ticket (TGT) from the Key Distribution Center (KDC) after a user successfully authenticates using their credentials (typically a username and password). It stores the TGT in a cache, allowing the user to request service tickets without entering their credentials again during their session.
+
+**Usage:**
+~~~
+kinit username@REALM
+~~~
+
+
+#### `klist` - List Kerberos Tickets
+The `klist` command is used to display the contents of the Kerberos ticket cache, showing the currently obtained tickets, including the TGT and any service tickets. This command is helpful for users to check their active tickets and their expiration times.
+
+**Usage:**
+~~~
+klist
+~~~
+
+### Real-World Use Cases
+1. **Network Security:**
+   - Kerberos is widely used in securing network communications, such as authentication in Active Directory for Windows environments.
+
+2. **Cross-Realm Authentication:**
+   - Organizations with multiple realms can use Kerberos to establish trust relationships and allow users to access resources across different administrative domains.
+
+3. **Secure Service Access:**
+   - Many network services, including databases and web applications, support Kerberos authentication to ensure secure access and data protection.
+
+4. **Single Sign-On (SSO):**
+   - Kerberos-based SSO simplifies user authentication, reduces password fatigue, and enhances user experience by requiring users to log in only once.
+
+5. **Data Protection:**
+   - The encryption and time-sensitive nature of Kerberos tickets provide robust security for protecting sensitive data during transmission and access.
+
+In summary, Kerberos authentication is a robust and widely-used protocol for securing network communication, ensuring strong authentication, encryption, and Single Sign-On capabilities in various real-world applications. The `kinit` and `klist` commands are essential tools for managing Kerberos tickets and authenticating users.
+
+## Excercise
+
+### Chapter 1: Introduction to Big Data and Hadoop
+
+1.  What is Apache Hadoop?
+2.  Can you name a few vendor-specific distributions of Hadoop?
+3.  What are the three modes in which Hadoop can run?
+4.  What is the primary role of the `hadoop-env.sh` configuration file?
+5.  What purpose does the `core-site.xml` file serve?
+
+### Chapter 2: Apache ZooKeeper
+
+6.  What is Apache ZooKeeper and what role does it play in a distributed environment?
+7.  Can you explain the concept of znodes in ZooKeeper?
+8.  How does ZooKeeper handle coordination and configuration management across distributed systems?
+9.  What are ephemeral nodes and sequence nodes in ZooKeeper, and how are they used?
+10.  How does ZooKeeper ensure data consistency and reliability across distributed nodes?
+
+### Chapter 3: Apache Kafka
+
+11.  What is Apache Kafka? 
+12.  What are Topics in Kafka?
+13.  What are Partitions in Kafka?
+14.  What is the role of a Broker in Kafka?
+15.  What is the difference between a Kafka Producer and a Consumer?
+
+### Chapter 4: Kerberos Authentication
+
+16.  What is the primary purpose of the Key Distribution Center (KDC) in the Kerberos authentication system, and what are its two main components?
+17.  How does the "kinit" command contribute to the Kerberos authentication process, and what does it allow users to obtain?
+18.  Explain the concept of "Single Sign-On (SSO)" in the context of Kerberos authentication and its benefits for users.
+19.  Why is the concept of "time sensitivity" important in Kerberos authentication, and how does it enhance security?
+20.  In what real-world scenarios or use cases is Kerberos authentication commonly employed, and how does it contribute to security and ease of use in those contexts?
+
 ## Wrapping Up :trophy:
 Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study. Tomorrow, you will have a Q&A session with your mentor to further solidify your understanding of the Hadoop ecosystem and its components.
 
 ## Action Items
-- Review the core concepts of Hadoop, MapReduce, YARN, Hive, and ZooKeeper.
+- Review the core concepts of Hadoop, ZooKeeper, Kafka and Kerberos.
 - Explore real-world use cases for these technologies and understand their practical applications.
 - Prepare questions and topics for discussion in the upcoming Q&A session with your mentor.
 - Reflect the new conecpet with the Challenge from [Day 01](./day_01#ready-for-a-challenge-trophy) 
@@ -376,17 +269,14 @@ Talk with your mentor about the concepts you have learned today and how they are
 ## Recommended Articles and Videos:
 - [Hadoop Ecosystem Explained](https://www.youtube.com/watch?v=AZovvBgRLIY) - This video provides an overview of the Hadoop ecosystem, explaining the core components and their roles in big data processing.
 - [Hadoop Core Components](https://www.youtube.com/watch?v=d2xeNpfzsYI) - This video offers a detailed explanation of the core components of Hadoop, including HDFS, MapReduce, and YARN, and their significance in distributed data processing.
-- [Apache Hive Tutorial](https://www.youtube.com/watch?v=HhJX6KkdjRM) - This tutorial provides an introduction to Apache Hive, explaining its features, architecture, and use cases in big data analytics.
-- [Apache Yarn in AWS](https://aws.amazon.com/blogs/big-data/configure-hadoop-yarn-capacityscheduler-on-amazon-emr-on-amazon-ec2-for-multi-tenant-heterogeneous-workloads/) - This article explains how to configure Hadoop YARN CapacityScheduler on Amazon EMR for multi-tenant heterogeneous workloads, providing insights into resource management and scheduling.
-- [MapReduce - Computerphile](https://www.youtube.com/watch?v=cvhKoniK5Uo) - This video offers a comprehensive overview of the MapReduce programming model, its core concepts, and its role in distributed data processing.
 - [ZooKeeper Explained](https://www.youtube.com/watch?v=gZj16chk0Ss) - This video provides an in-depth explanation of Apache ZooKeeper, its features, and its applications in distributed systems coordination.
-- [Apache Hadoop YARN Concepts and Applications](https://blog.cloudera.com/apache-hadoop-yarn-concepts-and-applications/) - Cloudera's comprehensive guide on the concepts and applications of Apache Hadoop YARN.
-- [YARN Capacity Scheduler and Node Labels Part 1](https://www.davidmcginnis.net/post/yarn-capacity-scheduler-and-node-labels-part-1) - First part of a detailed discussion on the options available in YARN's capacity scheduler.
-- [YARN Capacity Scheduler Overview](https://blog.cloudera.com/yarn-capacity-scheduler/) - An overview of YARN's capacity scheduler provided by Cloudera.
-- [Untangling Apache Hadoop YARN Part 1: Cluster and YARN Basics](https://blog.cloudera.com/untangling-apache-hadoop-yarn-part-1-cluster-and-yarn-basics/) - The first part in a series aimed at explaining the basics of clusters and YARN.
 - [Hadoop Tutorial YouTube Playlist](https://youtube.com/playlist?list=PLkz1SCf5iB4dw3jbRo0SYCk2urRESUA3v) - A playlist featuring tutorials on Hadoop, covering a variety of topics.
 - [Introduction to the Hadoop Ecosystem](https://www.analyticsvidhya.com/blog/2020/10/introduction-hadoop-ecosystem/) - An introductory article on the components and functionalities of the Hadoop ecosystem.
 - [Understanding the Hadoop Ecosystem](https://www.databricks.com/glossary/hadoop-ecosystem) - A glossary entry by Databricks offering insights into the Hadoop ecosystem.
 - [What is Hadoop? Simplilearn Tutorial](https://www.simplilearn.com/tutorials/hadoop-tutorial/what-is-hadoop) - A tutorial providing a foundational understanding of Hadoop.
 - [Hadoop Ecosystem Components Explained](https://data-flair.training/blogs/hadoop-ecosystem-components/) - An article detailing the components that make up the Hadoop ecosystem.
 - [Comprehensive Guide to the Hadoop Ecosystem](https://www.edureka.co/blog/hadoop-ecosystem/amp/#amp_tf=From%20%251%24s&aoh=16655728574406&referrer=https%3A%2F%2Fwww.google.com) - Edureka's in-depth guide on the Hadoop ecosystem, its components, and functionalities.
+- [What is Kerberos?](https://steveloughran.gitbooks.io/kerberos_and_hadoop/content/sections/what_is_kerberos.html) - An article detailing the Kerberos protocol and it's integration with the Hadoop ecosystem.
+- [Taming Kerberos - Computerphile](https://www.youtube.com/watch?v=qW361k3-BtU) - Kerberos is an authentication method - Dr Mike Pound explains how it works so neatly.
+- [Apache Kafka Documentation](https://kafka.apache.org/documentation/)
+  

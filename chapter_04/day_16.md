@@ -1,4 +1,4 @@
-# Day 12 - Advanced Spark Topics :fire:
+# Day 16 - Advanced Spark Topics :fire:
 
 ## Overview:
 Today's focus is on advancing your expertise in Apache Spark with an emphasis on understanding cluster operations and optimizing Spark applications for better performance. You'll delve into Spark's runtime architecture, including the roles of the driver and executors, and explore deploying applications with various cluster managers like Standalone and Hadoop YARN. Additionally, you'll learn about configuring Spark applications, monitoring execution components, and key strategies for performance tuning. This day is crucial for mastering the deployment, tuning, and debugging of Spark applications, enhancing their efficiency and scalability in big data processing environments.
