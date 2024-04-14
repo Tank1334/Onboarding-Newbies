@@ -45,5 +45,3 @@ Handling large datasets is a common challenge in big data processing. In this pa
 - **Data Locality:** Understand the importance of data locality in Spark and how to optimize data locality for your workload.
 
 By the end of this showcase, you will have a deeper understanding of Spark components and a toolkit of best practices to optimize your Spark jobs effectively. Get ready to elevate your Spark skills and unlock the full potential of distributed data processing with Apache Spark!
-
-[Continue to Showcase](./chapter_04/showcase/showcase04.md)
