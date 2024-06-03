@@ -18,6 +18,8 @@ Familiarizing yourself with these topics is essential for building high-performa
 - **Before you start**  take a look to the [Final Exercise](final_exercise_04.md) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
 - If you have any questions and have conflicts if you need to learn some concept or not, you should discuss it with your mentor.
 - Read only chapters and subchapters that are listed here.
+- The topics in the Book may not cover all of what you may be asked about during the final exercise. Research **additional** advanced topics by yourself!
+- This books first covers the topics from an applicative point of view, and then dives into the infrastructural aspect of them.
 
 Read the following chapters from the [Spark Book](https://tinyurl.com/ykb29t4f).
 
