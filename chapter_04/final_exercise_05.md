@@ -4,7 +4,7 @@
 Welcome to the Spark RDD Exercises with a Joker and Batman twist! In this exercise session, you will tackle various Spark RDD. These exercises will help you sharpen your skills in Spark's core data structure and processing model. RDDs are your trusted allies in the world of Spark, and mastering them is essential for conquering big data challenges.
 
 :warning: **How to setup Spark Cluster?**
-- For this exercise, you will need to setup a Spark Cluster. You can use the [Databricks Community Edition](https://community.cloud.databricks.com/login.html) for this exercise, use the free version for 14 days, it's enough for this exercise. (we hope so... :smile:)
+- For this exercise, you will need to set up a Spark Cluster. You can use the [Databricks Community Edition](https://community.cloud.databricks.com/login.html) for this exercise, use the free version for 14 days, it's enough for this exercise. (we hope so... :smile:)
 
 
 ## Exercise 1: The Joker's Challenge - Calculate Factorial
@@ -63,7 +63,7 @@ ii. Develop a program that ensures only one file is saved to the DBFS. Compare d
 2) Discuss the differences between the methods used for saving the data.
 
 ### h. Tracking Crime Time: Analyzing the Most and Least Active Hours
-- Analyze the crime data to determine which hour of the day witnessed the most crimes and which had the least.
+- Analyze the crime data to determine which day witnessed the most crimes and which had the least.
 - Provide insights to Batman, so he can strategize his patrol hours more effectively.
 
 ## Instructions
