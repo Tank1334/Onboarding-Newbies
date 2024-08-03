@@ -39,6 +39,7 @@ Your scenario must include the following technologies:
 
 ### Monitoring and Troubleshooting:
  - Write prometheus exporter in python for health check of your data pipeline.
+ - Create metrics that serve as the Business Intelligence (BI) of the project and pipeline.
  - Deploy your exporter OpenShift with helm and all the best practises you have learned.
  - Create Grafana dashboard for your metrics.
  - Use Pandora and Pulse platform to integrate your exporter to the centric prometheus environment.
