@@ -8,7 +8,6 @@ Welcome to the Spark RDD Exercises with a Joker and Batman twist! In this exerci
 after the first page of sign up click on "Get started with community edition"
 <img width="200" alt="image" src="https://github.com/883G/Onboarding-Newbies/assets/60566128/fd517a13-d3d3-48fe-9295-fa7fd6308d0e">
  
-
 ## Exercise 1: The Joker's Challenge - Calculate Factorial
 The Joker has a mathematical puzzle for you! Write a Spark program that receives a number `N` and returns its factorial. Can you solve the Joker's riddle?
 
@@ -65,7 +64,7 @@ ii. Develop a program that ensures only one file is saved to the DBFS. Compare d
 2) Discuss the differences between the methods used for saving the data.
 
 ### h. Tracking Crime Time: Analyzing the Most and Least Active Hours
-- Analyze the crime data to determine which hour of the day witnessed the most crimes and which had the least.
+- Analyze the crime data to determine which day witnessed the most crimes and which had the least.
 - Provide insights to Batman, so he can strategize his patrol hours more effectively.
 
 ## Instructions

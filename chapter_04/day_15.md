@@ -1,10 +1,12 @@
 # Day 15 - Basic Spark Topics :sparkles:
 
 ## Overview:
-Today, you'll dive into advanced topics in Apache Spark to enhance your understanding and capabilities in big data processing. You'll explore advanced RDD operations, lazy evaluation, passing functions to Spark, accumulators, broadcast variables, and working on a per-partition basis. These topics are essential for building high-performance Spark applications and optimizing your data processing workflows.
+Today, you will get to know Spark's history, its capabilities, and the problems it aims to solve.
+You will familiarize yourself with basic spark terminology and features that will help you get started in the Apache Spark ecosystem.
+Familiarizing yourself with these topics is essential for building high-performance Spark applications and optimizing your data processing workflows.
 
 ## Goals:
-- Explore advanced topics in Apache Spark to enhance your understanding and capabilities in big data processing.
+- Explore basic Spark terminology and learn basic concepts.
 - Dive deeper into Spark's core concepts and features.
 
 :warning: **Note:**
@@ -15,58 +17,53 @@ Today, you'll dive into advanced topics in Apache Spark to enhance your understa
 - Utilize Google, YouTube, or any other reliable source to gather comprehensive information that helps you grasp each concept thoroughly. This preparation will equip you for a productive question-and-answer session with your mentor, where you'll be expected to discuss what you've learned.
 - **Before you start**  take a look to the [Final Exercise](final_exercise_04.md) and try to understand what you need to do, so you can focus on the main concepts that you need to learn. don't waste your time on the concepts and details that you don't need to know.
 - If you have any questions and have conflicts if you need to learn some concept or not, you should discuss it with your mentor.
+- Read only chapters and subchapters that are listed here.
+- The topics in the Book may not cover all of what you may be asked about during the final exercise. Research **additional** advanced topics by yourself!
+- This books first covers the topics from an applicative point of view, and then dives into the infrastructural aspect of them.
 
-## 3. Programming with RDDs
-Read the following chapters from the [Spark Book](https://github.com/hemant-rout/BigData/blob/master/Learning%20Spark%20%20Lightning-Fast%20Big%20Data%20Analysis%20.pdf)
+Read the following chapters from the [Spark Book](https://tinyurl.com/ykb29t4f).
 
-- **Topics Covered:**
-  - RDD Basics page
-  - Creating RDDs 
-  - RDD Operations 
-  - Transformations 
-  - Actions 
-  - Lazy Evaluation 
-  - Passing Functions to Spark
-  - Python, Scala, Java 
+:bulb: The numbering of the chapters matches the numbering of the chapters in the book.
+Focus only on the chapters/subchapters mentioned. 
 
-### 1. Spark Core Concepts
+## I. Gentle overview of Big Data and Spark
+**Topics Covered:**
+- What is Apache Spark?
+- A Gentle Introduction to Spark
+- A Tour of Spark's Toolset.
 
-#### 1. **Advanced RDD Operations:**
-   - Dive deeper into RDD operations and explore advanced techniques for manipulating data with RDDs.
-   - Pay attention to performance optimizations, including the use of `mapPartitions()` and `aggregate()` for efficiency.
+### What is Apache Spark?
+- Apache Spark's philosophy.
+- Context: the Big Data problem.
+- History of Spark.
 
-#### 2. **Lazy Evaluation in Depth:**
-   - Gain an in-depth understanding of Spark's lazy evaluation mechanism and how it impacts application performance and resource management.
-   - Learn to utilize lazy evaluation effectively for improved computation.
+### A Gentle Introduction to Spark
+- Spark's basic architecture.
+- Spark's language APIs.
+- Spark's APIs.
+- Starting Spark.
+- The SparkSession.
+- DataFrames.
+- Transformations.
+- Actions.
+- Spark UI.
+- An end to end example.
 
-#### 3. **Passing Functions to Spark:**
-   - Explore advanced techniques for passing functions to Spark, including custom functions and lambdas.
-   - Pay attention to function serialization and best practices to avoid serialization issues.
-
-### 2. Advanced Spark Programming
-
-- **Topics Covered:**
-  - Accumulators 
-  - Broadcast Variables 
-  - Working on a Per-Partition Basis 
-
-#### Core Concepts
-
-##### 1. **Accumulators:**
-   - Learn advanced uses of accumulators in Spark for distributed counters and aggregations.
-   - Pay attention to thread safety when using accumulators in multi-stage Spark applications.
-
-##### 2. **Broadcast Variables:**
-   - Explore advanced optimizations using broadcast variables to efficiently share read-only data across Spark nodes.
-   - Understand scenarios where broadcast variables can significantly improve performance, especially in joins and lookups.
-
-## **Discussion and Q&A:**
-  - Engage in a discussion with mentors and peers to share insights and experiences related to advanced Spark topics.
-  - Ask questions and seek clarification on any challenging concepts.
-   - Discuss real-world applications and implications of advanced Spark programming in big data processing workflows.
+### A Tour of Spark's Toolset
+- Running production applications.
+- Datasets: Type-Safe structured APIs.
+- Lower level APIs.
+- Spark's ecosystem and packages.
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
+**Congratulations on completing Day 15! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
+
 Discuss with your mentor about the day's learnings and explore potential project applications. Reflect on the significance of advanced Spark topics and how you can apply these concepts in your big data processing endeavors.
+
+**Discussion and Q&A:** :raising_hand:
+  - Engage in a discussion with mentors and peers to share insights and experiences related to advanced Spark topics.
+  - Ask questions and seek clarification on any challenging concepts.
+  - Discuss real-world applications and implications of advanced Spark programming in big data processing workflows.
 
 ## **Action Items:**
 - Identify areas for deeper exploration.
@@ -98,5 +95,3 @@ Discuss with your mentor about the day's learnings and explore potential project
 - [Part 3: Cost Efficient Executor Configuration for Apache Spark](https://link.medium.com/KFlwhEH0Pub) - A guide to cost-efficient executor configuration for Apache Spark applications.
 - [Spark OOM Error — Closeup](https://link.medium.com/LLX1pap0Pub) - A detailed explanation of Spark's Out of Memory (OOM) error and strategies to address it.
 - [3 Reasons Why Spark’s Lazy Evaluation is Useful](https://link.medium.com/faI3jfc0Pub) - An exploration of the benefits of Spark's lazy evaluation mechanism.
-
-**Congratulations on completing Day 11! You've delved into advanced Spark topics, which are crucial for optimizing and fine-tuning your Spark applications. Keep exploring and applying these concepts to excel in big data processing with Spark.**
