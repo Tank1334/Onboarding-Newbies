@@ -113,5 +113,5 @@ Talk with your mentor about the concepts you have learned today and how they are
 :trophy:
 
 ## Recommended Articles and Videos:
-- [Apache Impala Documentation](https://impala.apache.org/docs/build/html/topics/impala_overview.html)
+- [Apache Impala Documentation](https://impala.apache.org/docs/build/html/topics/impala_overview.html](https://impala.apache.org/impala-docs.html))
 - [Hadoop Ecosystem Components Explained](https://data-flair.training/blogs/hadoop-ecosystem-components/) - An article detailing the components that make up the Hadoop ecosystem.
