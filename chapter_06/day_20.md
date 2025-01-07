@@ -77,7 +77,7 @@
   - **Dynamic Filtering:**
     - Overview of dynamic filtering, including its role in optimizing query execution by reducing scanned data.
   - **Object Storage:**
-    - Understanding the integration of Trino with object storage systems such as S3, GCS, and other Storage.
+    - Understanding the integration of Trino with object storage systems such as HDFS and S3.
   - **Functions & Operators:**
     - Insights into combining functions to create complex expressions for advanced querying.
   - **User Defined Functions:**
@@ -96,7 +96,7 @@
     - Understand how dynamic filtering works with distributed data sources to optimize resource utilization.
 
 ##### 3. **Object Storage:**
-    - Learn about Trino’s integration with object storage systems like S3, GCS, and Azure Blob Storage.
+    - Learn about Trino’s integration with object storage systems like HDFS and S3.
 
 ##### 4. **Functions & Operators:**
     - Overview of built-in functions and operators available in Trino.
