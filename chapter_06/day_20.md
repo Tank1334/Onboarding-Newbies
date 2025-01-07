@@ -145,7 +145,9 @@
 18) How does Trino differ from ETL tools in its approach to data integration?
 19) How does Trino secure query execution and access to data sources?
 20) What authentication and authorization mechanisms are supported by Trino?
-21) What are the main downsides or limitations of using Trino?
+21) What is Trino Gateway, and how does it enhance Trino's routing and workload management capabilities?
+22) How does Trino Gateway handle query routing across multiple Trino clusters, and what benefits does this provide in multi-cluster deployments?
+23) What are the main downsides or limitations of using Trino?
 (Consider factors like query performance at extreme scale, compatibility with certain data sources, operational complexity, or limitations in handling highly transactional workloads.)
 
 
