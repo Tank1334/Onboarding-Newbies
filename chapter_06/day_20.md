@@ -135,21 +135,26 @@
 8) What is the role of a catalog in Trino? and how is it configured?
 9) How does Trino handle query retries or failovers to ensure reliability?
 10) Compare Trino to Hive,Impala and spark refer to query complexity, use case suitability,performance and more.
-11) What is
-12) How does Trino optimize queries involving joins or aggregations across large datasets?
-13) How does Trino handle data types from different data sources?
-14) How does Trino differ from traditional databases (Postgres, MySQL)?
-15) What are Trino Resource Groups, and how are they used for workload management?
-16) What is the difference between Trino and Presto?
-17) How does Trino integrate with Hive metastore, and why is this integration significant?
-18) How does Trino differ from ETL tools in its approach to data integration?
-19) How does Trino secure query execution and access to data sources?
-20) What authentication and authorization mechanisms are supported by Trino?
-21) What is Trino Gateway, and how does it enhance Trino's routing and workload management capabilities?
-22) How does Trino Gateway handle query routing across multiple Trino clusters, and what benefits does this provide in multi-cluster deployments?
-23) What are the main downsides or limitations of using Trino?
+11) How does Trino optimize queries involving joins or aggregations across large datasets?
+12) How does Trino handle data types from different data sources?
+13) How does Trino differ from traditional databases (Postgres, MySQL)?
+14) What are Trino Resource Groups, and how are they used for workload management?
+15) What is the difference between Trino and Presto?
+16) How does Trino integrate with Hive metastore, and why is this integration significant?
+17) How does Trino differ from ETL tools in its approach to data integration?
+18) How does Trino secure query execution and access to data sources?
+19) What authentication and authorization mechanisms are supported by Trino?
+20) What is Trino Gateway, and how does it enhance Trino's routing and workload management capabilities?
+21) How does Trino Gateway handle query routing across multiple Trino clusters, and what benefits does this provide in multi-cluster deployments?
+22) What are the main downsides or limitations of using Trino?
 (Consider factors like query performance at extreme scale, compatibility with certain data sources, operational complexity, or limitations in handling highly transactional workloads.)
 
+## Trino Hands on Practice
+
+### Step 1: Setup
+
+1) Run Trino locally using the image were using in prod.
+2) Configure a catalog
 
 ## **Wrapping Up:** :hourglass_flowing_sand:
 Reflect on today's learning's with your mentor and peers. Discuss potential projects or use cases where you can apply Trino for distributed query processing and analytics. Consider how Trino can enhance your data analysis capabilities and streamline your data workflows.
