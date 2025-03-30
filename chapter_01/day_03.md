@@ -1,7 +1,7 @@
 # Day 03 - Introduction to Data concept & Hadoop Ecosystem :elephant:
 
 ## Overview:
-Today's session is all about getting to know the Hadoop ecosystem and understanding a few concepts before we dive further in. You'll explore the foundational concepts of Hadoop, and a few base components needed for it's understanding such Zookeeper, Kafka and Kerberos.
+Today's session is all about getting to know the Hadoop ecosystem and understanding a few concepts before we dive further in. You'll explore the foundational concepts of Hadoop, and a few base components needed for it's understanding such as Zookeeper, Kafka and Kerberos.
 
 **The focus is on gaining a high-level understanding of the Hadoop ecosystem and its role in big data processing & storing.**
 
