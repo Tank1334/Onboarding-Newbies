@@ -191,7 +191,7 @@ Oozie's integration with the Hadoop stack, its ability to manage complex workflo
 31.  What is YARN? Explain its architecture.
 32.  Explain the difference between YARN's schedulers.
 33.  What is the role of the Node Manager in YARN?
-34.  Explain a YARN apllication lifecycle. 
+34.  Explain a YARN application lifecycle. 
 35.  How does YARN provide fault tolerance?
 
 ### Chapter 8: Oozie Workflow Scheduler
