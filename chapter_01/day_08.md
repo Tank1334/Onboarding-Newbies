@@ -113,9 +113,9 @@ Certainly! Here are the three key reasons in Markdown format:
 
 31.  What is Apache HBase? Explain its architecture.
 32.  What is a Column Family in HBase?
-33.  How does HBase achieve it's unique efficiency on big datasets?
+33.  How does HBase achieve its unique efficiency on big datasets?
 34.  How does HBase ensure data availability and fault tolerance?
-35.  What is the role of ZooKeeper in an HBase environment?
+35.  What is the role of Zookeeper in an HBase environment?
 
 ## Wrapping Up :trophy:
 Talk with your mentor about the concepts you have learned today and how they are applied in real-world scenarios. Discuss any questions or challenges you encountered during your self-study. Tomorrow, you will have a Q&A session with your mentor to further solidify your understanding of the Hadoop ecosystem and its components.
