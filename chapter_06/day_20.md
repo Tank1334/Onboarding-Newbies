@@ -54,7 +54,7 @@
       - Understand how the Trino Gateway improves scalability and fault tolerance by acting as a reverse proxy to distribute query load.
 
 ### Questions: ❓
-1) What is Apache Trino and what problem does it solve?
+1) What is Trino and what problem does it solve?
 2) Can you explain how Trino executes queries across different data sources without moving data?
 3) What are the key features of Trino? What does it do better than Spark, Hive and Impala?
 4) Which data sources are supported by Trino, and how is connectivity achieved?
